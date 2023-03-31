@@ -420,7 +420,7 @@
 			</div>
 
 			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300">
-				<div class="career_title-head pad-10">What's Happening?</div>
+				<div class="career_title-head pad-10">What's Happening? new</div>
 				<div class="happ_subtitle">We help you stay up-to-date with the latest developments in your field and provide you with expert insights and assessments of industry trends. We also provide updates on the latest events and conferences that are relevant to your industry. Our goal is to provide you with the
 				information and insights you need to stay ahead of the curve and make strategic decisions for
 				your business.</div>
