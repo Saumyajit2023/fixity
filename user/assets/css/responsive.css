@@ -1,0 +1,701 @@
+@media screen and (max-width: 600px){
+	.logo_img {
+	    width: 25%;
+	}
+	.service {
+	    height: auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    background-color: #01164f;
+	}
+	.service_title_1 {
+	    font-size: 26px;
+	    font-weight: 400;
+	    text-align: center;
+	    color: #fff;
+	    padding-top: 15%;
+	}
+	.pulse_2 {
+	    width: 300px;
+	    height: 300px;
+	    border-radius: 164px;
+	    background: #ffffff08;
+	    animation: pulses 1500ms infinite;
+	    left: 9%;
+	    position: absolute;
+	}
+	#bannerHome #homeBanner .slider-banner .item {
+	    height: auto;
+	    margin: 0 5px;
+	}
+	.img_box {
+	    height: 50vh;
+	    margin-left: -5%;
+	}
+	.progress {
+	    position: absolute;
+	    bottom: 0%;
+	    left: 35%;
+	    height: 5px!important;
+	    transform: translate(-50%, -50%);
+	    display: block;
+	    width: 50%;
+	    height: 5px;
+	    border-radius: 5px;
+	    overflow: hidden;
+	    background-color: #e1d8d8;
+	    background-image: linear-gradient(to right, #ED951E, #ED951E);
+	    background-repeat: no-repeat;
+	    background-size: 0 100%;
+	    transition: background-size 0.4s ease-in-out;
+	}
+	.pagingInfo {
+	    position: absolute;
+	    bottom: -2%;
+	    right: 23%;
+	    transform: translate(-50%, -50%);
+	    left: inherit;
+
+	}
+	.arrowBannerRight {
+	    position: absolute;
+	    background: transparent;
+	    border: none;
+	    bottom: -2.4%;
+	    right: 12%;
+	    transform: translate(-2%, -50%);
+	    z-index: 1;
+	    left: inherit;
+	    top: inherit;
+	}
+
+	.arrowBannerLeft {
+	    position: absolute;
+	    background: transparent;
+	    border: none;
+	    bottom: -2.4%;
+	    right: 19%;
+	    transform: translate(-2%, -50%);
+	    z-index: 1;
+	    left: inherit;
+	    top: inherit;
+	}
+	.desc {
+	    text-align: center;
+	    padding: 10% 5% 10%;
+	    font-size: 16px;
+	    line-height: 1.7;
+	    color: #000000;
+	    font-weight: 500;
+	    padding-bottom: 5%;
+	}
+	.title-head {
+	    font-size: 30px;
+	    text-align: center;
+	    font-weight: bold;
+	    padding-bottom: 2%;
+	    color: #01164f;
+	    padding-top: 15%;
+	}
+	.para_career {
+	    width: 100%;
+	    line-height: 1.5;
+	}
+	.w-60_icon {
+	    width: 50%;
+	    height: 8vh;
+	    margin-bottom: 15%;
+	}
+	.text-align_c{
+		text-align: center;
+	}
+	.milestones_details {
+	    font-size: 17px;
+	    font-weight: bold;
+	    color: #f4af1b;
+	}
+	.para_milestones {
+	    font-size: 13px;
+	    font-weight: 500;
+	    color: #fff;
+	    margin-bottom: 20%;
+	}
+	.rtl-slider-flex .thumb-prev, .rtl-slider-flex .thumb-next {
+	    position: absolute;
+	    bottom: 0px;
+	    right: 0;
+	    height: 50px;
+	    width: 14%;
+	    text-align: center;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    cursor: pointer;
+	    transition: all 0.3s ease;
+	    background: #01164f;
+	    color: #fff;
+	}
+	.thumb-prev {
+	    right: calc(0% + 1.1em) !important;
+	}
+	.thumb-next {
+	    right: calc(15% + 1.05em) !important;
+	}
+	.pad-10 {
+	    padding-top: 5%;
+	}
+	.img_res {
+	    width: 30%;
+	    margin-top: 0%;
+	}
+	.our_career{
+		background: url(Careers_mobile.jpg) no-repeat center center; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	/*  	margin-top: 5%;*/
+	}
+	.social_icon_footer{
+		margin-bottom: 15%;
+	}
+	.footer_logo {
+	    width: 35%;
+	    margin-bottom: 5%;
+	}
+	.vision {
+	    position: relative;
+	    left: 0;
+	    bottom: 5%;
+	}
+	.join_us {
+	    font-size: 45px;
+	    color: #f4ae1b;
+	    font-weight: bold;
+	    width: 75%;
+	    margin-left: 3%;
+
+	}
+	.join_us_text {
+	    font-size: 16px;
+	    color: #fff;
+	    margin-left: 3%;
+	    margin-top: 5%;
+	}
+	.team_img {
+	    width: 100%;
+	    margin: 10% 0%;
+	}
+	.team_text {
+	    font-size: 35px;
+	    width: 80%;
+	    font-weight: 500;
+	    margin-top: 10%;
+	    margin-left: 10%;
+	    color: #01164f;
+	}
+	.about_label {
+	    font-weight: bold;
+	    font-size: 26px;
+	}
+	.about_contact {
+	    text-align: left;
+	    font-size: 30px;
+	    padding: 10% 25%;
+	}
+	.partners_text {
+	    padding: 0 10%;
+	    font-size: 30px;
+	}
+	.section_space {
+	    margin-top: 0%;
+	}
+	.slide-viewer {
+	    position: relative;
+	    overflow: hidden;
+	    height: 180px;
+	}
+	.partners_contact {
+	    text-align: left;
+	    font-size: 30px;
+	    padding: 15%;
+	}
+	.award_overflow {
+		height: auto;
+		overflow: auto;
+	}
+	.award_btn {
+	    font-size: 12px;
+	    margin-left: 5%;
+	    border-radius: 30px;
+	    padding: 1% 4%;
+	    background: #f4ae1b;
+	    color: #000;
+	    border: 0;
+	    margin-top: 2%;
+	    margin-bottom: 5%;
+	}
+	.resource_contact_text {
+	    text-align: left;
+	    font-size: 21px;
+	    padding: 3% 15%;
+	    color: #000;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+	.service_list {
+	    list-style: none;
+	    color: #fff;
+	    line-height: 3;
+	    font-weight: 200;
+	    padding-left: 1%;
+	}
+	.padd_slider {
+		padding: 20% 0%;
+	}
+	.service {
+	    height: auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    background-color: #01164f;
+	}
+	.img_box {
+	    height: 55vh;
+	    margin-left: 0%;
+	}
+	#bannerHome #homeBanner .slider-banner .item .content {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    position: relative;
+	    height: 100%;
+	    padding: 0 5%;
+	}
+	.progress {
+	    position: absolute;
+	    bottom: 5%;
+	    left: 15%;
+	    height: 5px!important;
+	    transform: translate(-50%, -50%);
+	    display: block;
+	    width: 10%;
+	    height: 5px;
+	    border-radius: 5px;
+	    overflow: hidden;
+	    background-color: #e1d8d8;
+	    background-image: linear-gradient(to right, #ED951E, #ED951E);
+	    background-repeat: no-repeat;
+	    background-size: 0 100%;
+	    transition: background-size 0.4s ease-in-out;
+	}
+	.pagingInfo {
+	    position: absolute;
+	    bottom: 2%;
+	    left: 23%;
+	    transform: translate(-50%, -50%);
+	}
+	.arrowBannerLeft {
+	    position: absolute;
+	    background: transparent;
+	    border: none;
+	    top: 94%;
+	    left: 25%;
+	    transform: translate(-2%, -50%);
+	    z-index: 1;
+	}
+	.arrowBannerRight {
+	    position: absolute;
+	    background: transparent;
+	    border: none;
+	    top: 94%;
+	    left: 27%;
+	    transform: translate(-2%, -50%);
+	    z-index: 1;
+	}
+	.footer_logo {
+	    width: 20%;
+	}
+	.pad-10 {
+	    padding-top: 5%;
+	}
+	.thumb-prev {
+	    right: calc(0% + 0.99em) !important;
+	}
+	.thumb-next {
+	    right: calc(15% + 1.02em) !important;
+	}
+	.img_res {
+	    width: 80%;
+	    margin-top: 5%;
+	}
+	.padd-0 {
+	    padding: 0 0 0 4%;
+	}
+
+	.our_career{
+		background: url(Careers_mobile.jpg) no-repeat center center; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	/*  	margin-top: 5%;*/
+	}
+	.social_icon_footer{
+		margin-bottom: 10%;
+	}
+	.footer_logo {
+	    width: 18%;
+	}
+}
+
+
+
+/*=== Basic box styling  ===*/
+.box {
+  background: #2ecc71 none repeat scroll 0 0;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 150px;
+  line-height: 150px;
+  margin: 0 auto 3%;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95%;
+}
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.two {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.three {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.four {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+.five {
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+.six {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+  animation-delay: 5.5s;
+}
+
+.seven {
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s;
+}
+
+.eight {
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-delay: 7.5s;
+  animation-delay: 7.5s;
+}
+
+/*=== Animations start here  ===*/
+
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN LEFT ===*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*=== FADE IN UP Big ===*/
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN DOWN Big ===*/
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN LEFT Big ===*/
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN RIGHT Big ===*/
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
