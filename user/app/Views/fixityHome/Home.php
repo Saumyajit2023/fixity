@@ -388,30 +388,30 @@
 			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300">
 				<div class="rtl-slider-flex">
 						<div class="rtl-slider">
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/1.jpg');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/2.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/2.png');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/3.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/3.png');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/4.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/4.png');">
 						  </div>
 						  
-						  <div class="rtl-slider-slide " style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide " style="background-image: url('../assets/img/1.jpg');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/5.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/5.png');">
 						  </div>
 						</div>
 						<div class="rtl-slider-nav">
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/2.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/2.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/3.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/3.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/4.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/4.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/5.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/5.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/1.jpg');">
 						  </div>
 						</div>
 						<span class="thumb-prev"><i class="fa fa-angle-right fa-lg"></i></span>
@@ -420,7 +420,7 @@
 			</div>
 
 			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300">
-				<div class="career_title-head pad-10">What's Happening?</div>
+				<div class="career_title-head pad-10">What's Happening? new</div>
 				<div class="happ_subtitle">We help you stay up-to-date with the latest developments in your field and provide you with expert insights and assessments of industry trends. We also provide updates on the latest events and conferences that are relevant to your industry. Our goal is to provide you with the
 				information and insights you need to stay ahead of the curve and make strategic decisions for
 				your business.</div>
