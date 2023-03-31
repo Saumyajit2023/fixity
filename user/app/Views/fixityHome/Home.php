@@ -388,30 +388,30 @@
 			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300">
 				<div class="rtl-slider-flex">
 						<div class="rtl-slider">
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/1.jpg');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/2.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/2.png');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/3.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/3.png');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/4.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/4.png');">
 						  </div>
 						  
-						  <div class="rtl-slider-slide " style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide " style="background-image: url('../assets/img/1.jpg');">
 						  </div>
-						  <div class="rtl-slider-slide" style="background-image: url('../user/assets/img/5.png');">
+						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/5.png');">
 						  </div>
 						</div>
 						<div class="rtl-slider-nav">
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/2.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/2.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/3.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/3.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/4.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/4.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/5.png');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/5.png');">
 						  </div>
-						  <div class="rtl-slider-slide side_box" style="background-image: url('../user/assets/img/1.jpg');">
+						  <div class="rtl-slider-slide side_box" style="background-image: url('../assets/img/1.jpg');">
 						  </div>
 						</div>
 						<span class="thumb-prev"><i class="fa fa-angle-right fa-lg"></i></span>
