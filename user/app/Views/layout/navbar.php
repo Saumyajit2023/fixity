@@ -11,7 +11,7 @@
     </div>
     <div class="dropdown_menu">
       <li><a href="<?php echo base_url('index.php/home');?>">Home</a></li>
-      <li><a href="<?php echo base_url('index.php/about_us');?>">About</a></li>
+      <li><a href="<?php echo base_url('index.php/about_us');?>">About</a></li> 
       <li>
         <a href="<?php echo base_url('index.php/services');?>">Services</a>
         <ul >
@@ -35,6 +35,7 @@
       <li><a href="<?php echo base_url('index.php/partner');?>">Partners</a></li>
       <li><a href="<?php echo base_url('index.php/resource');?>">Resources</a></li>
       <li><a href="<?php echo base_url('index.php/career');?>">Careers</a></li>
-      <li><a href="<?php echo base_url('index.php/contact');?>">Contact</a></li>
+       <li><a href="<?php echo base_url('index.php/contact_us');?>">Contact</a></li>
+      
     </div>
   </header>
