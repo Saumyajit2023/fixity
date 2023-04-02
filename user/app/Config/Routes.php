@@ -37,8 +37,26 @@ $routes->get('/career','fixityHome::career');
 $routes->get('/about_us','fixityHome::about');
 $routes->get('/partner','fixityHome::partners');
 $routes->get('/resource','fixityHome::resource');
+$routes->get('/contact_us','fixityHome::contact');
 
+$routes->get('/services','Services::service_page');
+$routes->get('/staffing','Services::staffing');
+$routes->get('/htd','Services::htd');
+$routes->get('/IT_Solution','Services::solution');
+$routes->get('/product_development','Services::product_development');
 
+$routes->get('/product','Product::product');
+$routes->get('/quilkdeals','Product::deal');
+$routes->get('/goodgovernance','Product::good_governance');
+$routes->get('/legacy','Product::legacy');
+$routes->get('/product_1','Product::product_1');
+$routes->get('/product_2','Product::product_2');
+$routes->get('/product_3','Product::product_3');
+
+$routes->get('/resource','Resources::resource');
+$routes->get('/awards','Resources::awards');
+$routes->get('/blogs','Resources::blogs');
+$routes->get('/whitepapers','Resources::whitepapers');
 
 /*
  * --------------------------------------------------------------------

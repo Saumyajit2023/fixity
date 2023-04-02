@@ -7,7 +7,7 @@ class Services extends BaseController
 {
     public function service_page()
     {
-        $data['page']       = 'services_submenu/services';
+        $data['page']       = 'fixityHome/services';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
        
