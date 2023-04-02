@@ -79,11 +79,11 @@ header{
 .dropdown_menu{
   right:2rem;
   position:absolute;
-  background:#021450;
+  background:#38393e;
   backdrop-filter:blur(15px);
   top:60px;
   height:0px;
-  width:250px;
+  width:400px;
   border-radius:10px;
   overflow:hidden;
   transition: .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -95,8 +95,8 @@ header{
   justify-content:center;
   align-items:center;
 }
-.dropdown_menu.open{
-  height:245px
+.dropdown_menu.open{ 
+    height: 150vh;
 }
 
 .dropdown_menu .action_btn{
