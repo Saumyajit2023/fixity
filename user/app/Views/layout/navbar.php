@@ -1,7 +1,7 @@
       <header>
     <div class="navbar">
       <div class="logo">
-        <a href="">
+        <a href="<?php echo base_url('index.php/home');?>">
             <img class="logo_img" src="<?php echo base_url('assets/img/fixity_logo.png');?>">
         </a>
       </div>
@@ -35,7 +35,7 @@
       <li><a href="<?php echo base_url('index.php/partner');?>">Partners</a></li>
       <li><a href="<?php echo base_url('index.php/resource');?>">Resources</a></li>
       <li><a href="<?php echo base_url('index.php/career');?>">Careers</a></li>
-       <li><a href="<?php echo base_url('index.php/contact_us');?>">Contact</a></li>
+       <!-- <li><a href="<?php echo base_url('index.php/contact_us');?>">Contact</a></li> -->
       
     </div>
   </header>

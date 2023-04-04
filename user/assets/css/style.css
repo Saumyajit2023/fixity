@@ -90,13 +90,13 @@ header{
 }
 
 .dropdown_menu li{
-  padding:0.7rem;
+  padding:0.2rem;
   display:flex;
   justify-content:center;
   align-items:center;
 }
 .dropdown_menu.open{ 
-    height: 150vh;
+    height: 100vh;
 }
 
 .dropdown_menu .action_btn{
@@ -250,6 +250,7 @@ article.on{
 .tabs__body {
   display: none;
   font-size: 18px;
+  padding-top: 5%;
 }
 .tabs__body.active {
   display: block;
@@ -321,6 +322,14 @@ input[type="radio"]:checked {
     align-items: center;
     justify-content: center;
     background-color: #01164f;
+}
+.service_box{
+  background: url(../img/service_bg.jpg) no-repeat ; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-bottom: 7%;
 }
 .pulse_2 {
     width: 300px;
@@ -1516,4 +1525,45 @@ button:focus {
 .owl-controls .owl-buttons .owl-prev{
         right: 90px!important;
         left: inherit;
+}
+.quickdeal_sec_1{
+  background: url(../img/quickdeal/section_2/row_1_bg.jpg) no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.quickdeal_sec_2{
+  background: url(../img/quickdeal/section_2/row_2_bg.jpg) no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.quickdeal_sec_3{
+  background: url(../img/quickdeal/section_2/row_3_bg.jpg) no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.quickdeal_title{
+    font-size: 42px;
+    text-align: left;
+    font-weight: bold;
+    color: #f4af1b;
+}
+.quickdeal_title-head_2 {
+    font-size: 29px;
+    text-align: left;
+    font-weight: 400;
+    color: #01164f;
+    padding-bottom: 5%;
+    line-height: 1.3;
+}
+.quickdeal_cta {
+    text-align: center;
+    font-size: 40px;
+    padding: 6% 11%;
+    color: #000;
 }

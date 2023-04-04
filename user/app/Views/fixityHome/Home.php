@@ -2,11 +2,13 @@
 		<img class="banner_img" src="<?php echo base_url('assets/img/banner.jpg');?>">
 	</div>
 
-		<div class="service">
+		<div class="service_box">
 			<!-- <div class="pulse_2"></div> -->
 			<div class="container">
-				<div class="service_title_1" data-aos="fade-up" data-aos-offset="200">We are your trusted staffing partner</div>
-				<div class="service_title_2" data-aos="fade-up" data-aos-offset="200">Services we offer</div>
+				<div class="service_title_1" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    data-aos-duration="1000">We are your trusted staffing partner</div>
+				<div class="service_title_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    data-aos-duration="1000">Services we offer</div>
 
 				<div class="tabs">
 				    <nav class="tabs__navigation">
@@ -19,10 +21,10 @@
 				    <div class="tabs__content">
 				        <div class="tabs__body active">
 				            <div class="row">
-				            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300">
+				            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				            		<img class="w-100" src="<?php echo base_url('assets/img/IT-Solutions_01.png');?>">
 				            	</div>
-				            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300">
+				            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 							    	<div class="service_text">
 							    		Finding the right candidates for your organization can be a challenging task. At Fixity Tech, we use our extensive network and expertise to provide you with a personalized service that is tailored to meet the unique staffing needs of your organization. Our team of experts works closely with you and helps you find the right candidate to power your organizational structure.
 							    	</div>
@@ -31,11 +33,11 @@
 				        </div>
 				        <div class="tabs__body">
 				        	<div class="row">
-				        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300">
+				        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				        			<img class="w-100" src="<?php echo base_url('assets/img/IT-Staffing_01.png');?>">
 				        		</div>
 
-				        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300">
+				        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 							    	<div class="service_text">
 							    		Our team of experienced &amp; certified professionals provides flexible and cost-effective solutions to increase the efficiency of your team. our range of IT services includes Oracle E-Business Suite and PeopleSoft Support &amp; maintenance, Hyperion support &amp; maintenance, Big data support &amp; maintenance, and Cloud migration &amp; integration. Be it a single project or ongoing support, we have the resources and expertise to help you achieve your business objectives.			
 							    	</div>
@@ -76,7 +78,7 @@
 
 		<section id="bannerHome" class="our_product">
 		  <div class="container-fluid">
-		  	<div class="title-head" data-aos="fade-up" data-aos-offset="350">Our Products</div>
+		  	<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000" >Our Products</div>
 		    <div class="row">
 		        <div class="col-12" id="homeBanner">
 	              <div class="slider-banner">
@@ -85,14 +87,14 @@
 	                        <div class="second-layer">
 	                            <div class="title">
 	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="300">
+	                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" >
 	                                    		<div class="our_product_title">Qlikdeals</div>
 	                                        Qlikdeals is your one-stop destination for finding the best deals on a wide range of products.											With Qlikdeals, you can compare prices of a variety of products from electronics to home goods,from a variety of retailers and find the best deals. With Qlikdeals, you can also filter your search
 											results by brand, price, and other criteria to help you find exactly what you&#39;re looking for.
 											Qlikdeals offers you a hassle-free shopping experience by bringing all the best deals together in
 											one place.
 	                                    </div>
-	                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="300">
+	                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
 	                                        <div>
 	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/quildeal.png');?>">
 	                                            <p class="number">01</p>
@@ -216,8 +218,8 @@
 		</section>
 		<div class="our_partners">
 				<div class="container">
-					<div class="title-head" data-aos="fade-up" data-aos-offset="350">Our Partners</div>
-					<div class="desc" data-aos="zoom-in" data-aos-offset="350">
+					<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Our Partners</div>
+					<div class="desc" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
 						Our partnerships are key to delivering the best possible service to our clients. By combining our
 						expertise with theirs, we provide a wide range of services and solutions to our clients. Our
 						partnerships also allow us to offer a global reach and access to resources &amp; expertise from
@@ -225,28 +227,28 @@
 						relationships with our partners and together achieve business goals.
 					</div>
 			    <div class="row">
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="1">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="1">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="1">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="1">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 			      </div>
 			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
@@ -292,13 +294,13 @@
 	</div>
 
 	<div class="our_milestones">
-		<div class="milestones" data-aos="fade-up" data-aos-offset="350">Major Milestones</div>
-		<div class="desc white_color" data-aos="zoom-in" data-aos-offset="350">
+		<div class="milestones" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Major Milestones</div>
+		<div class="desc white_color" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
 			Won Most Promising Technology Company Founded and Managed By <br> Indians In The U.S.2021.
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_sixty.png');?>">
@@ -311,7 +313,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_3-Continent_01.png');?>">
@@ -324,7 +326,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_18-countries_V01.png');?>">
@@ -378,14 +380,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="desc_new white_color" data-aos="zoom-in" data-aos-offset="350">
+		<div class="desc_new white_color" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
 			Our strength lies in our resilient passion for innovation and technology. Throughout our 18 years of leadership in IT <br>Staffing, IT Solutions, and Product Development, our aim has always remained constant-Client Success.
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="row padd-10">
-			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300">
+			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
 				<div class="rtl-slider-flex">
 						<div class="rtl-slider">
 						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/1.jpg');">
@@ -419,7 +421,7 @@
 					</div>
 			</div>
 
-			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300">
+			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
 				<div class="career_title-head pad-10">What's Happening?</div>
 				<div class="happ_subtitle">We help you stay up-to-date with the latest developments in your field and provide you with expert insights and assessments of industry trends. We also provide updates on the latest events and conferences that are relevant to your industry. Our goal is to provide you with the
 				information and insights you need to stay ahead of the curve and make strategic decisions for

@@ -1,43 +1,72 @@
 <div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('assets/img/career/section_1/hero_image.jpg');?>">
+		<img class="banner_img" src="<?php echo base_url('assets/img/quickdeal/hero/hero_web_page.jpg');?>">
 	</div>
 
-	<section class="career_sec2">
+	<section class="quickdeal_sec_1">
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_1.png');?>">
 				</div>
 
 				<div class="col-md-6">
-					<div class="about_title-head section_space">quilkdeals</div><br>
+					<div class="quickdeal_title section_space">Shopping made easy and smart!</div>
+					<div class="quickdeal_title-head_2">Qlikdeals is your one-stop destination to find the best deals and offers available out there.</div>
 					<p class="para_about">
-						At Fixity, we are committed to creating a culture of faith, trust, and growth. Our work culture is driven by the discipline of courage, honesty & transparency. We help our employees feel connected, engaged, and aligned with the company's vision to become a global leader in IT staffing and product outsourcing.</p>
+						How many times did it happen to you that you bought an item only to realize minutes later that it cost less on other platforms? We know how much trouble this gives us and that's why we bring to you a smart price comparison platform. With Qlikdeals you find the best deals and offers available on products across a wide range of categories including personal care, mobiles, electronics, fashion, and lifestyle.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="quickdeal_sec_2">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-6 award_padding_bottom" id="first">
+					<div class="quickdeal_title" id="news-slider">Before you buy it, compare its price on Qlikdeals</div>
+					<div class="quickdeal_title-head_2">E-commerce is full of exciting offers and deals on all kinds of products. Picking the one that fits your budget and requirements can be get difficult. Meet Qilkdeals.</div>
 					<p class="para_about">
-						We have an enriching custom of celebrating the small wins of our employees to boost their motivation and empower them. We encourage clear communication and foster a safe environment for our employees to share their ideas, views, and opinions. We are committed to the safety of our workplace and true to our philosophy of 'we deliver what we promise' to both our clients and employees.
+						Qlikdeals allow you to compare prices from a variety of retailers and find the best deals on the products you need. Whether you're looking for the latest electronics, fashion, home goods, or anything in between, our platform makes sure you get only the best deals.
+					</p>
+					<p class="para_about">
+						Our user-friendly interface makes it easy to search for products, compare prices, and find the best deals. It can also filter your search results by brand, price, and other criteria to help you find a product that matches your exact requirements.
+					</p>
+				</div>
+
+				<div class="col-md-6" id="second">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_2.png');?>">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="quickdeal_sec_3">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_3.png');?>">
+				</div>
+
+				<div class="col-md-6 award_padding_bottom">
+					<div class="quickdeal_title section_space">Be a smart shopper <br>with Qlikdeals</div>
+					<div class="quickdeal_title-head_2 quickdeal_title-head_2_new">Experience a next-generation <br>price comparison platform to <br>find the right price opportunities.</div>
+					<p class="para_about">
+						We update our platform regularly with new deals and offers from top retailers, so you can always stay updated with the latest and greatest products at the best prices. To help you make informed purchase decisions, we also provide you with detailed product information, including reviews and ratings.
+					</p>
+
+					<p class="para_about">
+						Everyone has different needs and preferences when it comes to buying a certain product, that's why we offer price comparison for a wide range of categories, so you can find the right products at the right price. Qlikdeals takes the hassle out of shopping by bringing all the best deals together in one place. Save even while shopping with Qlikdeals.
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="career_sec3">
-		<div class="container ">
-			<div class="title-head">Fixity Life</div>
-			<div class="desc_2">
-						Fixity has its presence across three continents currently and we are on a mission to build a global footprint. Join us in this mission and start doing work that matters.
+	<section class="career_sec5">
+		<div class="container">
+			<div class="quickdeal_cta">
+				Don't waste your time jumping to various e-commerce sites to find out the best prices and deals.
+				<strong> Use Qlikdeals, compare prices, choose the one that meets your exact budget and requirements, and shop smart!</strong><br>
+				<button class="about_btn">CLICK HERE TO START!  ></button>
 			</div>
-			<div class="desc_2">
-						At Fixity Tech, you get the chance to be part of an organization that fosters an environment conducive to growth and helps you achieve your professional goals.
-			</div>
-			<div class="desc_2">
-						Our team prioritizes innovation and always seeks to push the boundaries of IT staffing, product outsourcing, and more. We thrive on knowledge exchange and work together to deliver the best services to our clients. No matter who you are or where you're from, your growth is always our priority..
-			</div>
-
-			<div>
-				<img class="w-100" src="<?php echo base_url('assets/img/career/section_3/image_collage.png');?>">
-			</div>
-		</div><br><br><br>
+		</div>
 	</section>
 
 	
