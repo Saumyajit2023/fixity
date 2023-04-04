@@ -137,7 +137,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
-					<img class="mission_img"  src="<?php echo base_url('assets/img/career/section_4/icon.png');?>">
+					<img class="mission_img"  src="<?php echo base_url('assets/img/contact_us/section_4/FAQ_Icon.png');?>">
 					<div class="join_us">
 						FAQ
 					</div>
