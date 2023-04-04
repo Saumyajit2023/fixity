@@ -1,43 +1,196 @@
 <div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('assets/img/career/section_1/hero_image.jpg');?>">
+		<img class="banner_img" src="<?php echo base_url('assets/img/contact_us/hero/hero_web_banner.jpg');?>">
 	</div>
 
-	<section class="career_sec2">
-		<div class="container ">
+	<section class="address_bg">
+		<div class="container pd_9_0">
+			<div class="title-head">Address</div>
+			<div class="desc_2">
+				 Lorem Ipsum is not simply random text.
+			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+				<div class="col-md-4 col-12">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
+					<div class="address_title">Head Quarters:</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							3333 Warrenville Road,
+							Suite #200 Lisle, Illinois 60532 USA.
+						</div>
+					</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							+1 (630) 270 2250
+						</div>
+					</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							info@fixitytech.com
+						</div>
+					</div>
 				</div>
+				<div class="col-md-4 col-12">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
+					<div class="address_title">Offshore office:</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							#1st floor, Legend Platinum, Jubilee Enclave, Kondapur Village, Serilingampally Mandal, Hitech City, Hyderabad, RR District - 500081.
+						</div>
+					</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							+1 (630) 270 2250
+						</div>
+					</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							info@fixitytech.com
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-12">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/nearshore_office.png');?>">
+					<div class="address_title">Head Quarters:</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							Fixity Technologies S. de R.L. de C.V..
+							WTC, Torre de oficinas, Piso 16
+							Paseo de la República Km 13020,
+							76230 Juriquilla, Qro, Mexico
+						</div>
+					</div>
 
-				<div class="col-md-6">
-					<div class="about_title-head section_space">Contact</div><br>
-					<p class="para_about">
-						At Fixity, we are committed to creating a culture of faith, trust, and growth. Our work culture is driven by the discipline of courage, honesty & transparency. We help our employees feel connected, engaged, and aligned with the company's vision to become a global leader in IT staffing and product outsourcing.</p>
-					<p class="para_about">
-						We have an enriching custom of celebrating the small wins of our employees to boost their motivation and empower them. We encourage clear communication and foster a safe environment for our employees to share their ideas, views, and opinions. We are committed to the safety of our workplace and true to our philosophy of 'we deliver what we promise' to both our clients and employees.
-					</p>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							+1 (630) 270 2250
+						</div>
+					</div>
+					<div class="flex address_padding">
+						<div class="w-7">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
+						</div>
+						<div class="address_text w-90">
+							info@fixitytech.com
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="career_sec3">
+	<section class="contact_bg">
 		<div class="container ">
-			<div class="title-head">Fixity Life</div>
-			<div class="desc_2">
-						Fixity has its presence across three continents currently and we are on a mission to build a global footprint. Join us in this mission and start doing work that matters.
-			</div>
-			<div class="desc_2">
-						At Fixity Tech, you get the chance to be part of an organization that fosters an environment conducive to growth and helps you achieve your professional goals.
-			</div>
-			<div class="desc_2">
-						Our team prioritizes innovation and always seeks to push the boundaries of IT staffing, product outsourcing, and more. We thrive on knowledge exchange and work together to deliver the best services to our clients. No matter who you are or where you're from, your growth is always our priority..
-			</div>
-
-			<div>
-				<img class="w-100" src="<?php echo base_url('assets/img/career/section_3/image_collage.png');?>">
+			<div class="title-head">Contact Us</div>
+				<form class="contact_form pd_b_5">
+					<div class="row">
+						<div class="col-md-6 col-12">
+					 		<label>First Name <span class="red">*</span></label>
+					 		<input type="text" class="form-control" name="" placeholder="Enter First Name">
+					 	</div>
+					 	<div class="col-md-6 col-12">
+					 		<label>Last Name <span class="red">*</span></label>
+					 		<input type="text" class="form-control" name="" placeholder="Enter Last Name">
+					 	</div>
+					 	<div class="col-md-6 col-12">
+					 		<label>Email <span class="red">*</span></label>
+					 		<input type="text" class="form-control" name="" placeholder="Enter Email">
+					 	</div>
+					 	<div class="col-md-6 col-12">
+					 		<label>Phone No.<span class="red">*</span></label>
+					 		<input type="text" class="form-control" name="" placeholder="Enter Phone No. ">
+					 	</div>
+					 	<div class="col-md-12 col-12">
+					 		<label>Message <span class="red">*</span></label>
+					 		<textarea type="text" class="form-control" style="height:150px !important;" name="" placeholder="Enter Message"></textarea>
+					 	</div>
+					 	<button class="form_btn">Submit &nbsp ></button>
+					</div>
+				</form>
 			</div>
 		</div><br><br><br>
 	</section>
+	<section class="career_sec4">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="mission_img"  src="<?php echo base_url('assets/img/career/section_4/icon.png');?>">
+					<div class="join_us">
+						FAQ
+					</div>
+					<p class="para_about join_us_text">
+						Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.
+					</p>
+				</div>
 
-	
+				<div class="col-md-6">
+					<div class="accordion">
+              <div class="box">
+                  <div class="label">Lorem ipsum dolor sit</div>
+                  <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="label">Lorem ipsum dolor sit</div>
+                  <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="label">Lorem ipsum dolor sit</div>
+                  <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="label">Lorem ipsum dolor sit</div>
+                  <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
+                  </div>
+              </div>
+          </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+      let label = document.querySelectorAll(".box")
+
+      label.forEach((e)=>{
+          e.addEventListener("click", ()=>{
+              removeClass()
+              e.classList.toggle("active")
+          })
+      })
+
+      function removeClass(){
+          label.forEach((e)=>{
+              e.classList.remove("active")
+          })
+      }
+ 	</script>
