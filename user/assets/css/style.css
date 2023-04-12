@@ -1636,3 +1636,83 @@ button:focus {
       -o-background-size: cover;
       background-size: cover;
 }
+.htd_sec3{
+    background: url(../img/HTD/section_3/train_bg_web.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.htd_text{
+    padding-top: 5%;
+    text-align: center;
+}
+.htd_img{
+    padding: 0 5%;
+    margin-top: -7%;
+}
+.htd_white_text{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding: 2% 0;
+}
+.desc_2_htd{
+    text-align: center;
+    padding: 0 20%;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+    padding-bottom: 2%;
+}
+.desc_3_htd {
+    text-align: center;
+    padding: 0 20%;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+    padding-bottom: 8%;
+}
+.htd_text_yellow {
+    padding: 5% 15%;
+    text-align: left;
+    padding-bottom: 2%!important;
+}
+.htd_text_white {
+    padding: 1% 15%;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 5%;
+}
+.delpoy_text_yellow{
+    font-size: 19px;
+    font-weight: 700;
+    color: #f4af1b;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: left;
+    padding: 3% 0;
+}
+.htd_sec5{
+    background: url(../img/HTD/section_5/revolutionary_BG.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sec_2_dot_dtd{
+    position: absolute;
+    width: 8%;
+    margin-top: 7%;
+}
+.sec_4_dot_dtd{
+    position: absolute;
+    width: 11%;
+    right: 0;
+}
+.padding_b-5{
+    padding-bottom: 5%;
+}
+.white_bg{
+    background: #fff;
+}
