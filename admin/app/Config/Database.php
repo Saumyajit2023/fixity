@@ -36,7 +36,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'o_exam',
+        'database' => 'fixity',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

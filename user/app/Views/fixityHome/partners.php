@@ -29,14 +29,14 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css'>
 
   <div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('assets/img/partners/hero/partners_hero.jpg');?>">
+		<img class="banner_img" src="<?php echo base_url('user/assets/img/partners/hero/partners_hero.jpg');?>">
 	</div>
 
 
 	<section class="partners_sec_1">
 			<div class="row mg-lf">
 				<div class="col-md-6">
-					<img class="partners_img" src="<?php echo base_url('assets/img/partners/section_2/why_fixity.png');?>">
+					<img class="partners_img" src="<?php echo base_url('user/assets/img/partners/section_2/why_fixity.png');?>">
 				</div>
 				<div class="col-md-6">
 					<div class="about_title-head section_space partners_text">Why do partners choose Fixity Tech?</div>
@@ -59,16 +59,16 @@
 			        <div class="slide-viewer">
 			          <div class="slide-group">
 			            <div class="slide slide-1">
-			              <img src="<?php echo base_url('assets/img//partners/section_3/client_logo.jpg');?>" alt="partners_logo_one" />
+			              <img src="<?php echo base_url('user/assets/img//partners/section_3/client_logo.jpg');?>" alt="partners_logo_one" />
 			            </div>
 			            <div class="slide slide-2">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>"  alt="partners_logo_two"  />
+			              <img src="<?php echo base_url('user/assets/img/partners/section_3/client_logo.jpg');?>"  alt="partners_logo_two"  />
 			            </div>
 			            <div class="slide slide-3">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_three"  />
+			              <img src="<?php echo base_url('user/assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_three"  />
 			            </div>
 			            <div class="slide slide-4">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_four"  />
+			              <img src="<?php echo base_url('user/assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_four"  />
 			            </div>
 			          </div>
 			        </div>

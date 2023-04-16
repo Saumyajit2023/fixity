@@ -36,33 +36,15 @@ $routes->setAutoRoute(true);
 $routes->get('/forgetCodeLink','Login::forgetPasssword');
 $routes->get('/forgetCode','Login::sendMailForgetPasssword');
 $routes->post('/auth', 'Login::authentication');
-$routes->add('/dashboard','Home::dashboard');
-$routes->get('/logout','Home::logout');
-$routes->get('/profile','Home::profile');
-$routes->post('/imageUpload','Home::upload');
-$routes->get('/org_drive','Organisation::drive_list');
-$routes->get('/subject','Subject');
-$routes->get('/subject_sets','Subject::Subject_sets');
-
-$routes->add('/insert_drive','Organisation::insert_drive');
-$routes->post('Question-add','Question::insertQuestion');
-$routes->get('/questionBack','Question::index');
-$routes->post('/Question-delete','Question::deleteQuestion');
-$routes->post('Question-edit','Question::updateQuestion');
-
-$routes->get('custom_set','Organisation::custom_set');
-$routes->get('question-detail','Subject/viewSetQuestionDetails');
-
-$routes->get('/student','Student');
-$routes->get('/student_enrollment_list','Student::student_enrollment_list');
-$routes->get('/InstituteStudent','Student::institute_student_list');
-$routes->get('/InstituteEnrollmentStudent','Student::institute_student_enrollment_list');
-
-$routes->get('/instituteReport','Report::instituteReport');
+$routes->add('/dashboard','Login::dashboard');
+$routes->get('/logout','Login::logout');
+$routes->get('/profile','Login::profile');
+$routes->post('/imageUpload','Login::upload');
+$routes->get('/home','Home::index');
+$routes->post('/logo_upload','Home::uploadLogo');
+$routes->get('/career','Career::index');
 
 
-
-$routes->add('/InstituteScheduler','InstituteScheduler::scheduler_list');
 
 /*
  * --------------------------------------------------------------------

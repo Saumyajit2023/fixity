@@ -1,6 +1,8 @@
+
+
 <div class="banner_div">
-	<img class="banner_img desk" src="<?php echo base_url('assets/img/banner.jpg');?>">
-	<img class="banner_img mob" src="<?php echo base_url('assets/img/mobile_banner.jpg');?>">
+	<img class="banner_img desk" src="<?php echo base_url('user/assets/img/banner.jpg');?>">
+	<img class="banner_img mob" src="<?php echo base_url('user/assets/img/mobile_banner.jpg');?>">
 </div>
 
 	<div class="service_box">
@@ -22,7 +24,7 @@
 			        <div class="tabs__body active">
 			            <div class="row">
 			            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-			            		<img class="w-100" src="<?php echo base_url('assets/img/IT-Solutions_01.png');?>">
+			            		<img class="w-100" src="<?php echo base_url('user/assets/img/IT-Solutions_01.png');?>">
 			            	</div>
 			            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 						    	<div class="service_text">
@@ -34,7 +36,7 @@
 			        <div class="tabs__body">
 			        	<div class="row">
 			        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-			        			<img class="w-100" src="<?php echo base_url('assets/img/IT-Staffing_01.png');?>">
+			        			<img class="w-100" src="<?php echo base_url('user/assets/img/IT-Staffing_01.png');?>">
 			        		</div>
 
 			        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -47,7 +49,7 @@
 			        <div class="tabs__body">
 			        	<div class="row">
 			        		<div class="col-md-6 col-12">				        			
-			            		<img class="w-100" src="<?php echo base_url('assets/img/Product-development_01.png');?>">
+			            		<img class="w-100" src="<?php echo base_url('user/assets/img/Product-development_01.png');?>">
 			        		</div>
 
 			        		<div class="col-md-6 col-12">
@@ -60,7 +62,7 @@
 			        <div class="tabs__body">
 			        	<div class="row">
 			        		<div class="col-md-6 col-12">				        			
-			            		<img class="w-100" src="<?php echo base_url('assets/img/HTD_01.png');?>">
+			            		<img class="w-100" src="<?php echo base_url('user/assets/img/HTD_01.png');?>">
 			        		</div>
 
 			        		<div class="col-md-6 col-12">
@@ -96,7 +98,7 @@
                                     </div>
                                     <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/quildeal.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/quildeal.png');?>">
                                             <p class="number">01</p>
                                         </div>
                                     </div>
@@ -118,7 +120,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/ATS.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/ATS.png');?>">
                                             <p class="number">02</p>
                                         </div>
                                     </div>
@@ -138,7 +140,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/legacy.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/legacy.png');?>">
                                             <p class="number">03</p>
                                         </div>
                                     </div>
@@ -157,7 +159,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/goodgovernance.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/goodgovernance.png');?>">
                                             <p class="number">04</p>
                                         </div>
                                     </div>
@@ -176,7 +178,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/CRM.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/CRM.png');?>">
                                             <p class="number">05</p>
                                         </div>
                                     </div>
@@ -195,7 +197,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/cboard.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('user/assets/img/products/cboard.png');?>">
                                             <p class="number">06</p>
                                         </div>
                                     </div>
@@ -227,10 +229,14 @@
 					relationships with our partners and together achieve business goals.
 				</div>
 		    <div class="row">
+		      <?php foreach ($logo as $value) {
+		      ?>
 		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
-		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+
+		      	<img class="w-100" src="<?php echo base_url('admin/writable/homeLogo').'/'.$value['image_name'];?>">
 		      </div>
-		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		  <?php }  ?>
+		     <!--  <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
 		      </div>
 		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
@@ -274,7 +280,7 @@
 		      </div>
 		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
 		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-		      </div>
+		      </div> -->
 		    </div>
 		  </div>
 	</div>
@@ -302,7 +308,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_sixty.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_sixty.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">60+</strong>
@@ -315,7 +321,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_3-Continent_01.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_3-Continent_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">3 Continents</strong>
@@ -328,7 +334,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_18-countries_V01.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_18-countries_V01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">18</strong>
@@ -341,7 +347,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_Successful_01.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_Successful_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">Successful </strong>
@@ -354,7 +360,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_job_01.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_job_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">Job Opportunities</strong>
@@ -367,7 +373,7 @@
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_product_V01.png');?>">
+							<img class="w-60_icon" src="<?php echo base_url('user/assets/img/Icon_product_V01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">Products</strong>

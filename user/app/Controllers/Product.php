@@ -67,6 +67,24 @@ class Product extends BaseController
         return view('layout/content',$data);
     }
 
+    public function asset_management()
+    {
+        $data['page']       = 'product_submenu/amts';
+        $data['module']     = 'product';
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+       
+        return view('layout/content',$data);
+    }
+
+    public function password_protector()
+    {
+        $data['page']       = 'product_submenu/pass_protector';
+        $data['module']     = 'product';
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+       
+        return view('layout/content',$data);
+    }
+
 
 
 }

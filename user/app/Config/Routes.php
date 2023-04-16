@@ -49,9 +49,11 @@ $routes->get('/product','Product::product');
 $routes->get('/quilkdeals','Product::deal');
 $routes->get('/goodgovernance','Product::good_governance');
 $routes->get('/legacy','Product::legacy');
-$routes->get('/product_1','Product::product_1');
-$routes->get('/product_2','Product::product_2');
-$routes->get('/product_3','Product::product_3');
+$routes->get('/pts','Product::product_1');
+$routes->get('/task_master','Product::product_2');
+$routes->get('/vts','Product::product_3');
+$routes->get('/AMTS','Product::asset_management');
+$routes->get('/password_protector','Product::password_protector');
 
 $routes->get('/resource','Resources::resource');
 $routes->get('/awards','Resources::awards');

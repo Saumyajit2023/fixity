@@ -1,9 +1,9 @@
 <div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('assets/img/HTD/hero/banner_web.jpg');?>">
+		<img class="banner_img" src="<?php echo base_url('user/assets/img/HTD/hero/banner_web.jpg');?>">
 	</div>
 
 	<section class="white_bg">
-		<img class="sec_2_dot_dtd" src="<?php echo base_url('assets/img/HTD/section_2/dots_pattern.png');?>">
+		<img class="sec_2_dot_dtd" src="<?php echo base_url('user/assets/img/HTD/section_2/dots_pattern.png');?>">
 		<div class="container ">
 			<div class="title-head">Let's unravel our all-new HTD Model</div>
 			<div class="desc_2">
@@ -14,7 +14,7 @@
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-6">
-					<img class="w-100 " src="<?php echo base_url('assets/img/HTD/section_2/hire_image.png');?>">
+					<img class="w-100 " src="<?php echo base_url('user/assets/img/HTD/section_2/hire_image.png');?>">
 				</div>
 
 				<div class="col-md-6">
@@ -40,18 +40,18 @@
 			<div class="desc_2_htd">
 				Once we have identified the best pool of candidates in the computer science arena, next comes training them. We get the prescribed skills requirements from the client and train the shortlisted candidates in those technical requirements. Some of the specific skill sets we hold technical expertise in are -
 			</div>
-			<img class="w-100 htd_img" src="<?php echo base_url('assets/img/HTD/section_3/logos_web.png');?>">
+			<img class="w-100 htd_img" src="<?php echo base_url('user/assets/img/HTD/section_3/logos_web.png');?>">
 			<div class="desc_3_htd">
 				We also train these candidates in much-required soft skills. Our training experts come with an invaluable decade of experience and are equipped to offer experiential learning to the candidates.
 			</div>
 	</section>
 
 	<section class="white_bg">
-		<img class="sec_4_dot_dtd" src="<?php echo base_url('assets/img/HTD/section_4/dots_pattern.png');?>">
+		<img class="sec_4_dot_dtd" src="<?php echo base_url('user/assets/img/HTD/section_4/dots_pattern.png');?>">
 		<div class="container ">
 			<div class="row padding_b-5">
 				<div class="col-md-6 col-12">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/HTD/section_4//deplot_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/HTD/section_4/deplot_image.png');?>">
 				</div>
 
 				<div class="col-md-6 col-12">
@@ -65,7 +65,7 @@
 
 				<div class="col-md-4 col-12">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/limited_support.png');?>">
+						<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/limited_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract Staffing for <br>limited support
@@ -76,7 +76,7 @@
 				</div>
 				<div class="col-md-4 col-12">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract to hire staffing for<br> specific support
@@ -87,7 +87,7 @@
 				</div>
 				<div class="col-md-4 col-12">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Permanent staffing for <br>long-term support

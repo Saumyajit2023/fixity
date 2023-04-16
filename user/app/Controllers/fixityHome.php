@@ -1,17 +1,24 @@
 <?php
 
 namespace App\Controllers;
-
+use App\Models\fixityHome_Model;
 
 class fixityHome extends BaseController
 {
+    function __construct()
+    {
+        $this->homeModel = new fixityHome_Model();
+    }
+
     public function index()
     {
         $data['page']       = 'fixityHome/Home';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['logo']       = $this->homeModel->getLogoList();
+        //print_r($data['logo']);die();
        
-         return view('layout/content',$data);
+        return view('layout/content',$data);
     
     }
 
