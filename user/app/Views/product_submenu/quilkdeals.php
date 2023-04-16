@@ -5,11 +5,11 @@
 	<section class="quickdeal_sec_1">
 		<div class="container ">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_1.png');?>">
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Shopping made easy and smart!</div>
 					<div class="quickdeal_title-head_2">Qlikdeals is your one-stop destination to find the best deals and offers available out there.</div>
 					<p class="para_about">
@@ -21,7 +21,7 @@
 	<section class="quickdeal_sec_2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-md-6 award_padding_bottom" id="first">
+				<div class="col-md-6 award_padding_bottom" id="first" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title" id="news-slider">Before you buy it, compare its price on Qlikdeals</div>
 					<div class="quickdeal_title-head_2">E-commerce is full of exciting offers and deals on all kinds of products. Picking the one that fits your budget and requirements can be get difficult. Meet Qilkdeals.</div>
 					<p class="para_about">
@@ -32,7 +32,7 @@
 					</p>
 				</div>
 
-				<div class="col-md-6" id="second">
+				<div class="col-md-6" id="second" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_2.png');?>">
 				</div>
 			</div>
@@ -41,11 +41,11 @@
 	<section class="quickdeal_sec_3">
 		<div class="container ">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_3.png');?>">
 				</div>
 
-				<div class="col-md-6 award_padding_bottom">
+				<div class="col-md-6 award_padding_bottom" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Be a smart shopper <br>with Qlikdeals</div>
 					<div class="quickdeal_title-head_2 quickdeal_title-head_2_new">Experience a next-generation <br>price comparison platform to <br>find the right price opportunities.</div>
 					<p class="para_about">

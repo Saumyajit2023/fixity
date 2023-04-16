@@ -4,12 +4,14 @@
 
 	<section class="address_bg">
 		<div class="container pd_9_0">
-			<div class="title-head">Address</div>
-			<div class="desc_2">
+			<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">Address</div>
+			<div class="desc_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 				 Lorem Ipsum is not simply random text.
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-12">
+				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
 					<div class="address_title">Head Quarters:</div>
 					<div class="flex address_padding">
@@ -38,7 +40,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-12">
+				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
 					<div class="address_title">Offshore office:</div>
 					<div class="flex address_padding">
@@ -66,7 +69,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-12">
+				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/nearshore_office.png');?>">
 					<div class="address_title">Head Quarters:</div>
 					<div class="flex address_padding">
@@ -105,7 +109,8 @@
 	<section class="contact_bg">
 		<div class="container ">
 			<div class="title-head">Contact Us</div>
-				<form class="contact_form pd_b_5">
+				<form class="contact_form pd_b_5" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 					<div class="row">
 						<div class="col-md-6 col-12">
 					 		<label>First Name <span class="red">*</span></label>

@@ -8,7 +8,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="mission">
+					<div class="mission" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/mission_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
@@ -18,7 +18,7 @@
 						</div>
 					</div>
 
-					<div class="vision">
+					<div class="vision" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/Vision_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
@@ -30,7 +30,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="yellow_bg">
 						<div class="about_title-head">Who we are</div>
 						<p class="para_about">Today's ever-evolving business landscape demands a skilled niche workforce that can achieve extraordinary targets for the organization.</p>
@@ -48,13 +48,14 @@
 
 	<section class="rest">
 		<div class="container ">
-			<div class="service_title_2 padding-top-5">What makes us different from the rest?</div>
-			<div class="desc white_color">
+			<div class="service_title_2 padding-top-5" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">What makes us different from the rest?</div>
+			<div class="desc white_color" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    				data-aos-duration="1000">
 						Our strategic partnerships with global market leaders and innovators help us offer next-generation product and service solutions to our clients.
 					</div>
 			<div class="container">
 				<div class="row p-5 padd-bottom-10">
-				  <div class="col-md-6 mb-3">
+				  <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				    <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
 				      <li class="nav-item">
 				        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#snit" role="tab" aria-controls="home" aria-selected="true"><strong>Technical Expertise</strong> <br>you can rely on</a>
@@ -71,7 +72,7 @@
 				    </ul>
 				  </div>
 				  <!-- /.col-md-4 -->
-				  <div class="col-md-6">
+				  <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				    <div class="tab-content" id="experienceTabContent">
 
 				      <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
@@ -110,10 +111,10 @@
 
 	<section class="team">
 			<div class="row">
-				<div class="col-md-6">
-					<img class="team_img" src="<?php echo base_url('assets/img/about/section_4/people_images_map.png');?>">
+				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+					<img class="team_img pad-10" src="<?php echo base_url('assets/img/about/section_4/people_images_map.png');?>">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="team_text">
 						Meet the people who make <strong>Fixity a global firm!</strong>
 					</div>
@@ -123,23 +124,30 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="pic">
-                                    <img src="http://www.webcoderskull.com/img/team2.png" alt="">
+                                    <img src="<?php echo base_url('assets/img/about/ceo.png');?>" alt="">
                                 </div>
                             </div>
 
                             <div class="col-md-10">
-                                <div class="title">John Doe</div>
-                                <div class="post">CEO of fixity</div>
+                                <div class="title">Vinay Velivela</div>
+                                <div class="post">CEO of Fixity Technologies</div>
                             </div>
                         </div>                        
                         
                         <p class="description">
-                            Bring to the table win-win survival strategies to ensure proactive domination. User generated content in real-time will have multiple touchpoints for offshoring.
+                            I believe people are always the driving force behind any successful business. As a
+							founder and CEO, my vision for the company has always been to help our client&#39;s
+							businesses grow by providing them with the best human resources.<br>
+							Finding the right resources is not all about skills; it’s also about finding a culturally fit candidate. When your team is competent and also aligned with the company&#39;s values and goals, that&#39;s when the real magic happens.<br>
+							At Fixity, we strive to offer tailor-made solutions to each client, while fostering a culture of transparency, diversity, and inclusivity. We also believe in taking special care of our employees and creating opportunities for candidates who have been impacted by the COVID-induced pandemic.<br>
+							I&#39;m proud of our milestones so far and look forward to what the future holds for us as an organization. Moving forward, as we expand our operations to new markets, I look forward to continuing to provide the best talent acquisition and IT solutions to our clients, while staying true to our values.<br>
+							I express my gratitude to all who have supported us this far and look forward to
+							collaborating on more exciting projects in the future.
                         </p>
                         
                     </div>
  
-                    <div class="testimonial">
+                    <!-- <div class="testimonial">
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="pic">
@@ -157,7 +165,7 @@
                             Bring to the table win-win survival strategies to ensure proactive domination. User generated content in real-time will have multiple touchpoints for offshoring.
                         </p>
                         
-                    </div>
+                    </div> -->
                 </div>
             </div>
 				</div>
@@ -167,7 +175,10 @@
 	<div class="contact_box">
 		<div class="about_contact">
 			Want to know<br>
-			<label class="about_label">More About us?</label> <button class="about_btn">Contact Us! &nbsp ></button>
+			<label class="about_label">More About us?</label> 
+			<a href="<?php echo base_url('index.php/contact_us');?>">
+				<button class="about_btn">Contact Us! &nbsp ></button>
+			</a>
 		</div>
 	</div>
 

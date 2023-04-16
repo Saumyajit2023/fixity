@@ -3,7 +3,7 @@
         <div class="container paddt-10">
             <div class="row ">
                 <div class="col-md-12 col-lg-3">
-                    <div class="logo">
+                    <div class="">
                 <a href="">
                     <img class="footer_logo" src="<?php echo base_url('assets/img/Footer_logo.png');?>">
                 </a>

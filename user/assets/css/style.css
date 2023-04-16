@@ -18,14 +18,87 @@ a {
 a:hover {
     color: #2ecc71;
 }
+
+
+.parent {
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 80px;
+    width:15%;
+    font-weight: 600;
+}
+
+.parent a {
+    margin: 10px;
+    color: #01164f;
+    text-decoration: none;
+}
+
+.parent:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+.child {
+    display: none;
+}
+
+.child li {
+    background-color: #ffffff;
+    line-height: 55px;
+    width: 450px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600!important;
+}
+
+.child li a {
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    min-width: 8.65em;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+    margin-left: 1px;
+}
+
+.parent> a:hover {
+   border-bottom: 3px solid #f5af1c;
+}
+
+.child > li > a:hover {
+   border-bottom: 3px solid #f5af1c;
+}
+
+.expand {
+    font-size: 12px;
+    float: right;
+    margin-right: 5px;
+}
+.logo{
+    width: 25%;
+}
+
 header{
     position: absolute;
     padding: 0 2rem;
-    background-color: #dcdcdc00;
+    background-color: #ffffff9c;
     width: 100%;
+    height: 90px;
 }
 .logo_img{
-    width: 10%;
+    width: 35%;
+}
+.menu_box{
+    width: 70%;
 }
 .dropdown_menu > li > a{
     color: #fff;
@@ -33,7 +106,7 @@ header{
 .navbar{
   display:flex;
   width:100%;
-  height:60px;
+  height:90px;
   max-width:1200px;
   margin:0 auto;
   align-items:center;
@@ -51,7 +124,7 @@ header{
 }
 
 .navbar .toggle_btn{
-    color:#000;
+    color:#01164f;
     cursor:pointer;
     font-size:1.5rem;
     position: absolute;
@@ -77,23 +150,23 @@ header{
 }
 
 .dropdown_menu{
-  right:2rem;
   position:absolute;
-  background:#38393e;
+  background:#01164f;
   backdrop-filter:blur(15px);
-  top:60px;
+  top:90px;
   height:0px;
-  width:400px;
-  border-radius:10px;
+  width:100%;
+  left: 0;
   overflow:hidden;
   transition: .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown_menu li{
   padding:0.2rem;
-  display:flex;
+/*  display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:center;*/
+  list-style: none;
 }
 .dropdown_menu.open{ 
     height: 100vh;
@@ -474,12 +547,7 @@ ul.slick-dots li.slick-active {
 }
 /*Our Partner*/
 .our_product{
-  background: url(our_product.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-/*    margin-top: 5%;*/
+  background: #fff;
 }
 .our_partners{
     background: url(partners_bg.jpg) no-repeat center center; 
@@ -664,7 +732,7 @@ ul.slick-dots li.slick-active {
 /*Footer*/
 
 .footer_logo{
-    width: 50%;
+    width: 35%;
 }
 .paddt-10{
     padding-top: 10%;
@@ -818,7 +886,7 @@ ul.slick-dots li.slick-active {
 }
 .team_text{
     font-size: 35px;
-    width: 50%;
+    width: 75%;
     font-weight: 500;
     margin-top: 10%;
     margin-left: 10%;
@@ -863,14 +931,14 @@ ul.slick-dots li.slick-active {
     padding: 0 15px;
 }
 .testimonial .description{
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: #000;
     line-height: 30px;
     padding-bottom: 25px;
-    margin-top  : 15px;
+    margin-top: 15px;
     position: relative;
-    text-align: left;
+    text-align: justify;
 }
 .testimonial .pic{
     width: 70px;
@@ -955,7 +1023,7 @@ ul.slick-dots li.slick-active {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 35vh;
+    height:auto;
 }
 /* SECTION VERTICAL TABS */
 #experienceTab.nav-pills .nav-link.active {
@@ -1715,4 +1783,45 @@ button:focus {
 }
 .white_bg{
     background: #fff;
+}
+.mob{
+    display: none;
+}
+.padding-10{
+    padding: 10%!important;
+}
+.menu_text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.menu_text:hover{
+    color: #f5af1c;
+}
+.menu_border_right{
+    border-right: 1px solid #f5af1c;
+}
+.menu_border_bottom{
+    border-bottom: 1px solid #f5af1c;
+}
+.menu_text_right{
+    font-size: 16px;
+    color: #fff;
+    padding: 5% 0;
+}
+.address_menu_title{
+    color: #f4af1b;
+    font-size: 22px;
+}
+.it_sol_cta {
+    text-align: center;
+    font-size: 40px;
+    padding: 6% 7%;
+    color: #000;
+}
+.it_sol_cta_2 {
+    text-align: center;
+    font-size: 23px;
+    padding: 0% 11% 7%;
+    color: #000;
 }

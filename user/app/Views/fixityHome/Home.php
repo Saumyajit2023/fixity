@@ -1,283 +1,282 @@
-	<div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('assets/img/banner.jpg');?>">
-	</div>
+<div class="banner_div">
+	<img class="banner_img desk" src="<?php echo base_url('assets/img/banner.jpg');?>">
+	<img class="banner_img mob" src="<?php echo base_url('assets/img/mobile_banner.jpg');?>">
+</div>
 
-		<div class="service_box">
-			<!-- <div class="pulse_2"></div> -->
-			<div class="container">
-				<div class="service_title_1" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
-    data-aos-duration="1000">We are your trusted staffing partner</div>
-				<div class="service_title_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
-    data-aos-duration="1000">Services we offer</div>
+	<div class="service_box">
+		<div class="container">
+			<div class="service_title_1" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+				data-aos-duration="1000">We are your trusted staffing partner</div>
+			<div class="service_title_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+				data-aos-duration="1000">Services we offer</div>
 
-				<div class="tabs">
-				    <nav class="tabs__navigation">
-				        <button class="tabs__btn active" type="button">IT Staffing Services</button>
-				        <button class="tabs__btn" type="button">IT Solutions</button>
-				        <button class="tabs__btn" type="button">Product Development</button>
-				        <button class="tabs__btn" type="button">HTD (Hire,Train and Deploy)</button>
-				    </nav>
+			<div class="tabs">
+			    <nav class="tabs__navigation">
+			        <button class="tabs__btn active" type="button">IT Staffing Services</button>
+			        <button class="tabs__btn" type="button">IT Solutions</button>
+			        <button class="tabs__btn" type="button">Product Development</button>
+			        <button class="tabs__btn" type="button">HTD (Hire,Train and Deploy)</button>
+			    </nav>
 
-				    <div class="tabs__content">
-				        <div class="tabs__body active">
-				            <div class="row">
-				            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-				            		<img class="w-100" src="<?php echo base_url('assets/img/IT-Solutions_01.png');?>">
-				            	</div>
-				            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-							    	<div class="service_text">
-							    		Finding the right candidates for your organization can be a challenging task. At Fixity Tech, we use our extensive network and expertise to provide you with a personalized service that is tailored to meet the unique staffing needs of your organization. Our team of experts works closely with you and helps you find the right candidate to power your organizational structure.
-							    	</div>
-				            	</div>
-				            </div>
-				        </div>
-				        <div class="tabs__body">
-				        	<div class="row">
-				        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-				        			<img class="w-100" src="<?php echo base_url('assets/img/IT-Staffing_01.png');?>">
-				        		</div>
+			    <div class="tabs__content">
+			        <div class="tabs__body active">
+			            <div class="row">
+			            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			            		<img class="w-100" src="<?php echo base_url('assets/img/IT-Solutions_01.png');?>">
+			            	</div>
+			            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+						    	<div class="service_text">
+						    		Finding the right candidates for your organization can be a challenging task. At Fixity Tech, we use our extensive network and expertise to provide you with a personalized service that is tailored to meet the unique staffing needs of your organization. Our team of experts works closely with you and helps you find the right candidate to power your organizational structure.
+						    	</div>
+			            	</div>
+			            </div>
+			        </div>
+			        <div class="tabs__body">
+			        	<div class="row">
+			        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			        			<img class="w-100" src="<?php echo base_url('assets/img/IT-Staffing_01.png');?>">
+			        		</div>
 
-				        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-							    	<div class="service_text">
-							    		Our team of experienced &amp; certified professionals provides flexible and cost-effective solutions to increase the efficiency of your team. our range of IT services includes Oracle E-Business Suite and PeopleSoft Support &amp; maintenance, Hyperion support &amp; maintenance, Big data support &amp; maintenance, and Cloud migration &amp; integration. Be it a single project or ongoing support, we have the resources and expertise to help you achieve your business objectives.			
-							    	</div>
-				            	</div>
-				        	</div>
-				        </div>
-				        <div class="tabs__body">
-				        	<div class="row">
-				        		<div class="col-md-6 col-12">				        			
-				            		<img class="w-100" src="<?php echo base_url('assets/img/Product-development_01.png');?>">
-				        		</div>
+			        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+						    	<div class="service_text">
+						    		Our team of experienced &amp; certified professionals provides flexible and cost-effective solutions to increase the efficiency of your team. our range of IT services includes Oracle E-Business Suite and PeopleSoft Support &amp; maintenance, Hyperion support &amp; maintenance, Big data support &amp; maintenance, and Cloud migration &amp; integration. Be it a single project or ongoing support, we have the resources and expertise to help you achieve your business objectives.			
+						    	</div>
+			            	</div>
+			        	</div>
+			        </div>
+			        <div class="tabs__body">
+			        	<div class="row">
+			        		<div class="col-md-6 col-12">				        			
+			            		<img class="w-100" src="<?php echo base_url('assets/img/Product-development_01.png');?>">
+			        		</div>
 
-				        		<div class="col-md-6 col-12">
-							    	<div class="service_text">
-							    		We specialize in delivering high-quality software development services that meet your specific needs &amp; exceed your expectations. We understand that software development is a complex process that requires careful planning &amp; execution. That&#39;s why we take critical aspects like delivery schedule, the specified thought, and error-free development into consideration to deliver a solution that meets your unique needs.					    	
-							    	</div>
-				            	</div>
-				        	</div>
-				        </div>
-				        <div class="tabs__body">
-				        	<div class="row">
-				        		<div class="col-md-6 col-12">				        			
-				            		<img class="w-100" src="<?php echo base_url('assets/img/HTD_01.png');?>">
-				        		</div>
+			        		<div class="col-md-6 col-12">
+						    	<div class="service_text">
+						    		We specialize in delivering high-quality software development services that meet your specific needs &amp; exceed your expectations. We understand that software development is a complex process that requires careful planning &amp; execution. That&#39;s why we take critical aspects like delivery schedule, the specified thought, and error-free development into consideration to deliver a solution that meets your unique needs.					    	
+						    	</div>
+			            	</div>
+			        	</div>
+			        </div>
+			        <div class="tabs__body">
+			        	<div class="row">
+			        		<div class="col-md-6 col-12">				        			
+			            		<img class="w-100" src="<?php echo base_url('assets/img/HTD_01.png');?>">
+			        		</div>
 
-				        		<div class="col-md-6 col-12">
-							    	<div class="service_text">
-							    		At Fixity Tech, we not only help in identifying the right candidates but also equip them with the required skill sets as prescribed by you. Our team of experts will train the candidates and ensure that they are ready to take on the role as soon as they are deployed. This saves you time and ensures that the candidates are productive from day one. Choose us to help you hire the right talent.
-							    	</div>
-				            	</div>
-				        	</div>
-				        </div>
-				    </div>
-				</div>
+			        		<div class="col-md-6 col-12">
+						    	<div class="service_text">
+						    		At Fixity Tech, we not only help in identifying the right candidates but also equip them with the required skill sets as prescribed by you. Our team of experts will train the candidates and ensure that they are ready to take on the role as soon as they are deployed. This saves you time and ensures that the candidates are productive from day one. Choose us to help you hire the right talent.
+						    	</div>
+			            	</div>
+			        	</div>
+			        </div>
+			    </div>
 			</div>
 		</div>
-	<div>
+	</div>
+		
 
-		<section id="bannerHome" class="our_product">
-		  <div class="container-fluid">
-		  	<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000" >Our Products</div>
+	<section id="bannerHome" class="our_product">
+	  <div class="container-fluid">
+	  	<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000" >Our Products</div>
+	    <div class="row">
+	        <div class="col-12" id="homeBanner">
+              <div class="slider-banner">
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" >
+                                    		<div class="our_product_title">Qlikdeals</div>
+                                        Qlikdeals is your one-stop destination for finding the best deals on a wide range of products.											With Qlikdeals, you can compare prices of a variety of products from electronics to home goods,from a variety of retailers and find the best deals. With Qlikdeals, you can also filter your search
+										results by brand, price, and other criteria to help you find exactly what you&#39;re looking for.
+										Qlikdeals offers you a hassle-free shopping experience by bringing all the best deals together in
+										one place.
+                                    </div>
+                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/quildeal.png');?>">
+                                            <p class="number">01</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                    	<div class="our_product_title">Good Governance</div>           
+											We understand that good governance is essential for the well-being of any community and that is why we have created Good Governance. With Good Governance, you can report issues such	as corruption, lack of basic amenities, and other problems that affect you &amp; your community.
+											Once you have submitted your report, our team of experts will review it and appropriate action
+											will be taken to address the issue.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/ATS.png');?>">
+                                            <p class="number">02</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                    	<div class="our_product_title">Legacy</div>      
+                                        Legacy is an easy-to-use application that makes it simple for everyone to stay in touch. With Legacy, you can easily create a family tree, share photos and videos, and keep everyone up-to-date on important events and milestones. The application offers easy access for elder generations to stay connected with their younger generation and brings the entire family close.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/legacy.png');?>">
+                                            <p class="number">03</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                <!-- <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/goodgovernance.png');?>">
+                                            <p class="number">04</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/CRM.png');?>">
+                                            <p class="number">05</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/cboard.png');?>">
+                                            <p class="number">06</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div> -->
+              </div>
+	            
+	             <!--      Number Indicator        -->
+	            <span class="pagingInfo"></span>
+	             <!--      Progress Indicator        -->
+	            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+	              <span class="slider__label sr-only"></span>
+	            </div>
+	        </div>
+	    </div>
+	  </div>
+	</section>
+	<div class="our_partners">
+			<div class="container">
+				<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Our Partners</div>
+				<div class="desc" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
+					Our partnerships are key to delivering the best possible service to our clients. By combining our
+					expertise with theirs, we provide a wide range of services and solutions to our clients. Our
+					partnerships also allow us to offer a global reach and access to resources &amp; expertise from
+					around the world to our clients. At Fixity Tech, we are committed to building long-term
+					relationships with our partners and together achieve business goals.
+				</div>
 		    <div class="row">
-		        <div class="col-12" id="homeBanner">
-	              <div class="slider-banner">
-	                <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" >
-	                                    		<div class="our_product_title">Qlikdeals</div>
-	                                        Qlikdeals is your one-stop destination for finding the best deals on a wide range of products.											With Qlikdeals, you can compare prices of a variety of products from electronics to home goods,from a variety of retailers and find the best deals. With Qlikdeals, you can also filter your search
-											results by brand, price, and other criteria to help you find exactly what you&#39;re looking for.
-											Qlikdeals offers you a hassle-free shopping experience by bringing all the best deals together in
-											one place.
-	                                    </div>
-	                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/quildeal.png');?>">
-	                                            <p class="number">01</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500">
-	                                    	<div class="our_product_title">Good Governance</div>           
-												We understand that good governance is essential for the well-being of any community and that is why we have created Good Governance. With Good Governance, you can report issues such	as corruption, lack of basic amenities, and other problems that affect you &amp; your community.
-												Once you have submitted your report, our team of experts will review it and appropriate action
-												will be taken to address the issue.
-	                                    </div>
-	                                    <div class="col-md-6">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/ATS.png');?>">
-	                                            <p class="number">02</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     </div>
-	                 </div>
-	                <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500">
-	                                    	<div class="our_product_title">Legacy</div>      
-	                                        Legacy is an easy-to-use application that makes it simple for everyone to stay in touch. With Legacy, you can easily create a family tree, share photos and videos, and keep everyone up-to-date on important events and milestones. The application offers easy access for elder generations to stay connected with their younger generation and brings the entire family close.
-	                                    </div>
-	                                    <div class="col-md-6">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/legacy.png');?>">
-	                                            <p class="number">03</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     </div>
-	                 </div>
-	                <!-- <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500">
-	                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-	                                    </div>
-	                                    <div class="col-md-6">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/goodgovernance.png');?>">
-	                                            <p class="number">04</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     </div>
-	                </div>
-	                <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500">
-	                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-	                                    </div>
-	                                    <div class="col-md-6">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/CRM.png');?>">
-	                                            <p class="number">05</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     </div>
-	                 </div>
-	                <div class="item">
-	                    <div class="content">
-	                        <div class="second-layer">
-	                            <div class="title">
-	                                <div class="row">
-	                                    <div class="col-md-6 padd-5 fw-500">
-	                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-	                                    </div>
-	                                    <div class="col-md-6">
-	                                        <div>
-	                                            <img class="img_box" src="<?php echo base_url('assets/img/products/cboard.png');?>">
-	                                            <p class="number">06</p>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                     </div>
-	                </div> -->
-	              </div>
-		            
-		             <!--      Number Indicator        -->
-		            <span class="pagingInfo"></span>
-		             <!--      Progress Indicator        -->
-		            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-		              <span class="slider__label sr-only"></span>
-		            </div>
-		        </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
+		      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
+		      </div>
 		    </div>
 		  </div>
-		</section>
-		<div class="our_partners">
-				<div class="container">
-					<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Our Partners</div>
-					<div class="desc" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
-						Our partnerships are key to delivering the best possible service to our clients. By combining our
-						expertise with theirs, we provide a wide range of services and solutions to our clients. Our
-						partnerships also allow us to offer a global reach and access to resources &amp; expertise from
-						around the world to our clients. At Fixity Tech, we are committed to building long-term
-						relationships with our partners and together achieve business goals.
-					</div>
-			    <div class="row">
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="7">
-			      	<img class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg">
-			      </div>
-			    </div>
-			  </div>
-		</div>
 	</div>
 
 	<div class="our_career">
