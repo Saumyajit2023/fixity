@@ -58,7 +58,7 @@ $routes->get('/password_protector','Product::password_protector');
 $routes->get('/resource','Resources::resource');
 $routes->get('/awards','Resources::awards');
 $routes->get('/blog','Resources::blogs');
-$routes->get('/whitepapers','Resources::whitepapers');
+$routes->get('/whitepaper','Resources::whitepapers');
 
 /*
  * --------------------------------------------------------------------
