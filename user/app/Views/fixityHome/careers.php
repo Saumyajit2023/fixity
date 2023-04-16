@@ -58,30 +58,17 @@
 
 				<div class="col-md-6">
 					<div class="accordion">
+						<?php $i=1; foreach ($career as $value) {
+							?>
               <div class="box">
-                  <div class="label">1. Content Writing</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
+                  <div class="label"><?php echo $i.".  ". $value['title'];?></div>
+                  <div class="content"><?php echo $value['description'];?>
+                      
                   </div>
               </div>
-              <div class="box">
-                  <div class="label">2. Digital Marketing</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-              <div class="box">
-                  <div class="label">3. Graphic Designer</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-              <div class="box">
-                  <div class="label"> 4. UX Designer</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
+            <?php $i++; }?>
+              
+             
           </div>
 				</div>
 			</div>

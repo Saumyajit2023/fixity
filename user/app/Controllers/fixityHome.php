@@ -28,8 +28,8 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/careers';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
-       
-         return view('layout/content',$data);
+        $data['career']       = $this->homeModel->getCareerList();
+        return view('layout/content',$data);
     }
 
     public function about()
