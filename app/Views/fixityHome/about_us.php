@@ -1,8 +1,8 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
 
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
 	</div>
 
 	<section class="about-us">
@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="mission" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-						<img class="mission_img"  src="<?php echo base_url('user/assets/img/about/section_2/mission_icon.png');?>">
+						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/mission_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
 								 Mission
@@ -20,7 +20,7 @@
 					</div>
 
 					<div class="vision" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-						<img class="mission_img"  src="<?php echo base_url('user/assets/img/about/section_2/Vision_icon.png');?>">
+						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/Vision_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
 								 Vision
@@ -77,28 +77,28 @@
 				    <div class="tab-content" id="experienceTabContent">
 
 				      <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
-				        <img class="rest_img" src="<?php echo base_url('user/assets/img/about/section_3/Technical_icon.png');?>">
+				        <img class="rest_img" src="<?php echo base_url('assets/img/about/section_3/Technical_icon.png');?>">
 				        <label class="rest_label">
 				        	We offer a wide-ranging yet specialized spectrum of services to cover the diverse staffing needs of all our clients. 
 				        </label>
 				      </div>
 
 				      <div class="tab-pane fade text-left text-light" id="devs" role="tabpanel" aria-labelledby="profile-tab">
-				         <img class="rest_img" src="<?php echo base_url('user/assets/img/about/section_3/Visionary_icon.png');?>">
+				         <img class="rest_img" src="<?php echo base_url('assets/img/about/section_3/Visionary_icon.png');?>">
 				        <label class="rest_label">
 				            18 years of rich experience in the industry makes the foundation of our core management solid -strong. 
 				        </label>
 				      </div>
 
 				      <div class="tab-pane fade show  text-left text-light" id="snit2" role="tabpanel" aria-labelledby="home-tab2">
-				         <img class="rest_img" src="<?php echo base_url('user/assets/img/about/section_3/team_acquisition_icon.png');?>">
+				         <img class="rest_img" src="<?php echo base_url('assets/img/about/section_3/team_acquisition_icon.png');?>">
 				        <label class="rest_label">
 				        	We have a large and diverse team of 60+ talent partners to support and fulfill the staffing demands of our clients. Each team also has a dedicated account manager.
 				        </label>
 				      </div>
 
 				      <div class="tab-pane fade text-left text-light" id="devs2" role="tabpanel" aria-labelledby="profile-tab2">
-				        <img class="rest_img" src="<?php echo base_url('user/assets/img/about/section_3/fastest_icon.png');?>">
+				        <img class="rest_img" src="<?php echo base_url('assets/img/about/section_3/fastest_icon.png');?>">
 				        <label class="rest_label">
 				        	We assure our clients a 24-hour turnaround time without compromising the services we offer and the human talent we bring on board.
 				        </label>
@@ -113,7 +113,7 @@
 	<section class="team">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="team_img pad-10" src="<?php echo base_url('user/assets/img/about/section_4/people_images_map.png');?>">
+					<img class="team_img pad-10" src="<?php echo base_url('assets/img/about/section_4/people_images_map.png');?>">
 				</div>
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="team_text">
@@ -125,7 +125,7 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="pic">
-                                    <img src="<?php echo base_url('user/assets/img/about/ceo.png');?>" alt="">
+                                    <img src="<?php echo base_url('assets/img/about/ceo.png');?>" alt="">
                                 </div>
                             </div>
 

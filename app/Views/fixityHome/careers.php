@@ -1,13 +1,13 @@
 <div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/career/section_1/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/career/section_1/hero_image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/career/section_1/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/career/section_1/hero_image_mobile.jpg');?>">
 	</div>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -39,7 +39,7 @@
 
 			<div>
 				<img class="w-100" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
-				data-aos-duration="1000" src="<?php echo base_url('user/assets/img/career/section_3/image_collage.png');?>">
+				data-aos-duration="1000" src="<?php echo base_url('assets/img/career/section_3/image_collage.png');?>">
 			</div>
 		</div><br><br><br>
 	</section>
@@ -48,7 +48,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-6 col-lg-6">
-					<img class="mission_img"  src="<?php echo base_url('user/assets/img/career/section_4/icon.png');?>">
+					<img class="mission_img"  src="<?php echo base_url('assets/img/career/section_4/icon.png');?>">
 					<div class="join_us">
 						Join us to be part of our mission
 					</div>

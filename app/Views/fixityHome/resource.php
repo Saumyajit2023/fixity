@@ -1,6 +1,4 @@
-
-  <style>
-
+<style>
 	.owl-theme .owl-controls {
 	    margin-top: 10px;
 	    position: absolute;
@@ -19,8 +17,8 @@
 	}
   </style>
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/resource/hero/resource_hero.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/resource/hero/resource_hero.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/resource/hero/resource_hero.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/resource/hero/resource_hero.jpg');?>">
 	</div>
 	
 	<section class="award_sec_1" id="award">
@@ -32,7 +30,7 @@
 
 			<div class="row mg-lf award_padding_bottom">
 				<div class="col-12 col-sm-12 col-lg-6">
-					<img class="award_img" src="<?php echo base_url('user/assets/img/resource/awards/award_sample_1.png');?>">
+					<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.png');?>">
 
 					<div class="award_name_title">John Doe</div>
 					<div class="award_name_text">
@@ -45,7 +43,7 @@
 				<div class="col-12 col-sm-12 col-lg-6">
 					<div class="row award_overflow">
 						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('user/assets/img/resource/awards/award_sample_2.png');?>">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
 							<div class="award_name_title">John Doe</div>
@@ -58,7 +56,7 @@
 						</div>
 
 						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('user/assets/img/resource/awards/award_sample_1.png');?>">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
 							<div class="award_name_title">John Doe</div>
@@ -71,7 +69,7 @@
 						</div>
 
 						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('user/assets/img/resource/awards/award_sample_2.png');?>">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
 							<div class="award_name_title">John Doe</div>
@@ -97,14 +95,14 @@
 
 			<div class="row">
 				<div class="col-md-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/blogs/image_1_Blog sample.jpg');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/blogs/image_1_Blog sample.jpg');?>">
 					<div class="row">
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/calander_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/calander_icon.png');?>">
 							<span class="icon_text">20 Mar 2023</span>
 						</div>
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/comment_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/comment_icon.png');?>">
 							<span class="icon_text">Comment </span>
 						</div>
 					</div>
@@ -117,14 +115,14 @@
 				</div>
 
 				<div class="col-md-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/blogs/image_2_Blog sample.jpg');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/blogs/image_2_Blog sample.jpg');?>">
 					<div class="row">
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/calander_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/calander_icon.png');?>">
 							<span class="icon_text">20 Mar 2023</span>
 						</div>
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/comment_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/comment_icon.png');?>">
 							<span class="icon_text">Comment </span>
 						</div>
 					</div>
@@ -137,14 +135,14 @@
 				</div>
 
 				<div class="col-md-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/blogs/image_3_Blog sample.jpg');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/blogs/image_3_Blog sample.jpg');?>">
 					<div class="row">
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/calander_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/calander_icon.png');?>">
 							<span class="icon_text">20 Mar 2023</span>
 						</div>
 						<div class="col-md-6 col-6">
-							<img src="<?php echo base_url('user/assets/img/resource/blogs/comment_icon.png');?>">
+							<img src="<?php echo base_url('assets/img/resource/blogs/comment_icon.png');?>">
 							<span class="icon_text">Comment </span>
 						</div>
 					</div>
@@ -168,7 +166,7 @@
 			</div>
 			<div class="row mg-lf">
 				<div class="col-12 col-sm-12 col-lg-6">
-					<img class="whitepaper_img" src="<?php echo base_url('user/assets/img/resource/whitepaper/whitepaper_sample_image.png');?>">
+					<img class="whitepaper_img" src="<?php echo base_url('assets/img/resource/whitepaper/whitepaper_sample_image.png');?>">
 				</div>
 				<div class="col-12 col-sm-12 col-lg-6">
 					<div class="milestones_details">Lorem Ipsum is simply dummy</div>
@@ -181,7 +179,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/whitepaper/whitepaper_sample_image_1.png');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/whitepaper/whitepaper_sample_image_1.png');?>">
 					
 					<label class="award_name_text_2">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -192,7 +190,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/whitepaper/whitepaper_sample_image_2.png');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/whitepaper/whitepaper_sample_image_2.png');?>">
 					
 					<label class="award_name_text_2">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -203,7 +201,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="award_blog_img" src="<?php echo base_url('user/assets/img/resource/whitepaper/whitepaper_sample_image_3.png');?>">
+					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/whitepaper/whitepaper_sample_image_3.png');?>">
 					
 					<label class="award_name_text_2">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

@@ -1,13 +1,13 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
 	</div>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -41,7 +41,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 				<div class="col-md-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					Once people submit their report, it gets reviewed by our team of experts, and then the team comes up with the appropriate action to address the issue. The application also allows you to track the progress of your report and see how it is being handled by the concerned authorities. Want to make your community a better place to live? If yes, join us in our mission of ensuring good governance by registering with our application.ss
@@ -54,7 +54,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

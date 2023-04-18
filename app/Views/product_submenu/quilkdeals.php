@@ -1,13 +1,13 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
 	</div>
 
 	<section class="quickdeal_sec_1">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/quickdeal/section_2/image_1.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_1.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" id="second" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/quickdeal/section_2/image_2.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_2.png');?>">
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/quickdeal/section_2/image_3.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_3.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6 award_padding_bottom" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

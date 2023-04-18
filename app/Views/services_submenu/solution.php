@@ -1,6 +1,6 @@
 <div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
 	</div>
 	<section class="career_sec2">
 		<div class=" " data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -13,7 +13,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -25,7 +25,7 @@
 				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
+							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -40,7 +40,7 @@
 				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
+							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -55,7 +55,7 @@
 				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
+							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -70,7 +70,7 @@
 				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('user/assets/img/HTD/section_4/long_support.png');?>">
+							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -106,7 +106,7 @@
 					</p>
 				</div>
 				<div class="col-md-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 			</div>
 		</div>
@@ -115,7 +115,7 @@
 		<div class="container ">
 			<div class="row padd-10">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-8" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

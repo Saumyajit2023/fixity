@@ -1,12 +1,12 @@
 <div class="banner_div">
-		<img class="banner_img" src="<?php echo base_url('user/assets/img/career/section_1/hero_image.jpg');?>">
+		<img class="banner_img" src="<?php echo base_url('assets/img/career/section_1/hero_image.jpg');?>">
 	</div>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
-					<img class="w-100 section_space" src="<?php echo base_url('user/assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
 				<div class="col-md-6">
@@ -35,7 +35,7 @@
 			</div>
 
 			<div>
-				<img class="w-100" src="<?php echo base_url('user/assets/img/career/section_3/image_collage.png');?>">
+				<img class="w-100" src="<?php echo base_url('assets/img/career/section_3/image_collage.png');?>">
 			</div>
 		</div><br><br><br>
 	</section>

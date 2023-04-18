@@ -1,6 +1,6 @@
 <div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('user/assets/img/contact_us/hero/hero_web_banner.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('user/assets/img/contact_us/hero/hero_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/contact_us/hero/hero_web_banner.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/contact_us/hero/hero_mobile.jpg');?>">
 	</div>
 
 	<section class="address_bg">
@@ -13,11 +13,11 @@
 			<div class="row">
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
-					<img class="award_img" src="<?php echo base_url('user/assets/img/contact_us/section_2/headquarters.png');?>">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
 					<div class="address_title">Head Quarters:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/location_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							3333 Warrenville Road,
@@ -26,7 +26,7 @@
 					</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/phone_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							+1 (630) 270 2250
@@ -34,7 +34,7 @@
 					</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85 " src="<?php echo base_url('user/assets/img/contact_us/section_2/mail_icon.png');?>">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							info@fixitytech.com
@@ -43,11 +43,11 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
-					<img class="award_img" src="<?php echo base_url('user/assets/img/contact_us/section_2/offshore_office.png');?>">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
 					<div class="address_title">Offshore office:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/location_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							#1st floor, Legend Platinum, Jubilee Enclave, Kondapur Village, Serilingampally Mandal, Hitech City, Hyderabad, RR District - 500081.
@@ -55,7 +55,7 @@
 					</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/phone_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							+1 (630) 270 2250
@@ -63,7 +63,7 @@
 					</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85 " src="<?php echo base_url('user/assets/img/contact_us/section_2/mail_icon.png');?>">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							info@fixitytech.com
@@ -72,11 +72,11 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
-					<img class="award_img" src="<?php echo base_url('user/assets/img/contact_us/section_2/nearshore_office.png');?>">
+					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/nearshore_office.png');?>">
 					<div class="address_title">Head Quarters:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/location_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							Fixity Technologies S. de R.L. de C.V..
@@ -88,7 +88,7 @@
 
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85" src="<?php echo base_url('user/assets/img/contact_us/section_2/phone_icon.png');?>">
+							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							+1 (630) 270 2250
@@ -96,7 +96,7 @@
 					</div>
 					<div class="flex address_padding">
 						<div class="w-7">
-							<img class="w-85 " src="<?php echo base_url('user/assets/img/contact_us/section_2/mail_icon.png');?>">
+							<img class="w-85 " src="<?php echo base_url('assets/img/contact_us/section_2/mail_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
 							info@fixitytech.com
@@ -143,7 +143,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
-					<img class="mission_img"  src="<?php echo base_url('user/assets/img/contact_us/section_4/FAQ_Icon.png');?>">
+					<img class="mission_img"  src="<?php echo base_url('assets/img/contact_us/section_4/FAQ_Icon.png');?>">
 					<div class="join_us">
 						FAQ
 					</div>
