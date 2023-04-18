@@ -1,0 +1,11 @@
+ERROR - 2023-04-16 11:49:12 --> Error connecting to the database: Unknown database 'fixity'
+CRITICAL - 2023-04-16 11:49:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'fixity'
+#0 C:\xampp8\htdocs\fixity\user\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp8\htdocs\fixity\user\app\Models\fixityHome_Model.php(12): CodeIgniter\Database\BaseConnection->query('select * from h...')
+#2 C:\xampp8\htdocs\fixity\user\app\Controllers\fixityHome.php(18): App\Models\fixityHome_Model->getLogoList()
+#3 C:\xampp8\htdocs\fixity\user\system\CodeIgniter.php(828): App\Controllers\fixityHome->index()
+#4 C:\xampp8\htdocs\fixity\user\system\CodeIgniter.php(415): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\fixityHome))
+#5 C:\xampp8\htdocs\fixity\user\system\CodeIgniter.php(323): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\fixity\user\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
