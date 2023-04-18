@@ -5,7 +5,7 @@
                 <div class="col-md-12 col-lg-3">
                     <div class="">
                 <a href="">
-                    <img class="footer_logo" src="<?php echo base_url('user/assets/img/Footer_logo.png');?>">
+                    <img class="footer_logo" src="<?php echo base_url('assets/img/Footer_logo.png');?>">
                 </a>
               </div>
               <div>

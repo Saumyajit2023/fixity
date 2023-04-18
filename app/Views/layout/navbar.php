@@ -1,8 +1,8 @@
   <header>
     <div class="navbar">
       <div class="logo">
-        <a href="<?php echo base_url('user/index.php/home');?>">
-            <img class="logo_img" src="<?php echo base_url('user/assets/img/fixity_logo.png');?>">
+        <a href="<?php echo base_url('index.php/home');?>">
+            <img class="logo_img" src="<?php echo base_url('assets/img/fixity_logo.png');?>">
         </a>
       </div>
 
@@ -10,34 +10,34 @@
         <ul id="menu" style="text-align: center">            
             <li class="parent">
               Services<span class="expand"></span>
-              <!-- <?php echo base_url('user/index.php/services');?> -->
+              <!-- <?php echo base_url('index.php/services');?> -->
               <ul class="child">
-                <li><a href="<?php echo base_url('user/index.php/staffing');?>">IT Staffing</a></li>
-                <li><a href="<?php echo base_url('user/index.php/IT_Solution');?>">IT Solutions</a></li>
-                <li><a href="<?php echo base_url('user/index.php/product_development');?>">Product Development </a></li>
-                <li><a href="<?php echo base_url('user/index.php/htd');?>">HTD</a></li>
+                <li><a href="<?php echo base_url('index.php/staffing');?>">IT Staffing</a></li>
+                <li><a href="<?php echo base_url('index.php/IT_Solution');?>">IT Solutions</a></li>
+                <li><a href="<?php echo base_url('index.php/product_development');?>">Product Development </a></li>
+                <li><a href="<?php echo base_url('index.php/htd');?>">HTD</a></li>
               </ul>
             </li>
             
             <li class="parent">Product<span class="expand"></span>
-              <!-- <?php echo base_url('user/index.php/product');?> -->
+              <!-- <?php echo base_url('index.php/product');?> -->
               <ul class="child">
-                <li><a href="<?php echo base_url('user/index.php/quilkdeals');?>">Qilkdeals</a></li>
-                <li><a href="<?php echo base_url('user/index.php/goodgovernance');?>">Good Governance </a></li>
-                <li><a href="<?php echo base_url('user/index.php/legacy');?>">Legacy</a></li>
-                <li><a href="<?php echo base_url('user/index.php/AMTS');?>">Asset Management and Tracking System</a></li>
-                <li><a href="<?php echo base_url('user/index.php/password_protector');?>">Password Protector</a></li>
-                <li><a href="<?php echo base_url('user/index.php/pts');?>">Performance Tracking System </a></li>
-                <li><a href="<?php echo base_url('user/index.php/task_master');?>">Task Master</a></li>
-                <li><a href="<?php echo base_url('user/index.php/vts');?>">Vendor Tracking System</a></li>
+                <li><a href="<?php echo base_url('index.php/quilkdeals');?>">Qilkdeals</a></li>
+                <li><a href="<?php echo base_url('index.php/goodgovernance');?>">Good Governance </a></li>
+                <li><a href="<?php echo base_url('index.php/legacy');?>">Legacy</a></li>
+                <li><a href="<?php echo base_url('index.php/AMTS');?>">Asset Management and Tracking System</a></li>
+                <li><a href="<?php echo base_url('index.php/password_protector');?>">Password Protector</a></li>
+                <li><a href="<?php echo base_url('index.php/pts');?>">Performance Tracking System </a></li>
+                <li><a href="<?php echo base_url('index.php/task_master');?>">Task Master</a></li>
+                <li><a href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
               </ul>
             </li>
-            <li class="parent"><a href="<?php echo base_url('user/index.php/resource');?>">Resources</a>
+            <li class="parent"><a href="<?php echo base_url('index.php/resource');?>">Resources</a>
             </li>
-            <li class="parent"><a href="<?php echo base_url('user/index.php/about_us');?>">About Us </a>
+            <li class="parent"><a href="<?php echo base_url('index.php/about_us');?>">About Us </a>
             </li>
             
-            <li class="parent"><a href="<?php echo base_url('user/index.php/contact_us');?>">Contact Us</a>
+            <li class="parent"><a href="<?php echo base_url('index.php/contact_us');?>">Contact Us</a>
             </li>
             
             
@@ -55,19 +55,19 @@
             <div>
               <ul>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('user/index.php/partner');?>">Partners</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/partner');?>">Partners</a>
                 </li>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('user/index.php/career');?>">Careers</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/career');?>">Careers</a>
                 </li>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('user/index.php/blog');?>">Blog</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/blog');?>">Blog</a>
                 </li>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('user/index.php/resource#award');?>">Awards</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/resource#award');?>">Awards</a>
                 </li>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('user/index.php/whitepaper');?>">Whitepaper</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/whitepaper');?>">Whitepaper</a>
                 </li>
               </ul>
             </div>
@@ -86,44 +86,44 @@
         </div>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/home');?>">Home</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/home');?>">Home</a>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/about_us');?>">About</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/about_us');?>">About</a>
       </li>
       <li class="dropdown2 mob">
         <a href="#" data-toggle="dropdown2">Services <i class="icon-arrow"></i></a>
         <ul class="dropdown2-menu">
-          <li><a href="<?php echo base_url('user/index.php/staffing');?>" >IT Staffing</a></li>
-          <li><a href="<?php echo base_url('user/index.php/IT_Solution');?>" >IT Solutions</a></li>
-          <li><a href="<?php echo base_url('user/index.php/product_development');?>" >Product Development</a></li>
-          <li><a href="<?php echo base_url('user/index.php/htd');?>" >HTD</a></li>
+          <li><a href="<?php echo base_url('index.php/staffing');?>" >IT Staffing</a></li>
+          <li><a href="<?php echo base_url('index.php/IT_Solution');?>" >IT Solutions</a></li>
+          <li><a href="<?php echo base_url('index.php/product_development');?>" >Product Development</a></li>
+          <li><a href="<?php echo base_url('index.php/htd');?>" >HTD</a></li>
         </ul>
       </li>
       <li class="dropdown2 mob">
         <a href="#" data-toggle="dropdown2">Products <i class="icon-arrow"></i></a>
         <ul class="dropdown2-menu">
-          <li><a href="<?php echo base_url('user/index.php/quilkdeals');?>" >Qlikdeals</a></li>
-          <li><a href="<?php echo base_url('user/index.php/goodgovernance');?>" >Good Governance</a></li>
-          <li><a href="<?php echo base_url('user/index.php/legacy');?>" >Legacy</a></li>
-          <li><a href="<?php echo base_url('user/index.php/AMTS');?>">Asset Management and Tracking System</a></li>
-          <li><a href="<?php echo base_url('user/index.php/password_protector');?>">Password Protector</a></li>
-          <li><a href="<?php echo base_url('user/index.php/pts');?>">Performance Tracking System </a></li>
-          <li><a href="<?php echo base_url('user/index.php/task_master');?>">Task Master</a></li>
-          <li><a href="<?php echo base_url('user/index.php/vts');?>">Vendor Tracking System</a></li>
+          <li><a href="<?php echo base_url('index.php/quilkdeals');?>" >Qlikdeals</a></li>
+          <li><a href="<?php echo base_url('index.php/goodgovernance');?>" >Good Governance</a></li>
+          <li><a href="<?php echo base_url('index.php/legacy');?>" >Legacy</a></li>
+          <li><a href="<?php echo base_url('index.php/AMTS');?>">Asset Management and Tracking System</a></li>
+          <li><a href="<?php echo base_url('index.php/password_protector');?>">Password Protector</a></li>
+          <li><a href="<?php echo base_url('index.php/pts');?>">Performance Tracking System </a></li>
+          <li><a href="<?php echo base_url('index.php/task_master');?>">Task Master</a></li>
+          <li><a href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
         </ul>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/partner');?>">Partners</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/partner');?>">Partners</a>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/resource');?>">Resources</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/resource');?>">Resources</a>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/career');?>">Careers</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/career');?>">Careers</a>
       </li>
       <li class="dropdown2 mob">
-        <a  data-toggle="dropdown2" href="<?php echo base_url('user/index.php/contact_us');?>">Contact</a>
+        <a  data-toggle="dropdown2" href="<?php echo base_url('index.php/contact_us');?>">Contact</a>
       </li>
       
     </div>
