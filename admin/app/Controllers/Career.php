@@ -64,7 +64,7 @@ class Career extends BaseController
 
         }else{
 
-            unset($_POST['id']);
+            unset($_POST['cid']);
             $data = array(
                 'title'       => $_POST['title'],
                 'description' => $_POST['description'],

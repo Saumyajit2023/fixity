@@ -46,6 +46,7 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/partners';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('partners-js'=>'fixityHome/js/partners_js.php'));
+        $data['partnerLogo']= $this->homeModel->getPartnerLogoList();
         return view('layout/content',$data);
     }
 

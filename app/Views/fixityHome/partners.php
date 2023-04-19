@@ -51,18 +51,12 @@
 				<div class="slider">
 			        <div class="slide-viewer">
 			          <div class="slide-group">
-			            <div class="slide slide-1">
-			              <img src="<?php echo base_url('assets/img//partners/section_3/client_logo.jpg');?>" alt="partners_logo_one" />
-			            </div>
-			            <div class="slide slide-2">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>"  alt="partners_logo_two"  />
-			            </div>
-			            <div class="slide slide-3">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_three"  />
-			            </div>
-			            <div class="slide slide-4">
-			              <img src="<?php echo base_url('assets/img/partners/section_3/client_logo.jpg');?>" alt="partners_logo_four"  />
-			            </div>
+			          	<?php foreach ($partnerLogo as $value) {?>
+		      			<div class="slide slide-1">
+		      				<img height="100" width="10" src="<?php echo base_url('admin/writable/partnerLogo').'/'.$value['image_name'];?>" alt="partners_logo_one" />
+		      			</div>
+		  				<?php }  ?>
+			           
 			          </div>
 			        </div>
 			        <div class="slide-buttons"></div>
