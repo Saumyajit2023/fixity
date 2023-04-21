@@ -4,9 +4,10 @@
 	</div>
 
 	<section class="career_sec2">
+		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container " data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-			<div class="title-head">Overview</div>
-			<div class="desc_2">
+			<div class="title-head paddt-10">Overview</div>
+			<div class="desc">
 				As a global expert in IT Staffing, our focus lies in helping clients connect with highly trained, skilled, and talented personnel for their organizational success. We provide our clients access to a rich and skilled pool of talent that can meet their operational goals. We have an extensive database of IT professionals across seniority levels which allows us to meet the IT staffing requirements of our clients. Our IT Staffing service includes a range of advanced and tailored hiring solutions including.
 			</div>
 			<div>
@@ -14,13 +15,14 @@
 			</div>
 		</div>
 
-		<div class="container ">
-			<div class="row">
+		<div class="container">
+			<img class="left_dot" src="<?php echo base_url('assets/img/left_pattern.png');?>">
+			<div class="row paddt-10">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title ">Connecting you to the right talent</div><br>
 					<p class="quickdeal_title-head_2">
 						Consider us your tech-genie who can grant you the best hiring services in town with an unparalleled expertise.</p>
@@ -36,6 +38,7 @@
 	</section>
 
 	<section class="htd_sec3">
+		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container">
 			<div class="row padd-10">
 				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -50,20 +53,21 @@
 					</p>
 				</div>
 				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 			</div>
 		</div>
+		<img class="left_dot_blue" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	</section>
 
 	<section>
-		<div class="container ">
+		<div class="container">
 			<div class="row padd-10">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title ">One-stop solution for all your hiring needs</div><br>
 					<p class="quickdeal_title-head_2">
 						We have years of experience in bringing the best pool of candidates to your doorstep.</p>

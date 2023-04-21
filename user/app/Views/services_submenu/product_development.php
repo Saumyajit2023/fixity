@@ -1,23 +1,19 @@
-	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+<div class="banner_div">
+		<img class="banner_img" src="<?php echo base_url('assets/img/career/section_1/hero_image.jpg');?>">
 	</div>
 
 	<section class="career_sec3">
-		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
-		<div class=" " data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-			<div class="title-head">Overview</div>
-			<div class="desc">
+		<div class="container ">
+			<div class="title-head">Fixity Life</div>
+			<div class="desc_2">
 				Product Development services for future-focused innovation. We hold distinctive expertise in designing, developing, and delivering high-quality software development services to meet the requirements of our clients. We have decades of experience in offering cutting-edge product development services to leading brands from a range of industries. Our experienced development team has the technical expertise and deep cross-industry experience required to bring your product vision to market. We work closely with you and your partners to ensure that the service benchmarks promised are met. We understand the unique capabilities of each technology platform and can help you evaluate whether it is better to buy or build a solution to meet your product development needs.
 			</div>
-		</div>
-		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<div class="quickdeal_title section_space">Comprehensive</div><br>
 					<p class="quickdeal_title-head_2">
 						We capitalize on next-generation technologies to help you create a dynamic product
@@ -31,10 +27,9 @@
 	</section>
 
 	<section class="htd_sec3">
-		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 		<div class="container">
 			<div class="row padd-10">
-				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<div class="quickdeal_title ">Personalized</div><br>
 					<p class="quickdeal_title-head_2 white_color">
 						We deliver product development solutions tailored specially for your needs.</p>
@@ -42,7 +37,7 @@
 						We pride ourselves in providing a personalized service that is tailored to meet the unique needs of each of our clients. Equipped with one of the best software product development teams in the world, we help organizations capitalize on cutting-edge technologies and employ robust frameworks and efficient workflows to create a scalable product. Our greatest strength lies in our ability to adapt to our client's changing business requirements and deliver optimum quality at all costs.
 					</p>
 				</div>
-				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 			</div>
@@ -50,14 +45,13 @@
 	</section>
 
 	<section class="career_sec3">
-		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6">
 					<div class="quickdeal_title section_space">Innovative</div><br>
 					<p class="quickdeal_title-head_2">
 						We collaborate with you to transform your idea into a dynamic product that establishes new quality standards in the industry.

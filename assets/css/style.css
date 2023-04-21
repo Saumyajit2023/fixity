@@ -93,7 +93,7 @@ ul ul ul {
 header{
     position: absolute;
     padding: 0 2rem;
-    background-color: #ffffff9c;
+    background-color: #ffffff00;
     width: 100%;
     height: 90px;
 }
@@ -127,11 +127,12 @@ header{
 }
 
 .navbar .toggle_btn{
-    color:#01164f;
+    color:#fff;
     cursor:pointer;
     font-size:1.5rem;
     position: absolute;
     right: 0;
+    z-index: 1;
 }
 
 .action_btn{
@@ -156,7 +157,7 @@ header{
   position:absolute;
   background:#01164f;
   backdrop-filter:blur(15px);
-  top:90px;
+  top:0px;
   height:0px;
   width:100%;
   left: 0;
@@ -1098,11 +1099,12 @@ a:hover {
     margin-top: 20%;
 }
 .career_sec3{
-  background: url(../img/career/section_3/life_bg.jpg) no-repeat ; 
+  /*background: url(../img/career/section_3/life_bg.jpg) no-repeat ; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
+      background: #fff;
 }
 .black{
     color: #000;
@@ -1604,25 +1606,28 @@ button:focus {
         left: inherit;
 }
 .quickdeal_sec_1{
-  background: url(../img/quickdeal/section_2/row_1_bg.jpg) no-repeat ; 
+  /*background: url(../img/quickdeal/section_2/row_1_bg.jpg) no-repeat ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background: #fff;
 }
 .quickdeal_sec_2{
-  background: url(../img/quickdeal/section_2/row_2_bg.jpg) no-repeat ; 
+  /*background: url(../img/quickdeal/section_2/row_2_bg.jpg) no-repeat ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background: #f9f9f9;
 }
 .quickdeal_sec_3{
-  background: url(../img/quickdeal/section_2/row_3_bg.jpg) no-repeat ; 
+/*  background: url(../img/quickdeal/section_2/row_3_bg.jpg) no-repeat ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background: #fff;
 }
 .quickdeal_title{
     font-size: 42px;
@@ -1798,7 +1803,7 @@ button:focus {
     padding: 10%!important;
 }
 .menu_text{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #fff;
 }
@@ -1870,4 +1875,127 @@ button:focus {
     font-weight: 300;
     -webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12)!important;
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12)!important;
+}
+.right_dot{
+    position: absolute;
+    width: 10%;
+    margin-top: 2%;
+    right: 0%;
+}
+.left_dot{
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: 1%;
+    left: 0;
+}
+.right_dot_blue{
+    position: absolute;
+    width: 10%;
+    margin-top: -5%;
+    right: 0%;
+}
+.left_dot_blue{
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: -5%;
+    left: 0;
+}
+.left_dot_blue_pro_dev {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: -12%;
+    left: 0;
+}
+.left_dot_blue_go_ga {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: 37%;
+    left: 0;
+}
+.padding-lr-10{
+    padding: 0 10%;
+}
+.padding-lr-5{
+    padding: 0 5%;
+}
+.left_dot_legacy{
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    left: 0;
+    margin-top: -30%;
+}
+.left_dot_blue_vts{
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: 33%;
+    left: 0;
+}
+.menu_link{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu_link:hover{
+    color: #f5af1c;
+}
+.padding-5 {
+    padding: 5%!important;
+}
+.blogs_text_2 {
+    font-size: 21px;
+    color: #01164f;
+    font-weight: 600;
+    margin: 5% 0;
+}
+.blog_img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 24px 24px 24px 24px;
+}
+.blog_title{
+    font-size: 35px;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 5%;
+    color: #01164f;
+}
+.blog_comments{
+    background: #e5e5e5;
+    padding: 5%;
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #01164f;
+}
+.z-index_blog{
+    z-index: -1;
+}
+.blog_img_comment {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.blog_name_title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #f4af1b;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: right;
+    padding: 2%;
+}
+.padding_com{
+    padding: 4%;
 }

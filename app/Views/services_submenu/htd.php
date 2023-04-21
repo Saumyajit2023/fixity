@@ -5,7 +5,7 @@
 
 	<section class="white_bg">
 		<img class="sec_2_dot_dtd" src="<?php echo base_url('assets/img/HTD/section_2/dots_pattern.png');?>">
-		<div class="container ">
+		<div class="container">
 			<div class="title-head" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">Let's unravel our all-new HTD Model</div>
 			<div class="desc_2" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				In addition to skills like artificial intelligence, software implementation, cyber security, data science, automation & outstanding technical expertise, all IT enterprises demand soft skills as prerequisites.

@@ -1189,3 +1189,10 @@
     padding: 6% 10%;
 	}
 }
+@media (min-width: 1200px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+	    max-width: 90%;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	}
+}
