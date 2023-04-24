@@ -43,6 +43,8 @@ $routes->post('/imageUpload','Login::upload');
 $routes->get('/home','Home::index');
 $routes->post('/logo_upload','Home::uploadLogo');
 $routes->get('/career','Career::index');
+$routes->post('/partner_logo_upload','Partner::uploadLogo');
+
 
 
 

@@ -1,6 +1,6 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/quickdeal/hero/header.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/quickdeal/hero/mob_header.jpg');?>">
 	</div>
 
 	<section class="quickdeal_sec_1 padd-5">

@@ -542,12 +542,16 @@ ul.slick-dots li.slick-active {
 .padd-5{
     padding-top: 5%;
 }
+.padd-3{
+    padding-top: 3%;
+}
 .number{
     font-size: 50px;
     position: absolute;
     right: 13%;
-    bottom: 10%;
+    bottom: 0;
     font-weight: bold;
+    color: #ed951e;
 }
 /*Our Partner*/
 .our_product{
@@ -1193,7 +1197,7 @@ a:hover {
 }
 
 .career_sec5{
-  background: url(../img/career/section_5/CTA_BG.jpg) no-repeat ; 
+  background: url(../img/it_staffing/section_5/product_development.png) no-repeat ; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -1207,11 +1211,12 @@ a:hover {
 
 /*partners*/
 .partners_sec_1{
-  background: url(../img/partners/section_2/sec_2_bg.jpg) no-repeat ; 
+/*  background: url(../img/partners/section_2/sec_2_bg.jpg) no-repeat ; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
+      background: #fff;
 }
 
 .partners_img {
@@ -1232,11 +1237,12 @@ a:hover {
     font-size: 18px;
 }
 .partners_sec_3{
-  background: url(../img/partners/section_3/client_bg_new.jpg) no-repeat ; 
+/*  background: url(../img/partners/section_3/client_bg_new.jpg) no-repeat ; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
+      color: #f9f9f9;
 }
  /*****************  No JS ***************/
 #billboard {text-align: center;}
@@ -1302,11 +1308,12 @@ button:focus {
     outline: 0px auto -webkit-focus-ring-color;
 }
 .partners_sec_4{
-  background: url(../img/partners/section_4/sec_4_bg.jpg) no-repeat ; 
+/*  background: url(../img/partners/section_4/sec_4_bg.jpg) no-repeat ; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
+      background: #fff;
 }
 #news-slider{
     margin-top: 50px;
@@ -1533,6 +1540,9 @@ button:focus {
     padding: 4% 0;
 }
 .award_padding_bottom{
+    padding-bottom: 5%;
+}
+.padding_bottom-5{
     padding-bottom: 5%;
 }
 .award_sec_2{
@@ -1998,4 +2008,22 @@ button:focus {
 }
 .padding_com{
     padding: 4%;
+}
+.footer_ui > li > a{
+    color: #fff;
+}
+.img_sec{
+    width: 90%;
+    -webkit-box-shadow: 0px 10px 11px 0px #cfcdcfa8;
+    -moz-box-shadow: 0px 10px 11px 0px #cfcdcfa8;
+    box-shadow: 0px 10px 11px 0px #cfcdcfa8;
+}
+.w-50{
+    width: 50%;
+}
+.right_dot_partner {
+    position: absolute;
+    width: 10%;
+    margin-top: -5%;
+    right: 0%;
 }

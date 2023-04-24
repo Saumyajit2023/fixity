@@ -118,7 +118,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/ATS.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/goodgovernance.png');?>">
                                             <p class="number">02</p>
                                         </div>
                                     </div>
@@ -147,17 +147,18 @@
                         </div>
                      </div>
                  </div>
-                <!-- <div class="item">
+                <div class="item">
                     <div class="content">
                         <div class="second-layer">
                             <div class="title">
                                 <div class="row">
                                     <div class="col-md-6 padd-5 fw-500">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    	<div class="our_product_title">Password Protector</div>  
+                                        Fixity Password Protector streamlines employee password management and saves time. It is a centralized application for storing credentials and granting user access in accordance with set policies.
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/goodgovernance.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/pp.png');?>">
                                             <p class="number">04</p>
                                         </div>
                                     </div>
@@ -172,11 +173,13 @@
                             <div class="title">
                                 <div class="row">
                                     <div class="col-md-6 padd-5 fw-500">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        <div class="our_product_title">Asset Management and Tracking System</div>
+										The Fixity Asset Management and Tracking System provides you with complete asset information, including hardware specifications, software installed, scan history, asset ownership history, and asset states.
+
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/CRM.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/AMAT.png');?>">
                                             <p class="number">05</p>
                                         </div>
                                     </div>
@@ -191,11 +194,13 @@
                             <div class="title">
                                 <div class="row">
                                     <div class="col-md-6 padd-5 fw-500">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        <div class="our_product_title">Vendor Tracking System</div>
+										Fixity Vendor Tracking System helps to keep a detailed database of services, tools, and related information across departments and countries.
+
                                     </div>
                                     <div class="col-md-6">
                                         <div>
-                                            <img class="img_box" src="<?php echo base_url('assets/img/products/cboard.png');?>">
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/vts.png');?>">
                                             <p class="number">06</p>
                                         </div>
                                     </div>
@@ -203,7 +208,51 @@
                             </div>
                         </div>
                      </div>
-                </div> -->
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                        <div class="our_product_title">Performance Tracking System</div>
+										Fixity Performance Tracking System is an essential HR and Management tool for tracking and multidimensionally visualizing resource performance. 
+
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/pts.png');?>">
+                                            <p class="number">07</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="second-layer">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-md-6 padd-5 fw-500">
+                                        <div class="our_product_title">Task Master</div>
+										Fixity Task Master is integrated with the best task management features . In addition to all the basic task management features, it also includes advanced activity and reviews management features.
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <img class="img_box" src="<?php echo base_url('assets/img/products/tm.png');?>">
+                                            <p class="number">08</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div> 
+
               </div>
 	            
 	             <!--      Number Indicator        -->

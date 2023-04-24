@@ -1,6 +1,6 @@
-<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+	<div class="banner_div">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/it_solutions/hero/header.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/it_solutions/hero/mob_header.png');?>">
 	</div>
 	<section class="career_sec2">
 		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
@@ -14,7 +14,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_2/we_support.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -23,10 +23,10 @@
 						Strategy architecture to its implementation, we cover all aspects to offer comprehensive support and help our clients achieve IT success.
 				</div>
 
-				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/oracle_e-Business.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -38,10 +38,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/big_data.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -53,10 +53,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/hyperion_support.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -68,10 +68,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
-							<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/limited_upport.png');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8">
 							<div class="delpoy_text_yellow">
@@ -107,7 +107,7 @@
 					</p>
 				</div>
 				<div class="col-md-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_3/start_your.jpg');?>">
 				</div>
 			</div>
 		</div>
@@ -117,10 +117,10 @@
 			<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 			<div class="row padd-10">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_4/discover_the.jpg');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title ">Discover the true growth potential of your business with our expert technical assistance</div><br>
 					<p class="quickdeal_title-head_2">
 						We aim to enable our clients to achieve their business goals with state-of-the-art technological assistance.</p>

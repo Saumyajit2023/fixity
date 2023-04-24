@@ -1,6 +1,6 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/product_development/hero/header.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/product_development/hero/mob_header.png');?>">
 	</div>
 
 	<section class="career_sec3">
@@ -12,13 +12,13 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+			<div class="row padding_bottom-5">
+				<div class="col-12 col-sm-12 col-lg-6 " data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+					<img class="img_sec " src="<?php echo base_url('assets/img/product_development/section_2/comprehensive.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Comprehensive</div><br>
+					<div class="quickdeal_title ">Comprehensive</div><br>
 					<p class="quickdeal_title-head_2">
 						We capitalize on next-generation technologies to help you create a dynamic product
 					</p>
@@ -43,18 +43,18 @@
 					</p>
 				</div>
 				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 " src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="img_sec" src="<?php echo base_url('assets/img/product_development/section_3/personalized.png');?>">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="career_sec3">
+	<section class="career_sec3 padding_bottom-5">
 		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="img_sec section_space" src="<?php echo base_url('assets/img/product_development/section_4/innovative.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

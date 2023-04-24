@@ -1,6 +1,6 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/HTD/hero/header.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/HTD/hero/mob_header.jpg');?>">
 	</div>
 
 	<section class="white_bg">
@@ -66,7 +66,7 @@
 
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/limited_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/limited_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract Staffing for <br>limited support
@@ -77,7 +77,7 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract to hire staffing for<br> specific support
@@ -88,7 +88,7 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Permanent staffing for <br>long-term support

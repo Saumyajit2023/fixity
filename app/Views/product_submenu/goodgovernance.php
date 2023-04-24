@@ -1,16 +1,16 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/good_governance/hero/header_g.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/good_governance/hero/mob_header.png');?>">
 	</div>
 
 	<section class="career_sec2">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/good_governance/section_2/good_governance.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space padding-lr-10">Good Governance aims to ensure the well-being of a community</div><br>
 					<p class="quickdeal_title-head_2 padding-lr-10">
 						Good governance aims toward the betterment of people, and this can not take place without the government being accountable to the people.</p>				
@@ -32,7 +32,7 @@
 	<section class="quickdeal_sec_2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-7" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Good Governance allows citizens to bring attention to community concerns</div><br>
 					<p class="quickdeal_title-head_2">
 						Our application ensures citizens can voice their own opinions in legitimate ways.
@@ -43,7 +43,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/good_governance/section_3/good_governance.png');?>">
 				</div>
 				<div class="col-md-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					Once people submit their report, it gets reviewed by our team of experts, and then the team comes up with the appropriate action to address the issue. The application also allows you to track the progress of your report and see how it is being handled by the concerned authorities. Want to make your community a better place to live? If yes, join us in our mission of ensuring good governance by registering with our application.ss
@@ -57,7 +57,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/good_governance/section_4/good_governance.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

@@ -18,6 +18,12 @@ class fixityHome_Model extends Model
        $query = $this->db->query('select * from career where is_deleted=0 and is_active=1');
        return  $query->getResultArray();
     }
+
+    public function getPartnerLogoList()
+    {
+       $query = $this->db->query('select * from partner_page where is_active=1');
+       return  $query->getResultArray();
+    }
   
 
 }
