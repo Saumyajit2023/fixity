@@ -787,6 +787,9 @@ ul.slick-dots li.slick-active {
 .padd-0{
     padding: 0 0 0 7%;
 }
+.pad-0{
+    padding: 0;
+}
 .img_res{
     width: 100%;
     margin-top: 25%;
@@ -890,8 +893,10 @@ ul.slick-dots li.slick-active {
       background-size: cover;
 }
 .team_img{
-    width: 100%;
-    margin: 10%;
+        width: 80%;
+    margin-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .team_text{
     font-size: 35px;
@@ -1599,11 +1604,12 @@ button:focus {
     font-weight: 400;
 }
 .whitepaper{
-  background: url(../img/resource/whitepaper/whitepaper_bg.jpg) no-repeat ; 
+/*  background: url(../img/resource/whitepaper/whitepaper_bg.jpg) no-repeat ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background: #fff;
 }
 .resource_contact_text{
     text-align: left;
@@ -1775,13 +1781,14 @@ button:focus {
     padding-bottom: 5%;
 }
 .delpoy_text_yellow{
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 700;
     color: #f4af1b;
     text-transform: capitalize;
     margin: 0;
     text-align: left;
-    padding: 3% 0;
+    padding: 1% 0;
+
 }
 .htd_sec5{
     background: url(../img/HTD/section_5/revolutionary_BG.jpg) no-repeat center center; 
@@ -1838,7 +1845,7 @@ button:focus {
 .it_sol_cta {
     text-align: center;
     font-size: 40px;
-    padding: 6% 7%;
+    padding: 6% 6%;
     color: #000;
     padding-bottom: 2%;
 }
@@ -1857,7 +1864,7 @@ button:focus {
 .goodgovernance_cta {
     text-align: center;
     font-size: 40px;
-    padding: 6% 15%;
+    padding: 6% 10%;
     color: #000;    
     padding-bottom: 2%;
 }
@@ -2026,4 +2033,59 @@ button:focus {
     width: 10%;
     margin-top: -5%;
     right: 0%;
+}
+.home_dot_blue {
+    position: absolute;
+    width: 10%;
+    margin-top: 2%;
+    right: 0%;
+}
+.left_dot_blue_home {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: 5%;
+    left: 0;
+}
+.left_dot_blue_about {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: -8%;
+    left: 0;
+}
+.about_dot_blue {
+    position: absolute;
+    width: 10%;
+    margin-top: -5%;
+    right: 0%;
+}
+.award_img_2 {
+    width: 100%;
+    padding: 0 5%;
+}
+.left_dot_blue_blgo {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: -3%;
+    left: 0;
+}
+.blgo_dot_blue {
+    position: absolute;
+    width: 10%;
+    margin-top: 4%;
+    right: 0%;
+}
+.text_it{
+        font-size: 26px;
+    font-weight: 700;
+    padding-top: 4%;
+}
+.left_dot_blue_task_master {
+    position: absolute;
+    width: 8%;
+    z-index: 1;
+    margin-top: 35%;
+    left: 0;
 }

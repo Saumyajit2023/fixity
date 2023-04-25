@@ -22,7 +22,9 @@
 					<p class="quickdeal_title-head_2">
 						Strategy architecture to its implementation, we cover all aspects to offer comprehensive support and help our clients achieve IT success.
 				</div>
-
+				<div class="col-md-12 text_it">
+					Our range of services includes:
+				</div>
 				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
@@ -120,15 +122,15 @@
 					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_4/discover_the.jpg');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title ">Discover the true growth potential of your business with our expert technical assistance</div><br>
 					<p class="quickdeal_title-head_2">
 						We aim to enable our clients to achieve their business goals with state-of-the-art technological assistance.</p>
-					<p class="para_about">
-						At Fixity, we also aim to deliver modernized support services to our clients and strive to exceed their expectations. We utilize best practices and industry standards to ensure that your systems are running at optimal performance and are always up to date with the latest security patches and features. Our capabilities are complemented by our flexible engagement models and customized solutions that meet the specific requirements of the client.
-					</p>
+					
 				</div>
-				<div class="col-12 col-sm-12 col-lg-12" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">					
+				<div class="col-12 col-sm-12 col-lg-12 padd-5" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">	   <p class="para_about">
+						At Fixity, we also aim to deliver modernized support services to our clients and strive to exceed their expectations. We utilize best practices and industry standards to ensure that your systems are running at optimal performance and are always up to date with the latest security patches and features. Our capabilities are complemented by our flexible engagement models and customized solutions that meet the specific requirements of the client.
+					</p>			
 					<p class="para_about">
 						Whether you need assistance with a single project or ongoing support, we have the resources and expertise to help you yield positive results and achieve your business objectives.
 					</p>
@@ -146,7 +148,7 @@
 		</div>
 		
 			<div class="it_sol_cta_2">
-				Our team of experienced IT professionals will help you achieve all your business goals. Reach out to us today to experience the Fixity magic!<br><br>
+				In today's ever-so-rapidly transforming business environment, staying ahead of the competition is very crucial. In such a cut-throat environment optimizing your Oracle E-Business Suite, PeopleSoft, Hyperion, and other big data platforms come as a necessity. To fulfill this necessity, and drive your business forward, reach out to us!<br><br>
 				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
 			</div>
 	</section>

@@ -90,6 +90,9 @@
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('career');?>">Careers</a>
                 </li>
                 <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('resource');?>">Resources</a>
+                </li>
+                <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('blog');?>">Blog</a>
                 </li>
                 <li class="dropdown2">

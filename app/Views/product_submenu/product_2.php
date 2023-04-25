@@ -4,6 +4,7 @@
 	</div>
 
 	<section class="career_sec2">
+		<img class="left_dot_blue_task_master" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -32,11 +33,11 @@
 				</div>
 			</div>
 		</div>
-		<img class="left_dot_blue_go_ga" src="<?php echo base_url('assets/img/left_pattern.png');?>">
+		
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container ">
+		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Integrated with the best task management features</div><br>
@@ -72,7 +73,7 @@
 		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
-	<section class="career_sec2">
+	<section class="career_sec2 pd_b_5">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -97,8 +98,8 @@
 	<section class="career_sec5">
 		<div class="container">
 			<div class="task_master_cta">
-				<strong>Create better documentation for your team and make it easy</strong>
-				<br> for the team members to collaborate and accomplish tasks easily and on time with the use of Task Master.
+				<strong>Create better documentation <br>for your team and make it easy</strong>
+				<br> for the team members to collaborate<br> and accomplish tasks easily and <br>on time with the use of Task Master.
 			</div>
 		</div>
 		

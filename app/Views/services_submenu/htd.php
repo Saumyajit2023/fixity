@@ -33,8 +33,11 @@
 		</div>
 	</section>
 
-	<section class="htd_sec3" >
-		<div class="quickdeal_title htd_text">Deploy</div>
+	<div class="col-md-12 pad-0 mob">
+		<img class="w-100" src="<?php echo base_url('assets/img/HTD/section_3/train_mobile_view.jpg');?>">
+	</div>
+	<section class="htd_sec3 desk">
+		<div class="quickdeal_title htd_text">Train</div>
 		<div class="htd_white_text">
 			We have a decade of training expertise
 		</div>
@@ -56,7 +59,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Deploy</div><br>
+					<div class="quickdeal_title section_space">Train</div><br>
 					<p class="quickdeal_title-head_2">
 						The final decision is collaborative and the client has the final say</p>
 					<p class="para_about">

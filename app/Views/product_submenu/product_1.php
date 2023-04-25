@@ -1,9 +1,9 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/pp/hero/header.png');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/pp/hero/mob_header.png');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/pts/hero/header.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/pts/hero/mob_header.png');?>">
 	</div>
 
-	<section class="pts_sec2">
+	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -11,12 +11,12 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Reduce user friction without compromising security</div><br>
+					<div class="quickdeal_title section_space">Customize your team's workflows</div><br>
 					<p class="quickdeal_title-head_2">
-						Ensure employees practice excellent password hygiene with Password Protector
+						Move fast, stay aligned, and work together as a team
 					</p>
 					<p class="para_about">
-						Good business password hygiene and practices are necessary to avoid data breaches. However, traditional password management practices can be tiring for employees and Admins. Fixity Password Protector empowers your workforce by reducing friction for users and IT teams. It also saves time by simplifying employee password management. It is a centralized credential manager application that securely stores different service credentials and provides user access by following policy rules.
+						Fixity Performance Tracking System is a must-have HR and Management tool to track and visualize the performance of resources in a multi-dimensional way. The application is equipped with an intuitive UI that allows the interactive visualization of reports in tables and charts. It presents various KPIs by analyzing data associated with points of interest. It also helps in driving the organization's performance and engaging employees to do their best work.
 					</p>
 				</div>
 			</div>
@@ -25,15 +25,15 @@
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container ">
+		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Password protection made easy!</div><br>
+					<div class="quickdeal_title section_space">Drive performance when you need it the most</div><br>
 					<p class="quickdeal_title-head_2">
-						Put your business to protect your sensitive data with Password Protector
+						Identify top performers and equip everyone with the right equipment to help them succeed.
 					</p>
 					<p class="para_about">
-						Password Protector is a useful application that allows users to specify rules on various categories like Role, Context, Location, Activity, and Time. It also streamlines access management of credentials with necessary authorization and logs and analyzes activities as well.
+						This Performace Tracking System integrates various services through REST API and provides API to external applications for specialized reporting dashboards. It also offers the provision to include and customize various attributes associated with different types of resources/services. It is a holistic platform that connects employee performance, feedback, and career growth. Build and elevate the culture of continuous growth and development with this holistic application.
 					</p>
 				</div>
 
@@ -46,7 +46,7 @@
 		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
-	<section class="pts_sec2">
+	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -54,12 +54,12 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Manage the entire company's passwords from one place.</div><br>
+					<div class="quickdeal_title section_space">Embrace continuous performance management</div><br>
 					<p class="quickdeal_title-head_2">
-						Password Protector makes it easy for the organization to manage all passwords centrally.
+						When your people transform, your business management does too.
 					</p>	
 					<p class="para_about">
-						Password Protector protects, and secures the privacy of necessary documents without allowing open access in a shared environment. This application is also integrated with Email, SMS, WhatsApp, and Telegram Systems to deliver OTP. It protects every point of your business by giving your IT team complete control. It maintains security while ensuring safety against breaches with dark web monitoring.
+						With Fixity Performance Tracking System, on-demand and timely reports can be generated without processing raw data manually with excel sheets. It is also equipped with a centralized dashboard that supports easy navigation from one KPI to another KPI, and one department and/or region to another department and/or region. It gives managers the tools they need to understand how their team is performing in real time and become better coaches.
 					</p>			
 				</div>
 			</div>
@@ -69,13 +69,13 @@
 	<section class="career_sec5">
 		<div class="container">
 			<div class="password_protector_cta">
-				<strong>Simplify password management for your employees & protect your business operations</strong>
-				<br>from the dark web and security breaches with Password Protector
+				<strong>Explore Fixity Performance <br> Tracking System today!</strong>
+				<br>Effortlessly track your employees'<br>  accomplishments and improvement areas <br> with Fixity Performance Tracking System.
 			</div>
 		</div>
 		
 			<div class="pd_cta_2">
-				Start using the application today!<br><br>
+				Request a demo today!<br><br>
 				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
 			</div>
 	</section>

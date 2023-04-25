@@ -34,7 +34,7 @@
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container ">
+		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Keep your family updated with your life events through Legacy</div><br>
@@ -56,7 +56,7 @@
 		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
-	<section class="quickdeal_sec_2">
+	<section class="career_sec2 ">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">

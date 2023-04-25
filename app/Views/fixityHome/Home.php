@@ -77,6 +77,7 @@
 		
 
 	<section id="bannerHome" class="our_product">
+	<img class="left_dot_blue_home " src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	  <div class="container-fluid">
 	  	<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000" >Our Products</div>
 	    <div class="row">
@@ -266,6 +267,7 @@
 	  </div>
 	</section>
 	<div class="our_partners">
+		<img class="home_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 			<div class="container">
 				<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Our Partners</div>
 				<div class="desc" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">

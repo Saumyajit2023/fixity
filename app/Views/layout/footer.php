@@ -10,7 +10,7 @@
               </div>
               <div>
                 <p class="footer_address">
-                    contact@yourwebsite.com<br>
+                    info@fixitytech.com<br>
                             99 S.t Jomblo Park Pekanbaru 28292.<br>
                             Indonesia.
                 </p>

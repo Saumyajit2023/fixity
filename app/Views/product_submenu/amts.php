@@ -25,7 +25,7 @@
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container ">
+		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Manage assets and ensure compliance</div><br>
@@ -67,8 +67,8 @@
 	<section class="career_sec5">
 		<div class="container">
 			<div class="goodgovernance_cta">
-				<strong>Gain visibility and control over your IT assets and costs</strong><br>			
-				with the Fixity Asset management and Tracking system.	
+				<strong>Gain visibility and control <br>over your IT assets and costs</strong><br>			
+				with the Fixity Asset management <br> and Tracking system.	
 			</div>
 		</div>
 		
