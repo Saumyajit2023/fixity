@@ -1,11 +1,11 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/HTD/hero/header.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/HTD/hero/mob_header.jpg');?>">
 	</div>
 
 	<section class="white_bg">
 		<img class="sec_2_dot_dtd" src="<?php echo base_url('assets/img/HTD/section_2/dots_pattern.png');?>">
-		<div class="container ">
+		<div class="container">
 			<div class="title-head" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">Let's unravel our all-new HTD Model</div>
 			<div class="desc_2" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				In addition to skills like artificial intelligence, software implementation, cyber security, data science, automation & outstanding technical expertise, all IT enterprises demand soft skills as prerequisites.
@@ -33,8 +33,11 @@
 		</div>
 	</section>
 
-	<section class="htd_sec3" >
-		<div class="quickdeal_title htd_text">Deploy</div>
+	<div class="col-md-12 pad-0 mob">
+		<img class="w-100" src="<?php echo base_url('assets/img/HTD/section_3/train_mobile_view.jpg');?>">
+	</div>
+	<section class="htd_sec3 desk">
+		<div class="quickdeal_title htd_text">Train</div>
 		<div class="htd_white_text">
 			We have a decade of training expertise
 		</div>
@@ -56,7 +59,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Deploy</div><br>
+					<div class="quickdeal_title section_space">Train</div><br>
 					<p class="quickdeal_title-head_2">
 						The final decision is collaborative and the client has the final say</p>
 					<p class="para_about">
@@ -66,7 +69,7 @@
 
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/limited_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/limited_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract Staffing for <br>limited support
@@ -77,7 +80,7 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Contract to hire staffing for<br> specific support
@@ -88,7 +91,7 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div>
-						<img class="" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
+						<img class="w-50" src="<?php echo base_url('assets/img/HTD/section_4/long_support.png');?>">
 					</div>
 					<div class="delpoy_text_yellow">
 						Permanent staffing for <br>long-term support

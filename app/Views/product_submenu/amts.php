@@ -1,13 +1,13 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/amts/hero/header.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/amts/hero/mob_header.png');?>">
 	</div>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_2/amts.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -21,10 +21,11 @@
 				</div>
 			</div>
 		</div>
+		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	</section>
 
-	<section class="career_sec2">
-		<div class="container ">
+	<section class="quickdeal_sec_2">
+		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="quickdeal_title section_space">Manage assets and ensure compliance</div><br>
@@ -36,17 +37,18 @@
 					</p>
 				</div>
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_3/amts.png');?>">
 				</div>
 			</div>
 		</div>
+		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
+					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_4/amts.png');?>">
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
@@ -65,8 +67,8 @@
 	<section class="career_sec5">
 		<div class="container">
 			<div class="goodgovernance_cta">
-				<strong>Gain visibility and control over your IT assets and costs</strong><br>			
-				with the Fixity Asset management and Tracking system.	
+				<strong>Gain visibility and control <br>over your IT assets and costs</strong><br>			
+				with the Fixity Asset management <br> and Tracking system.	
 			</div>
 		</div>
 		

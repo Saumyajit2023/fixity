@@ -2,15 +2,14 @@
     <div class="navbar">
       <div class="logo">
         <a href="<?php echo base_url('index.php/home');?>">
-            <img class="logo_img" src="<?php echo base_url('assets/img/fixity_logo.png');?>">
+            <img class="logo_img" src="<?php echo base_url('assets/img/Footer_logo.png');?>">
         </a>
       </div>
 
       <div class="menu_box desk">
-        <ul id="menu" style="text-align: center">            
+        <!-- <ul id="menu" style="text-align: center">            
             <li class="parent">
               Services<span class="expand"></span>
-              <!-- <?php echo base_url('index.php/services');?> -->
               <ul class="child">
                 <li><a href="<?php echo site_url('staffing');?>">IT Staffing</a></li>
                 <li><a href="<?php echo site_url('IT_Solution');?>">IT Solutions</a></li>
@@ -20,7 +19,6 @@
             </li>
             
             <li class="parent">Product<span class="expand"></span>
-              <!-- <?php echo base_url('index.php/product');?> -->
               <ul class="child">
                 <li><a href="<?php echo site_url('quilkdeals');?>">Qilkdeals</a></li>
                 <li><a href="<?php echo site_url('goodgovernance');?>">Good Governance </a></li>
@@ -41,24 +39,58 @@
             </li>
             
             
-          </ul>
+          </ul> -->
       </div>
 
       <div class="toggle_btn">
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
-    <div class="dropdown_menu">
-      <li class="desk padding-10">
+    <div class="dropdown_menu ">
+      <li class="desk mg-t-5 padding-5">
         <div class="row">
-          <div class="col-md-6 menu_border_right">
+          <div class="col-md-5 menu_border_right">
             <div>
               <ul>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('partner');?>">Partners</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="#">Services</a>
+                  <ul class="">
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/staffing');?>">IT Staffing</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/IT_Solution');?>">IT Solutions</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/product_development');?>">Product Development </a></li>
+                    <li ><a class="menu_link" href="<?php echo base_url('index.php/htd');?>">HTD</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="#">Product</a>
+                  <ul class="">
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/quilkdeals');?>">Qilkdeals</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/goodgovernance');?>">Good Governance </a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/legacy');?>">Legacy</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/AMTS');?>">Asset Management and Tracking System</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/password_protector');?>">Password Protector</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/pts');?>">Performance Tracking System </a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/task_master');?>">Task Master</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 menu_border_right">
+            <div>
+              <ul>
+                <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/about_us');?>">About Us </a>
+                </li>
+                <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/partner');?>">Partners</a>
                 </li>
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('career');?>">Careers</a>
+                </li>
+                <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('resource');?>">Resources</a>
                 </li>
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('blog');?>">Blog</a>
@@ -69,10 +101,13 @@
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('whitepaper');?>">Whitepaper</a>
                 </li>
+                <li class="dropdown2">
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/contact_us');?>">Contact Us</a>
+                </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
               <div class="menu_text_right menu_border_bottom">
                 Fixity helps businesses across the globe to achieve their growth targets and objectives. We offer a specialized spectrum of services across various verticals & functions. We hold a remarkable experience of serving several renowned Fortune 500 clients among many other noteworthy names.
               </div>

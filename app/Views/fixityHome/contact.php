@@ -183,7 +183,11 @@
 			</div>
 		</div>
 	</section>
-
+	<div class="contact_box">
+		<div class="about_contact">
+			<label class="about_label">SAY HELLO</label> &nbsp To <button class="about_btn">INFO@FIXITYTECH.COM</button>
+		</div>
+	</div>
 	<script type="text/javascript">
       let label = document.querySelectorAll(".box")
 

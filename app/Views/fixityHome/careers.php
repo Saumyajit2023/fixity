@@ -42,6 +42,7 @@
 				data-aos-duration="1000" src="<?php echo base_url('assets/img/career/section_3/image_collage.png');?>">
 			</div>
 		</div><br><br><br>
+		<img class="about_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
 	<section class="career_sec4">

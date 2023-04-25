@@ -27,17 +27,18 @@
 
 
 	<section class="partners_sec_1">
-			<div class="row mg-lf">
-				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="partners_img" src="<?php echo base_url('assets/img/partners/section_2/why_fixity.png');?>">
-				</div>
-				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="about_title-head section_space partners_text">Why do partners choose Fixity Tech?</div>
-					<div class="para_about_partners pad-lr-10">
-						At Fixity Tech, we take pride in our partner-centric culture. We are committed to creating strong and loyal alliances with our partners and helping them grow with us. When you partner with us you get access to our services and technologies to get the right talent in your team and scale your business to scale new growth opportunities.
-					</div>
+		<div class="row mg-lf">
+			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<img class="partners_img" src="<?php echo base_url('assets/img/partners/section_2/why_fixity.png');?>">
+			</div>
+			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="about_title-head section_space partners_text">Why do partners choose Fixity Tech?</div>
+				<div class="para_about_partners pad-lr-10">
+					At Fixity Tech, we take pride in our partner-centric culture. We are committed to creating strong and loyal alliances with our partners and helping them grow with us. When you partner with us you get access to our services and technologies to get the right talent in your team and scale your business to scale new growth opportunities.
 				</div>
 			</div>
+		</div>
+		<img class="right_dot_partner" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
 	<section class="partners_sec_3">
@@ -50,19 +51,21 @@
 			<div>
 				<div class="slider">
 			        <div class="slide-viewer">
-			          <div class="slide-group">
-			          	<?php foreach ($partnerLogo as $value) {?>
-		      			<div class="slide slide-1">
-		      				<img height="100" width="10" src="<?php echo base_url('admin/writable/partnerLogo').'/'.$value['image_name'];?>" alt="partners_logo_one" />
-		      			</div>
-		  				<?php }  ?>
-			           
+			          <div class="row slide-group">
+				          	<?php foreach ($partnerLogo as $value) {?>
+
+			      			<div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+
+			      				<img height="100" width="10" src="<?php echo base_url('admin/writable/partnerLogo').'/'.$value['image_name'];?>" alt="partners_logo_one" />
+			      			</div>
+			  				<?php } ?>
 			          </div>
 			        </div>
 			        <div class="slide-buttons"></div>
 			      </div>
 			</div>
 		</div><br><br><br>
+		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	</section>
 
 	<section class="partners_sec_4">

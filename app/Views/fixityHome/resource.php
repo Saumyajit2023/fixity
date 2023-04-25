@@ -22,6 +22,7 @@
 	</div>
 	
 	<section class="award_sec_1" id="award">
+		<img class="blgo_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 			<div class="title-head">We lead ahead with<br> award-winning learning expertise</div>
 			<div class="desc_2">
@@ -29,21 +30,45 @@
 			</div>
 
 			<div class="row mg-lf award_padding_bottom">
-				<div class="col-12 col-sm-12 col-lg-6">
-					<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.png');?>">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+					<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.jpg');?>">
 
-					<div class="award_name_title">John Doe</div>
+					<!-- <div class="award_name_title">John Doe</div>
 					<div class="award_name_text">
 		        		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took make a type specimen book.when an unknown printer took make a type specimen book.
 		        	</div>
 		        	<div>
 		        		<button class="award_btn">KNOW MORE  ></button>
-		        	</div>
+		        	</div> -->
 				</div>
-				<div class="col-12 col-sm-12 col-lg-6">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+					<img class="award_img_2" style="padding-bottom: 5%" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.jpg');?>">
+					<img class="award_img_2" src="<?php echo base_url('assets/img/resource/awards/award_sample_3.jpg');?>">
+					<!-- <div class="award_name_title">John Doe</div>
+					<div class="award_name_text">
+		        		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took make a type specimen book.when an unknown printer took make a type specimen book.
+		        	</div>
+		        	<div>
+		        		<button class="award_btn">KNOW MORE  ></button>
+		        	</div> -->
+				</div>
+				<!-- <div class="col-12 col-sm-12 col-lg-6">
 					<div class="row award_overflow">
 						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.png');?>">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.jpg');?>">
+						</div>
+						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
+							<div class="award_name_title">John Doe</div>
+							<div class="award_name_text">
+				        		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took make a type specimen book.when an unknown printer took make a type specimen book.
+				        	</div>
+				        	<div>
+				        		<button class="award_btn">KNOW MORE  ></button>
+				        	</div>
+						</div> -->
+
+						<!-- <div class="col-12 col-sm-12 col-lg-4 award_padding">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.jpg');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
 							<div class="award_name_title">John Doe</div>
@@ -56,7 +81,7 @@
 						</div>
 
 						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_1.png');?>">
+							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.jpg');?>">
 						</div>
 						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
 							<div class="award_name_title">John Doe</div>
@@ -66,20 +91,7 @@
 				        	<div>
 				        		<button class="award_btn">KNOW MORE  ></button>
 				        	</div>
-						</div>
-
-						<div class="col-12 col-sm-12 col-lg-4 award_padding">
-							<img class="award_img" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.png');?>">
-						</div>
-						<div class="col-12 col-sm-12 col-lg-8 award_padding_2">
-							<div class="award_name_title">John Doe</div>
-							<div class="award_name_text">
-				        		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took make a type specimen book.when an unknown printer took make a type specimen book.
-				        	</div>
-				        	<div>
-				        		<button class="award_btn">KNOW MORE  ></button>
-				        	</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -156,9 +168,10 @@
 			</div>
 
 		</div><br><br><br>
+		<img class="left_dot_blue_blgo " src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
-	<section class="whitepaper blogs_bg">
+<!-- 	<section class="whitepaper blogs_bg">
 		<div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 			<div class="title-head">Whitepaper</div>
 			<div class="desc_2 award_padding_bottom">
@@ -212,4 +225,4 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->

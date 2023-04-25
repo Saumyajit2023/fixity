@@ -1,8 +1,8 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
 
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.png');?>">
 	</div>
 
 	<section class="about-us">
@@ -48,6 +48,7 @@
 	</section>
 
 	<section class="rest">
+		<img class="left_dot_blue_about " src="<?php echo base_url('assets/img/left_pattern.png');?>">
 		<div class="container ">
 			<div class="service_title_2 padding-top-5" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">What makes us different from the rest?</div>
 			<div class="desc white_color" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
@@ -108,12 +109,13 @@
 				</div>
 			</div>
 		</div>
+		<img class="about_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
 	<section class="team">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<img class="team_img pad-10" src="<?php echo base_url('assets/img/about/section_4/people_images_map.png');?>">
+					<img class="team_img " src="<?php echo base_url('assets/img/about/section_4/people_images_map.jpg');?>">
 				</div>
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="team_text">
@@ -122,19 +124,6 @@
 					<div class="testimonial-bg">
                 <div id="testimonial-slider" class="owl-carousel">
                     <div class="testimonial">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <div class="pic">
-                                    <img src="<?php echo base_url('assets/img/about/ceo.png');?>" alt="">
-                                </div>
-                            </div>
-
-                            <div class="col-md-10">
-                                <div class="title">Vinay Velivela</div>
-                                <div class="post">CEO of Fixity Technologies</div>
-                            </div>
-                        </div>                        
-                        
                         <p class="description">
                             I believe people are always the driving force behind any successful business. As a
 							founder and CEO, my vision for the company has always been to help our client&#39;s
@@ -145,7 +134,10 @@
 							I express my gratitude to all who have supported us this far and look forward to
 							collaborating on more exciting projects in the future.
                         </p>
-                        
+                        <div class="col-md-12">
+                                <div class="title">Vinay Velivela</div>
+                                <div class="post">CEO of Fixity Technologies</div>
+						</div>
                     </div>
  
                     <!-- <div class="testimonial">
@@ -171,6 +163,7 @@
             </div>
 				</div>
 			</div>
+
 	</section>
 
 	<div class="contact_box">

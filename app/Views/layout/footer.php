@@ -10,7 +10,7 @@
               </div>
               <div>
                 <p class="footer_address">
-                    contact@yourwebsite.com<br>
+                    info@fixitytech.com<br>
                             99 S.t Jomblo Park Pekanbaru 28292.<br>
                             Indonesia.
                 </p>
@@ -57,12 +57,36 @@
                                 <div class="yellow_line"></div>
                             </div>
                             <ul class="footer_ui">
-                                <li>Qilkdeals</li>
-                                <li>Good Governance</li>
-                                <li>Legacy</li>
-                                <li>Product - 1</li>
-                                <li>Product - 2</li>
-                                <li>Product - 3</li>
+                                <li>
+                                  <a href="<?php echo base_url('index.php/quilkdeals');?>">Qilkdeals</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/goodgovernance');?>">Good Governance</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/legacy');?>">
+                                    Legacy</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/AMTS');?>">
+                                    AMTS</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/password_protector');?>">
+                                    Password Protector</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/pts');?>">
+                                    Performance Tracking System</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/task_master');?>">
+                                    Task Master</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url('index.php/vts');?>">
+                                    Vendor Tracking System</a>
+                                </li>
                             </ul>
                         </div>
 
