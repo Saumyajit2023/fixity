@@ -56,7 +56,7 @@
 
 			      			<div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
 
-			      				<img height="100" width="10" src="<?php echo base_url('admin/writable/partnerLogo').'/'.$value['image_name'];?>" alt="partners_logo_one" />
+			      				<img class="w-100"> src="<?php echo base_url('admin/writable/partnerLogo').'/'.$value['image_name'];?>" alt="partners_logo_one" />
 			      			</div>
 			  				<?php } ?>
 			          </div>

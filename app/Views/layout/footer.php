@@ -77,7 +77,7 @@
                                 </li>
                                 <li>
                                     <a href="<?php echo base_url('index.php/pts');?>">
-                                    Performance Tracking System</a>
+                                    PTS</a>
                                 </li>
                                 <li>
                                     <a href="<?php echo base_url('index.php/task_master');?>">

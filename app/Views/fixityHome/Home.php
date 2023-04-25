@@ -330,7 +330,7 @@
 						<div class="col-md-8 text-align_c">
 							<strong class="milestones_details">3 Continents</strong>
 							<p class="para_milestones">
-								Continents A truly global footprint 
+								 A truly global footprint 
 							</p>
 						</div>
 					</div>
@@ -361,7 +361,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+				<!-- <div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_job_01.png');?>">
@@ -373,16 +373,16 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_product_V01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">Products</strong>
+							<strong class="milestones_details">8</strong>
 							<p class="para_milestones">
-								Products developed
+								Products 
 							</p>
 						</div>
 					</div>

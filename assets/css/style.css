@@ -893,10 +893,11 @@ ul.slick-dots li.slick-active {
       background-size: cover;
 }
 .team_img{
-        width: 80%;
-    margin-left: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 10%;
 }
 .team_text{
     font-size: 35px;

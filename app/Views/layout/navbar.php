@@ -98,9 +98,9 @@
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('resource#award');?>">Awards</a>
                 </li>
-                <li class="dropdown2">
+               <!--  <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('whitepaper');?>">Whitepaper</a>
-                </li>
+                </li> -->
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/contact_us');?>">Contact Us</a>
                 </li>
