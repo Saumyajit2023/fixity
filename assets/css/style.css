@@ -542,6 +542,9 @@ ul.slick-dots li.slick-active {
 .padd-5{
     padding-top: 5%;
 }
+.padd-10{
+    padding-top: 10%;
+}
 .padd-3{
     padding-top: 3%;
 }
@@ -2089,4 +2092,9 @@ button:focus {
     z-index: 1;
     margin-top: 35%;
     left: 0;
+}
+.p_p{
+    position: absolute;
+    left: 80px;
+    margin-top: -25px;
 }
