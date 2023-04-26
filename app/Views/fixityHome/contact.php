@@ -8,13 +8,13 @@
 			<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">Address</div>
 			<div class="desc_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
-				 Lorem Ipsum is not simply random text.
+				 Nearshore office
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
-					<div class="address_title">Head Quarters:</div>
+					<div class="address_title">Corporate Offices:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -58,7 +58,7 @@
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
-							+1 (630) 270 2250
+							+91 (720) 710 7334
 						</div>
 					</div>
 					<div class="flex address_padding">
@@ -91,7 +91,7 @@
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
-							+1 (630) 270 2250
+							+52 (442) 980 2081
 						</div>
 					</div>
 					<div class="flex address_padding">
