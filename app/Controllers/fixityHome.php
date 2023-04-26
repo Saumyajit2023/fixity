@@ -77,6 +77,15 @@ class fixityHome extends BaseController
         return view('layout/content',$data);
     }
 
+    public function privacyPolicy()
+    {
+        $data['page']       = 'fixityHome/privacy';
+        $data['module']     = 'Fixity';
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+       
+        return view('layout/content',$data);
+    }
+
 }
 
 

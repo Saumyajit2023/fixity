@@ -143,7 +143,7 @@
     <div class="copyright"> 
         <center>Copyright  © 2023 All right are reserved by Fixity Technologies.</center> 
         <label class="p_p">
-            <a class="white_color"  href="<?php echo site_url('services');?>"> Privacy Policy </a> 
+            <a class="white_color"  href="<?php echo site_url('privacy_policy');?>"> Privacy Policy </a> 
         </label>
     </div> 
 </div>
