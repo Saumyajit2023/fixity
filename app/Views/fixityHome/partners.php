@@ -12,6 +12,9 @@
 	    text-align: left;
 	    font-weight: 500;
 	}
+	.left_dot_blue_pro_dev{
+		margin-top: -18%;
+	}
   </style>
   
    <!--<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>-->
@@ -44,9 +47,9 @@
 	<section class="partners_sec_3">
 		<div class="container ">
 			<div class="partners_title_head">We made some friends along the way</div>
-			<div class="desc_2">
+			<!-- <div class="desc_2">
 					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			</div>
+			</div> -->
 
 			<div>
 				<div class="slider">
@@ -68,7 +71,7 @@
 		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	</section>
 
-	<section class="partners_sec_4">
+	<!-- <section class="partners_sec_4">
 		<div class="container ">
 			<div class="title-head">Here is what our partners have to say about their collaboration with Fixity Tech!</div>
 
@@ -157,6 +160,14 @@
 			</div>
 
 		</div><br><br><br>
+	</section> -->
+	<section class="career_sec5">
+		<div class="container">
+			<div class="career_cta">
+				Wish to
+				<strong> Partner</strong><br> with us?<button class="partner_btn">CONTACT US! ></button>
+			</div>
+		</div>
 	</section>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>

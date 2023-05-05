@@ -114,10 +114,10 @@
 
 	<section class="team">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-4" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<img class="team_img " src="<?php echo base_url('assets/img/about/section_4/people_images_map.jpg');?>">
 				</div>
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-8" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<div class="team_text">
 						Meet the people who make <strong>Fixity a global firm!</strong>
 					</div>
@@ -134,7 +134,7 @@
 							I express my gratitude to all who have supported us this far and look forward to
 							collaborating on more exciting projects in the future.
                         </p>
-                        <div class="col-md-12">
+                        <div class="">
                                 <div class="title">Vinay Velivela</div>
                                 <div class="post">CEO of Fixity Technologies</div>
 						</div>

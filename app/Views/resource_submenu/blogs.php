@@ -6,6 +6,12 @@
         width: 100%;
         height: 100px!important;
     }
+    .dropdown_menu{
+    	z-index: 1!important;
+    }
+    .navbar .toggle_btn{
+    	z-index: 5!important;
+    }
 </style>
 
 <section class="quickdeal_sec_1 padd-10">

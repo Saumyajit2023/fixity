@@ -79,7 +79,7 @@
 				</div>
 			</div>
 		</div>
-		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
+		<!-- <img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>"> -->
 	</section>
 
 	<section class="career_sec5">

@@ -22,9 +22,11 @@
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-6">
 							<img class="w-100" src="<?php echo base_url('assets/img/task_master/section_2/task_master_3.png');?>">
+							<center class="icon_text">Ease of use</center>
 						</div>
 						<div class="col-12 col-sm-12 col-lg-6">
 							<img class="w-100" src="<?php echo base_url('assets/img/task_master/section_2/task_master_2.png');?>">
+							<center class="icon_text">Versatility</center>
 						</div>
 					</div>
 					<p class="para_about">
@@ -47,18 +49,60 @@
 					<p class="para_about">
 						<strong>Some of the most notable features of this software include</strong>
 						<ul>
-							<li>-An aid to avoid missing deadlines and act like an alert system to focus on tasks that have elapsed deadlines.</li>
 							<li>
-								- Allows to manage tasks according to priority. The tasks which are required on an emergency basis can be highlighted as special tasks.
+								<div class="flex">
+									<div class="">
+										-
+									</div>
+
+									<div class="">
+										An aid to avoid missing deadlines and act like an alert system to focus on tasks that have elapsed deadlines.
+									</div>
+								</div>
 							</li>
 							<li>
-								-The label management feature allows users to filter tasks with ease.
+								<div class="flex">
+									<div class="">
+										-
+									</div>
+
+									<div class="">
+										Allows to manage tasks according to priority. The tasks which are required on an emergency basis can be highlighted as special tasks.
+									</div>
+								</div>
 							</li>
 							<li>
-								-It allows users to tag multiple collaborators and reviewers to a single task.
+								<div class="flex">
+									<div class="">
+										-
+									</div>
+
+									<div class="">
+										The label management feature allows users to filter tasks with ease.
+									</div>
+								</div>
 							</li>
 							<li>
-								-It helps to increase the productivity of employees by tracking and reviewing tasks.
+								<div class="flex">
+									<div class="">
+										-
+									</div>
+
+									<div class="">
+										It allows users to tag multiple collaborators and reviewers to a single task.
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="flex">
+									<div class="">
+										-
+									</div>
+
+									<div class="">
+										It helps to increase the productivity of employees by tracking and reviewing tasks.
+									</div>
+								</div>
 							</li>
 						</ul>
 					</p>

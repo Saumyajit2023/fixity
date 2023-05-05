@@ -10,8 +10,7 @@
           <div>
             <p class="footer_address">
                 info@fixitytech.com<br>
-                        99 S.t Jomblo Park Pekanbaru 28292.<br>
-                        Indonesia.
+                3333 Warrenville Road, Suite #200 Lisle,<br> Illinois 60532 USA.
             </p>
 
             <div class="social_icon_footer">
@@ -31,10 +30,18 @@
                             <div class="yellow_line"></div>
                         </div>
                         <ul class="footer_ui">
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Careers</li>
-                            <li>Contacts Us</li>
+                            <a href="<?php echo base_url('index.php/home');?>">
+                                <li>Home</li>
+                            </a>
+                            <a href="<?php echo base_url('index.php/about_us');?>">
+                                <li>About Us</li>
+                            </a>
+                            <a href="<?php echo site_url('career');?>">
+                                <li>Careers</li>
+                            </a>
+                            <a href="<?php echo base_url('index.php/contact_us');?>">
+                                <li>Contacts Us</li>
+                            </a>
                         </ul>
                     </div>
 
@@ -43,11 +50,21 @@
                             Services 
                             <div class="yellow_line"></div>
                         </div>
-                        <ul class="footer_ui">
-                            <li>IT-Staffing</li>
-                            <li>HTD</li>
-                            <li>IT-Solutions</li>
-                            <li>Product Development</li>
+                        <ul class=" footer_ui">
+                            <a href="<?php echo base_url('index.php/staffing');?>">
+                                <li>IT-Staffing</li>
+                            </a>                            
+
+                            <a href="<?php echo base_url('index.php/IT_Solution');?>">
+                                <li>IT-Solutions</li>
+                            </a>
+                            <a href="<?php echo base_url('index.php/product_development');?>">
+                                <li>Product Development</li>
+                            </a>
+
+                            <a href="<?php echo base_url('index.php/htd');?>">
+                                <li>HTD</li>
+                            </a>
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-3 col-6">

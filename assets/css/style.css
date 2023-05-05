@@ -88,6 +88,7 @@ ul ul ul {
 }
 .logo{
     width: 25%;
+    z-index: 1;
 }
 
 header{
@@ -358,10 +359,9 @@ article.on{
 }
 .service_text{
     text-align: justify;
-    padding: 10% 0;
-    font-size: 15px;
+    padding: 5% 0;
+    font-size: 18px;
     color: #fff;
-    padding-bottom: 10%;
     font-weight: 500;
 }
 input[type="radio"] {
@@ -436,7 +436,7 @@ input[type="radio"]:checked {
 /*Our Product*/
 
 .our_product_title{
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 500;
     margin-bottom: 3%;
     color: #f4ae1b;
@@ -551,7 +551,7 @@ ul.slick-dots li.slick-active {
 .number{
     font-size: 50px;
     position: absolute;
-    right: 13%;
+    right: 5%;
     bottom: 0;
     font-weight: bold;
     color: #ed951e;
@@ -897,10 +897,10 @@ ul.slick-dots li.slick-active {
 }
 .team_img{
     display: block;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
-    width: 60%;
-    margin-top: 10%;
+    width: 100%;
+    margin-top: 25%;
 }
 .team_text{
     font-size: 35px;
@@ -949,7 +949,7 @@ ul.slick-dots li.slick-active {
     padding: 0 15px;
 }
 .testimonial .description{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
     line-height: 30px;
@@ -1109,7 +1109,7 @@ a:hover {
       background: #fff;
 }
 .section_space{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .career_sec3{
   /*background: url(../img/career/section_3/life_bg.jpg) no-repeat ; 
@@ -1212,10 +1212,23 @@ a:hover {
       -o-background-size: cover;
       background-size: cover;
 }
+.career_footer{
+    background: #f4ae1b;
+}
 .career_cta{
     text-align: center;
     font-size: 40px;
     padding: 6% 25%;
+    color: #000;
+}
+.partner_btn {
+    font-size: 18px;
+    margin-left: 2%;
+    border-radius: 30px;
+    padding: 1% 4%;
+    background: #000;
+    color: #fff;
+    border: 0;
 }
 
 /*partners*/
@@ -1273,7 +1286,7 @@ a:hover {
 .slide-viewer {
     position: relative; /* needed for IE7 */
     overflow: hidden;
-    height: 320px;}
+ }
 
 .slide-group {
     width: 100%;
@@ -1650,7 +1663,7 @@ button:focus {
   background: #fff;
 }
 .quickdeal_title{
-    font-size: 42px;
+    font-size: 33px;
     text-align: left;
     font-weight: bold;
     color: #f4af1b;
@@ -2023,6 +2036,9 @@ button:focus {
 .footer_ui > li > a{
     color: #fff;
 }
+.footer_ui > a{
+    color: #fff;
+}
 .img_sec{
     width: 90%;
     -webkit-box-shadow: 0px 10px 11px 0px #cfcdcfa8;
@@ -2097,4 +2113,47 @@ button:focus {
     position: absolute;
     left: 80px;
     margin-top: -25px;
+}
+.car_dot_blue {
+    position: absolute;
+    width: 10%;
+    margin-top: -3%;
+    right: 0%;
+}
+.resource_cta {
+    text-align: center;
+    font-size: 40px;
+    padding: 6% 17%;
+    color: #000;
+}
+.icon_text{
+    font-weight: 600;
+    margin-top: 3%;
+}
+.product {
+    background: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: #fff!important;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+.product:hover {
+    width: 150px;
+}
+.read-more-btn{
+    background: #f4ae1b;
+    border: 1px solid #f4ae1b;
+    padding: 5px 15px;
+    margin-bottom: 25%;
+    border-radius: 27px;
+
+}
+.blog-more-btn {
+    background: #f4ae1b;
+    border: 1px solid #f4ae1b;
+    padding: 5px 15px;
+    margin-top: 10%;
+    border-radius: 27px;
 }

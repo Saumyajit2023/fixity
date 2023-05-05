@@ -4,17 +4,13 @@
 	</div>
 
 	<section class="address_bg">
-		<div class="container pd_9_0">
+		<div class="container ">
 			<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">Address</div>
-			<div class="desc_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
-    				data-aos-duration="1000">
-				 Nearshore office
-			</div>
 			<div class="row">
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
-					<div class="address_title">Corporate Offices:</div>
+					<div class="address_title">USA Offices:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -44,7 +40,7 @@
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
-					<div class="address_title">Offshore office:</div>
+					<div class="address_title">India office:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -73,7 +69,7 @@
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/nearshore_office.png');?>">
-					<div class="address_title">Head Quarters:</div>
+					<div class="address_title">Mexico office:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">

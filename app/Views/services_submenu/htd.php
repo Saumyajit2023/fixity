@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Train</div><br>
+					<div class="quickdeal_title section_space">Deploy</div><br>
 					<p class="quickdeal_title-head_2">
 						The final decision is collaborative and the client has the final say</p>
 					<p class="para_about">

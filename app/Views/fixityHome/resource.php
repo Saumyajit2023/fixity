@@ -98,7 +98,7 @@
 		</div>
 	</section>
 
-	<section class="award_sec_2 blogs_bg" >
+	<section class="award_sec_2" >
 		<div class="container">
 			<div class="service_title_2 padd-5">Blogs</div>
 			<div class="desc_2 white_color">
@@ -167,11 +167,17 @@
 				</div>
 			</div>
 
+			<center>
+				<a href="<?php echo site_url('blog');?>">
+                    <button class="blog-more-btn">View More</button>
+                </a>
+			</center>
+
 		</div><br><br><br>
 		<img class="left_dot_blue_blgo " src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
-<!-- 	<section class="whitepaper blogs_bg">
+	<!-- 	<section class="whitepaper blogs_bg">
 		<div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 			<div class="title-head">Whitepaper</div>
 			<div class="desc_2 award_padding_bottom">
@@ -226,3 +232,13 @@
 			</div>
 		</div>
 	</section> -->
+
+	<section class="career_footer">
+		<div class="container">
+			<div class="resource_cta">
+				Stay turned with us to remain 
+				updated with 
+				<strong>industry trends!</strong> <button class="partner_btn">CONTACT US! ></button>
+			</div>
+		</div>
+	</section>

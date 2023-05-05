@@ -23,7 +23,7 @@
 						We collaborate with you to transform your idea into a dynamic product that establishes new quality standards in the industry.
 					</p>
 					<p class="para_about">
-						As market competition increases and customers' demands evolve, creating good products is not enough. Enterprises need technology partners who can help them build superior, innovative, futuristic, and differentiated products. Whether it's developing bespoke software products or extending product development services, We help our clients with all. We offer onsite and offshore resources and facilities for the rapid development of products that are customized to the specific needs of our clients. We take every care in implementation and post-production support.
+						At FIXITY, we go beyond the set patterns to provide our clients with unparalleled end-to-end product design and development services. Our pool of professionals has an expert understanding of the intricate nature of software development, which allows them to meticulously plan and execute every step of the process. We take crucial aspects such as delivery timelines and specified requirements into our account to ensure error-free development. Our goal is to deliver nothing less than a premium quality product development solution to all our clients.
 					</p>
 				</div>
 			</div>

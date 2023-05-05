@@ -6,7 +6,7 @@
 	<section class="career_sec2">
 		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container " data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-			<div class="title-head paddt-10">Overview</div>
+			<div class="title-head padd-5">Overview</div>
 			<div class="desc">
 				As a global expert in IT Staffing, our focus lies in helping clients connect with highly trained, skilled, and talented personnel for their organizational success. We provide our clients access to a rich and skilled pool of talent that can meet their operational goals. We have an extensive database of IT professionals across seniority levels which allows us to meet the IT staffing requirements of our clients. Our IT Staffing service includes a range of advanced and tailored hiring solutions including.
 			</div>

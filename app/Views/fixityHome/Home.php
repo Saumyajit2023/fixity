@@ -5,9 +5,9 @@
 
 	<div class="service_box">
 		<div class="container">
-			<div class="service_title_1" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+			<div class="service_title_1" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20"
 				data-aos-duration="1000">We are your trusted staffing partner</div>
-			<div class="service_title_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+			<div class="service_title_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20"
 				data-aos-duration="1000">Services we offer</div>
 
 			<div class="tabs">
@@ -21,26 +21,34 @@
 			    <div class="tabs__content">
 			        <div class="tabs__body active">
 			            <div class="row">
-			            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			            	<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="20" data-aos-duration="1000">
 			            		<img class="w-100" src="<?php echo base_url('assets/img/IT-Solutions_01.png');?>">
 			            	</div>
-			            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			            	<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="20" data-aos-duration="1000">
 						    	<div class="service_text">
 						    		Finding the right candidates for your organization can be a challenging task. At Fixity Tech, we use our extensive network and expertise to provide you with a personalized service that is tailored to meet the unique staffing needs of your organization. Our team of experts works closely with you and helps you find the right candidate to power your organizational structure.
 						    	</div>
+                                <div>
+                                    <a href="<?php echo site_url('staffing');?>">
+                                        <label class="product yellow_cta">Read&nbspMore<span class="span_arrow">></span> </label> 
+                                    </a>
+                                </div>
 			            	</div>
 			            </div>
 			        </div>
 			        <div class="tabs__body">
 			        	<div class="row">
-			        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			        		<div class="col-md-6 col-12" data-aos="fade-right" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="20" data-aos-duration="1000">
 			        			<img class="w-100" src="<?php echo base_url('assets/img/IT-Staffing_01.png');?>">
 			        		</div>
 
-			        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			        		<div class="col-md-6 col-12" data-aos="fade-left" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="20" data-aos-duration="1000">
 						    	<div class="service_text">
 						    		Our team of experienced &amp; certified professionals provides flexible and cost-effective solutions to increase the efficiency of your team. our range of IT services includes Oracle E-Business Suite and PeopleSoft Support &amp; maintenance, Hyperion support &amp; maintenance, Big data support &amp; maintenance, and Cloud migration &amp; integration. Be it a single project or ongoing support, we have the resources and expertise to help you achieve your business objectives.			
 						    	</div>
+                                <a href="<?php echo site_url('IT_Solution');?>">
+                                    <label class="product yellow_cta">Read&nbspMore<span class="span_arrow">></span> </label>
+                                </a>
 			            	</div>
 			        	</div>
 			        </div>
@@ -54,6 +62,9 @@
 						    	<div class="service_text">
 						    		We specialize in delivering high-quality software development services that meet your specific needs &amp; exceed your expectations. We understand that software development is a complex process that requires careful planning &amp; execution. That&#39;s why we take critical aspects like delivery schedule, the specified thought, and error-free development into consideration to deliver a solution that meets your unique needs.					    	
 						    	</div>
+                                <a href="<?php echo site_url('product_development');?>">
+                                    <label class="product yellow_cta">Read&nbspMore<span class="span_arrow">></span> </label>
+                                </a>
 			            	</div>
 			        	</div>
 			        </div>
@@ -67,6 +78,9 @@
 						    	<div class="service_text">
 						    		At Fixity Tech, we not only help in identifying the right candidates but also equip them with the required skill sets as prescribed by you. Our team of experts will train the candidates and ensure that they are ready to take on the role as soon as they are deployed. This saves you time and ensures that the candidates are productive from day one. Choose us to help you hire the right talent.
 						    	</div>
+                                <a href="<?php echo site_url('htd');?>">
+                                    <label class="product yellow_cta">Read&nbspMore<span class="span_arrow">></span> </label>
+                                </a>
 			            	</div>
 			        	</div>
 			        </div>
@@ -79,7 +93,7 @@
 	<section id="bannerHome" class="our_product">
 	<img class="left_dot_blue_home " src="<?php echo base_url('assets/img/left_pattern.png');?>">
 	  <div class="container-fluid">
-	  	<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000" >Our Products</div>
+	  	<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" >Our Products</div>
 	    <div class="row">
 	        <div class="col-12" id="homeBanner">
               <div class="slider-banner">
@@ -88,14 +102,19 @@
                         <div class="second-layer">
                             <div class="title">
                                 <div class="row">
-                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" >
+                                    <div class="col-md-6 padd-5 fw-500" data-aos="fade-right" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" >
                                     		<div class="our_product_title">Qlikdeals</div>
                                         Qlikdeals is your one-stop destination for finding the best deals on a wide range of products.											With Qlikdeals, you can compare prices of a variety of products from electronics to home goods,from a variety of retailers and find the best deals. With Qlikdeals, you can also filter your search
 										results by brand, price, and other criteria to help you find exactly what you&#39;re looking for.
 										Qlikdeals offers you a hassle-free shopping experience by bringing all the best deals together in
 										one place.
+                                        <br><br>
+                                        <a href="<?php echo base_url('index.php/quilkdeals');?>">
+                                            <button class="read-more-btn">Know More</button>
+                                        </a>
                                     </div>
-                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+
+                                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
                                         <div>
                                             <img class="img_box" src="<?php echo base_url('assets/img/products/quildeal.png');?>">
                                             <p class="number">01</p>
@@ -116,6 +135,10 @@
 											We understand that good governance is essential for the well-being of any community and that is why we have created Good Governance. With Good Governance, you can report issues such	as corruption, lack of basic amenities, and other problems that affect you &amp; your community.
 											Once you have submitted your report, our team of experts will review it and appropriate action
 											will be taken to address the issue.
+                                            <br><br>
+                                            <a href="<?php echo base_url('index.php/goodgovernance');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -136,6 +159,10 @@
                                     <div class="col-md-6 padd-5 fw-500">
                                     	<div class="our_product_title">Legacy</div>      
                                         Legacy is an easy-to-use application that makes it simple for everyone to stay in touch. With Legacy, you can easily create a family tree, share photos and videos, and keep everyone up-to-date on important events and milestones. The application offers easy access for elder generations to stay connected with their younger generation and brings the entire family close.
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/legacy');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -156,6 +183,10 @@
                                     <div class="col-md-6 padd-5 fw-500">
                                     	<div class="our_product_title">Password Protector</div>  
                                         Fixity Password Protector streamlines employee password management and saves time. It is a centralized application for storing credentials and granting user access in accordance with set policies.
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/password_protector');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -176,6 +207,11 @@
                                     <div class="col-md-6 padd-5 fw-500">
                                         <div class="our_product_title">Asset Management and Tracking System</div>
 										The Fixity Asset Management and Tracking System provides you with complete asset information, including hardware specifications, software installed, scan history, asset ownership history, and asset states.
+
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/AMTS');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
 
                                     </div>
                                     <div class="col-md-6">
@@ -198,6 +234,11 @@
                                         <div class="our_product_title">Vendor Tracking System</div>
 										Fixity Vendor Tracking System helps to keep a detailed database of services, tools, and related information across departments and countries.
 
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/vts');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
+
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -219,7 +260,10 @@
                                         <div class="our_product_title">Performance Tracking System</div>
 										Fixity Performance Tracking System is an essential HR and Management tool for tracking and multidimensionally visualizing resource performance. 
 
-
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/pts');?>">
+                                                <button class="read-more-btn">Know More</button>
+                                            </a>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -240,7 +284,10 @@
                                     <div class="col-md-6 padd-5 fw-500">
                                         <div class="our_product_title">Task Master</div>
 										Fixity Task Master is integrated with the best task management features . In addition to all the basic task management features, it also includes advanced activity and reviews management features.
-
+                                        <br><br>
+                                            <a href="<?php echo base_url('index.php/task_master');?>">
+                                                <button class="read-more-btn">Know more</button>
+                                            </a>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -269,8 +316,8 @@
 	<div class="our_partners">
 		<img class="home_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 			<div class="container">
-				<div class="title-head" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Our Partners</div>
-				<div class="desc" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
+				<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">Our Partners</div>
+				<div class="desc" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
 					Our partnerships are key to delivering the best possible service to our clients. By combining our
 					expertise with theirs, we provide a wide range of services and solutions to our clients. Our
 					partnerships also allow us to offer a global reach and access to resources &amp; expertise from
@@ -280,7 +327,7 @@
 		    <div class="row">
 		      <?php foreach ($logo as $value) {
 		      ?>
-		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="1">
+		      <div class="col-sm-3 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="1">
 
 		      	<img class="w-100" src="<?php echo base_url('admin/writable/homeLogo').'/'.$value['image_name'];?>">
 		      </div>
@@ -297,19 +344,21 @@
 			also have a strong focus on the professional development and career advancement of our
 			employees. Explore career opportunities with us and advance your growth trajectory.</p>
 			<div class="space_carrer">
-				<label class="cta">CTA<span class="span_arrow">></span> </label> 
+                <a href="<?php echo site_url('career');?>">
+    				<label class="cta">CTA<span class="span_arrow">></span> </label> 
+                </a>
 			</div>
 		</div>
 	</div>
 
 	<div class="our_milestones">
-		<div class="milestones" data-aos="fade-up" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">Major Milestones</div>
-		<div class="desc white_color" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
+		<div class="milestones" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">Major Milestones</div>
+		<div class="desc white_color" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
 			Won Most Promising Technology Company Founded and Managed By <br> Indians In The U.S.2021.
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_sixty.png');?>">
@@ -322,20 +371,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_3-Continent_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">3 Continents</strong>
+							<strong class="milestones_details"> 20+ Countries</strong>
 							<p class="para_milestones">
 								 A truly global footprint 
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="3">
+				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000" data-aos-delay="3">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_18-countries_V01.png');?>">
@@ -354,49 +403,51 @@
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_Successful_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">Successful </strong>
+							<strong class="milestones_details">40+ Successful</strong>
 							<p class="para_milestones">
 								Implementations 
 							</p>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_job_01.png');?>">
-						</div>
-						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">Job Opportunities</strong>
-							<p class="para_milestones">
-								Continents A truly global footprint 
-							</p>
-						</div>
-					</div>
-				</div> -->
+				
 				<div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_product_V01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">8</strong>
+							<strong class="milestones_details">32+</strong>
 							<p class="para_milestones">
-								Products 
+								 Products 
 							</p>
 						</div>
 					</div>
 				</div>
+
+                <div class="col-sm-4 col-6" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="5">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_job_01.png');?>">
+                        </div>
+                        <div class="col-md-8 text-align_c">
+                            <strong class="milestones_details">150+ </strong>
+                            <p class="para_milestones">
+                               Happy Customers 
+                            </p>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
-		<div class="desc_new white_color" data-aos="zoom-in" data-aos-offset="350" data-aos-delay="50" data-aos-duration="1000">
+		<div class="desc_new white_color" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
 			Our strength lies in our resilient passion for innovation and technology. Throughout our 18 years of leadership in IT <br>Staffing, IT Solutions, and Product Development, our aim has always remained constant-Client Success.
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="row padd-10">
-			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+			<div class="col-md-6" data-aos="fade-right" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
 				<div class="rtl-slider-flex">
 						<div class="rtl-slider">
 						  <div class="rtl-slider-slide" style="background-image: url('../assets/img/1.jpg');">
@@ -430,7 +481,7 @@
 					</div>
 			</div>
 
-			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000">
+			<div class="col-md-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="20" data-aos-duration="1000">
 				<div class="career_title-head pad-10">What's Happening?</div>
 				<div class="happ_subtitle">We help you stay up-to-date with the latest developments in your field and provide you with expert insights and assessments of industry trends. We also provide updates on the latest events and conferences that are relevant to your industry. Our goal is to provide you with the
 				information and insights you need to stay ahead of the curve and make strategic decisions for
