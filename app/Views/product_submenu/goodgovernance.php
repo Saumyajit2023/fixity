@@ -90,7 +90,9 @@
 		
 			<div class="pd_cta_2">
 				Be part of our mission to establish responsible governance and hold the leaders accountable for ensuring the welfare of the community<br><br>
-				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 	</section>
 

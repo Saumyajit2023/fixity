@@ -93,7 +93,9 @@
 		
 			<div class="pd_cta_2">
 				Download Legacy today and start building a lasting family legacy, one connection at a time.<br><br>
-				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 	</section>
 

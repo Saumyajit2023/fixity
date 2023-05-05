@@ -114,6 +114,9 @@
 	<div class="contact_box">
 		<div class="about_contact">
 			Want to know more <br>
-			<label class="about_label">about this model?</label> <button class="about_btn">Contact Us! &nbsp; &gt;</button>
+			<label class="about_label">about this model?</label> 
+			<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 		</div>
 	</div>

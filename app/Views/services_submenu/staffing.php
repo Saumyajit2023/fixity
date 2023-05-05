@@ -95,7 +95,9 @@
 		
 			<div class="it_sol_cta_2">
 				Our team of experienced IT professionals will help you achieve all your business goals. Reach out to us today to experience the Fixity magic!<br><br>
-				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 	</section>
 	

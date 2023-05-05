@@ -238,7 +238,10 @@
 			<div class="resource_cta">
 				Stay turned with us to remain 
 				updated with 
-				<strong>industry trends!</strong> <button class="partner_btn">CONTACT US! ></button>
+				<strong>industry trends!</strong>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="partner_btn">CONTACT US!  &gt;</button>
+				</a>
 			</div>
 		</div>
 	</section>

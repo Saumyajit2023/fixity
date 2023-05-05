@@ -149,6 +149,8 @@
 		
 			<div class="it_sol_cta_2">
 				In today's ever-so-rapidly transforming business environment, staying ahead of the competition is very crucial. In such a cut-throat environment optimizing your Oracle E-Business Suite, PeopleSoft, Hyperion, and other big data platforms come as a necessity. To fulfill this necessity, and drive your business forward, reach out to us!<br><br>
-				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 	</section>

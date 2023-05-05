@@ -67,7 +67,9 @@
 			<div class="quickdeal_cta">
 				Don't waste your time jumping to various e-commerce sites to find out the best prices and deals.
 				<strong> Use Qlikdeals, compare prices, choose the one that meets your exact budget and requirements, and shop smart!</strong><br>
-				<button class="about_btn">CLICK HERE TO START!  ></button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 		</div>
 	</section>

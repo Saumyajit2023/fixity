@@ -81,7 +81,9 @@
 		
 			<div class="pd_cta_2">
 				Contact us today to schedule a consultation and learn more about how we can help you achieve your business objectives<br><br>
-				<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
+				</a>
 			</div>
 	</section>
 

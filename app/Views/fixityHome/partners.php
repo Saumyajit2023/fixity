@@ -165,7 +165,10 @@
 		<div class="container">
 			<div class="career_cta">
 				Wish to
-				<strong> Partner</strong><br> with us?<button class="partner_btn">CONTACT US! ></button>
+				<strong> Partner</strong><br> with us?
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="partner_btn">CONTACT US!  &gt;</button>
+				</a>
 			</div>
 		</div>
 	</section>

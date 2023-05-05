@@ -83,7 +83,9 @@
 			<div class="career_cta">
 				If you think you are fit for any of these roles,<br>
 				<strong> reach out to us!</strong><br>
-				<button class="about_btn">CONTACT US! ></button>
+				<a href="<?php echo base_url('index.php/contact_us');?>">
+					<button class="about_btn">CONTACT US!  &gt;</button>
+				</a>
 			</div>
 		</div>
 	</section>

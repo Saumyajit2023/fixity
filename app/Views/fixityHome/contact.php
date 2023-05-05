@@ -181,7 +181,11 @@
 	</section>
 	<div class="contact_box">
 		<div class="about_contact">
-			<label class="about_label">SAY HELLO</label> &nbsp To <button class="about_btn">INFO@FIXITYTECH.COM</button>
+			<label class="about_label">SAY HELLO</label> &nbsp To 
+			<a href = "mailto: info@fixitytech.com">
+					<button class="about_btn">INFO@FIXITYTECH.COM</button>
+				</a>
+
 		</div>
 	</div>
 	<script type="text/javascript">
