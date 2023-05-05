@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space padding-lr-10">Good Governance aims to ensure the well-being of a community</div><br>
+					<div class="quickdeal_title section_space padding-lr-10">Good Governance Aims To Ensure The Well-Being Of A Community</div><br>
 					<p class="quickdeal_title-head_2 padding-lr-10">
 						Good governance aims toward the betterment of people, and this can not take place without the government being accountable to the people.</p>				
 				</div>
@@ -33,7 +33,7 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Good Governance allows citizens to bring attention to community concerns</div><br>
+					<div class="quickdeal_title section_space">Good Governance Allows Citizens To Bring Attention To Community Concerns</div><br>
 					<p class="quickdeal_title-head_2">
 						Our application ensures citizens can voice their own opinions in legitimate ways.
 					</p>
@@ -61,7 +61,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Good Governance aims for an equitable society and responsible</div><br>
+					<div class="quickdeal_title section_space">Good Governance Aims For An Equitable Society And Responsible</div><br>
 					<p class="quickdeal_title-head_2">
 						It aims to ensure that the concerns of communities are addressed properly
 					</p>	

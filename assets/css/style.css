@@ -2157,3 +2157,19 @@ button:focus {
     margin-top: 10%;
     border-radius: 27px;
 }
+.vts_cta {
+    text-align: center;
+    font-size: 40px;
+    padding: 6% 3%;
+    color: #000;
+    padding-bottom: 2%;
+}
+.office_text{
+    font-size: 23px;
+    font-weight: 700;
+    color: #f4af1b;
+    text-transform: capitalize;
+    margin: 0;
+     text-align: center; 
+    padding: 2% 5%;
+}

@@ -106,7 +106,7 @@
 
 
 	<section class="htd_sec5" >
-		<div class="quickdeal_title htd_text_yellow" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">A revolutionary recruitment model for comprehensive IT staffing support</div>
+		<div class="quickdeal_title htd_text_yellow" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">A Revolutionary Recruitment Model For Comprehensive IT Staffing Support</div>
 			<div class="para_about htd_text_white" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				Fixity HTD Model adds value to your enterprise. It is a cost-effective method with zero investment in hiring a team and guarantees you trained & skilled professionals
 			</div>

@@ -87,19 +87,17 @@
 
 	<section class="career_sec5">
 		<div class="container">
-			<div class="goodgovernance_cta">
-				<strong>Do you wish to be a changemaker and ensure good governance for all the people in your community?</strong>				
-				If yes, register with our application today and start making a difference in your community.
-				
-				
+			<div class="vts_cta">
+				Let us show you how it works!
+				<strong>To understand working on this dynamic and effective application and streamline maintenance at your organization, contact us today!</strong>	
 			</div>
 		</div>
 		
 			<div class="pd_cta_2">
-				Our team of experienced IT professionals will help you achieve all your business goals. Reach out to us today to experience the Fixity magic!<br><br>
 				<a href="<?php echo base_url('index.php/contact_us');?>">
 					<button class="about_btn">CLICK HERE TO START!  &gt;</button>
 				</a>
+				
 			</div>
 	</section>
 

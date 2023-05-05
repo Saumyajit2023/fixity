@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Shopping made easy and smart!</div>
+					<div class="quickdeal_title section_space">Shopping Made Easy And Smart!</div>
 					<div class="quickdeal_title-head_2">Qlikdeals is your one-stop destination to find the best deals and offers available out there.</div>
 					<p class="para_about">
 						How many times did it happen to you that you bought an item only to realize minutes later that it cost less on other platforms? We know how much trouble this gives us and that's why we bring to you a smart price comparison platform. With Qlikdeals you find the best deals and offers available on products across a wide range of categories including personal care, mobiles, electronics, fashion, and lifestyle.</p>
@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6 mgl_5 award_padding_bottom" id="first" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title" id="news-slider">Before you buy it, compare its price on Qlikdeals</div>
+					<div class="quickdeal_title" id="news-slider">Before You Buy It, Compare Its Price On Qlikdeals</div>
 					<div class="quickdeal_title-head_2">E-commerce is full of exciting offers and deals on all kinds of products. Picking the one that fits your budget and requirements can be get difficult. Meet Qilkdeals.</div>
 					<p class="para_about">
 						Qlikdeals allow you to compare prices from a variety of retailers and find the best deals on the products you need. Whether you're looking for the latest electronics, fashion, home goods, or anything in between, our platform makes sure you get only the best deals.
@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6 award_padding_bottom" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Be a smart shopper <br>with Qlikdeals</div>
+					<div class="quickdeal_title section_space">Be A Smart Shopper <br>With Qlikdeals</div>
 					<div class="quickdeal_title-head_2 quickdeal_title-head_2_new">Experience a next-generation <br>price comparison platform to <br>find the right price opportunities.</div>
 					<p class="para_about">
 						We update our platform regularly with new deals and offers from top retailers, so you can always stay updated with the latest and greatest products at the best prices. To help you make informed purchase decisions, we also provide you with detailed product information, including reviews and ratings.

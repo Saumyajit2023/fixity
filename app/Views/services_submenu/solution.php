@@ -18,7 +18,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title ">We support and empower your business growth with the leading edge technology</div><br>
+					<div class="quickdeal_title ">We Support And Empower Your Business Growth With The Leading Edge Technology</div><br>
 					<p class="quickdeal_title-head_2">
 						Strategy architecture to its implementation, we cover all aspects to offer comprehensive support and help our clients achieve IT success.
 				</div>
@@ -123,7 +123,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title ">Discover the true growth potential of your business with our expert technical assistance</div><br>
+					<div class="quickdeal_title ">Discover The True Growth Potential Of Your Business With Our Expert Technical Assistance</div><br>
 					<p class="quickdeal_title-head_2">
 						We aim to enable our clients to achieve their business goals with state-of-the-art technological assistance.</p>
 					

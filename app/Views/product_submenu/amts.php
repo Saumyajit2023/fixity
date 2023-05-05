@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Customizing the asset management for you</div><br>
+					<div class="quickdeal_title section_space">Customizing The Asset Management For You</div><br>
 					<p class="quickdeal_title-head_2">
 						To help you track all tickets associated with your assets.
 					</p>
@@ -28,7 +28,7 @@
 		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Manage assets and ensure compliance</div><br>
+					<div class="quickdeal_title section_space">Manage Assets And Ensure Compliance</div><br>
 					<p class="quickdeal_title-head_2">
 						Improve asset governance by monitoring software usage (unused, rarely used, and so on).
 					</p>
@@ -52,7 +52,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Create asset budgets better!</div><br>
+					<div class="quickdeal_title section_space">Create Asset Budgets Better!</div><br>
 					<p class="quickdeal_title-head_2">
 						Maintain a complete product catalog of all assets owned by the company with price and warranty details.
 					</p>	

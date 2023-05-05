@@ -377,7 +377,7 @@
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_3-Continent_01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details"> 20+ Countries</strong>
+							<strong class="milestones_details"> 3 Continent</strong>
 							<p class="para_milestones">
 								 A truly global footprint 
 							</p>
@@ -390,7 +390,7 @@
 							<img class="w-60_icon" src="<?php echo base_url('assets/img/Icon_18-countries_V01.png');?>">
 						</div>
 						<div class="col-md-8 text-align_c">
-							<strong class="milestones_details">18</strong>
+							<strong class="milestones_details">20+</strong>
 							<p class="para_milestones">
 								Countries Reached
 							</p>

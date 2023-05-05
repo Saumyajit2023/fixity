@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Reduce user friction without compromising security</div><br>
+					<div class="quickdeal_title section_space">Reduce User Friction Without Compromising Security</div><br>
 					<p class="quickdeal_title-head_2">
 						Ensure employees practice excellent password hygiene with Password Protector
 					</p>
@@ -28,7 +28,7 @@
 		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Password protection made easy!</div><br>
+					<div class="quickdeal_title section_space">Password Protection Made Easy!</div><br>
 					<p class="quickdeal_title-head_2">
 						Put your business to protect your sensitive data with Password Protector
 					</p>
@@ -54,7 +54,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Manage the entire company's passwords from one place.</div><br>
+					<div class="quickdeal_title section_space">Manage The Entire Company's Passwords From One Place.</div><br>
 					<p class="quickdeal_title-head_2">
 						Password Protector makes it easy for the organization to manage all passwords centrally.
 					</p>	

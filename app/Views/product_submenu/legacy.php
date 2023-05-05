@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Legacy brings your family history to life</div><br>
+					<div class="quickdeal_title section_space">Legacy Brings Your Family History To Life</div><br>
 					<p class="quickdeal_title-head_2">
 						The application helps all generations of the family to stay connected.
 					</p>
@@ -37,7 +37,7 @@
 		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Keep your family updated with your life events through Legacy</div><br>
+					<div class="quickdeal_title section_space">Keep Your Family Updated With Your Life Events Through Legacy</div><br>
 					<p class="quickdeal_title-head_2">
 						This application is friendly and easy to navigate through.
 					</p>
@@ -64,7 +64,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Legacy allows families to keep each other close</div><br>
+					<div class="quickdeal_title section_space">Legacy Allows Families To Keep Each Other Close</div><br>
 					<p class="quickdeal_title-head_2">
 						A next-generation application for people of all generations!
 					</p>	

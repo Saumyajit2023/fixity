@@ -9,8 +9,9 @@
 			<div class="row">
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
+    				<div class="office_text">USA </div>
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/headquarters.png');?>">
-					<div class="address_title">USA Offices:</div>
+					<div class="address_title">Head Quarters:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -39,8 +40,9 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
-					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
-					<div class="address_title">India office:</div>
+    				<div class="office_text">India </div>
+						<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/offshore_office.png');?>">
+					<div class="address_title">Offshore office:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -68,8 +70,9 @@
 				</div>
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
+    				<center><div class="office_text ">Mexico </div></center>
 					<img class="award_img" src="<?php echo base_url('assets/img/contact_us/section_2/nearshore_office.png');?>">
-					<div class="address_title">Mexico office:</div>
+					<div class="address_title">Nearshore office:</div>
 					<div class="flex address_padding">
 						<div class="w-7">
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/location_icon.png');?>">
@@ -135,7 +138,7 @@
 			</div>
 		</div><br><br><br>
 	</section>
-	<section class="career_sec4">
+<!-- 	<section class="career_sec4">
 		<div class="container ">
 			<div class="row">
 				<div class="col-md-6">
@@ -178,7 +181,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<div class="contact_box">
 		<div class="about_contact">
 			<label class="about_label">SAY HELLO</label> &nbsp To 

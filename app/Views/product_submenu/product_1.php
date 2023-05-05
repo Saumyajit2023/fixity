@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Customize your team's workflows</div><br>
+					<div class="quickdeal_title section_space">Customize Your Team's Workflows</div><br>
 					<p class="quickdeal_title-head_2">
 						Move fast, stay aligned, and work together as a team
 					</p>
@@ -28,7 +28,7 @@
 		<div class="container pd_b_5">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Drive performance when you need it the most</div><br>
+					<div class="quickdeal_title section_space">Drive Performance When You Need It The Most</div><br>
 					<p class="quickdeal_title-head_2">
 						Identify top performers and equip everyone with the right equipment to help them succeed.
 					</p>
@@ -54,7 +54,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title section_space">Embrace continuous performance management</div><br>
+					<div class="quickdeal_title section_space">Embrace Continuous Performance Management</div><br>
 					<p class="quickdeal_title-head_2">
 						When your people transform, your business management does too.
 					</p>	

@@ -23,7 +23,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title ">Connecting you to the right talent</div><br>
+					<div class="quickdeal_title ">Connecting You To The Right Talent</div><br>
 					<p class="quickdeal_title-head_2">
 						Consider us your tech-genie who can grant you the best hiring services in town with an unparalleled expertise.</p>
 					<p class="para_about">
@@ -42,7 +42,7 @@
 		<div class="container">
 			<div class="row padd-10">
 				<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title ">Equipped with the right technology</div><br>
+					<div class="quickdeal_title ">Equipped With The Right Technology</div><br>
 					<p class="quickdeal_title-head_2 white_color">
 						Solutions designed to ensure a smooth hiring process</p>
 					<p class="para_about white_color">
@@ -68,7 +68,7 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="quickdeal_title ">One-stop solution for all your hiring needs</div><br>
+					<div class="quickdeal_title ">One-Stop Solution For All Your Hiring Needs</div><br>
 					<p class="quickdeal_title-head_2">
 						We have years of experience in bringing the best pool of candidates to your doorstep.</p>
 					<p class="para_about">
