@@ -8,7 +8,7 @@
                 success: function(data)
                 {
                 	console.log(data[0]['title']);
-                	$("#image").attr("src","<?php echo base_url('admin/writable/blog_banner');?>"+ '/' +data[0].banner_img);
+                	$("#image").attr("src","<?php echo base_url('admin/writable/blog_banner');?>"+ '/' +data[0].thumbnail_img);
                 //	$('#title').val(data[0].title);
                     $('p').append('<span id="add_here">'+data[0].title+'</span>');
                 	//document.getElementsByTagName("p")[0].innerHTML= data[0].title;
