@@ -247,13 +247,13 @@
                                             </div>
                                             <div class="dropdown-inner">
                                                 <ul class="link-list">
-                                                    <li><a href="<?php echo site_url('admin/index.php/profile');?>"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="<?php echo site_url('admin/profile');?>"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
                                            
                                                 </ul>
                                             </div>
                                             <div class="dropdown-inner">
                                                 <ul class="link-list">
-                                                    <li><a href="<?php echo site_url('admin/index.php/logout');?>"><em class="icon ni ni-signout"></em><span>Sign out</span></a>
+                                                    <li><a href="<?php echo site_url('admin/logout');?>"><em class="icon ni ni-signout"></em><span>Sign out</span></a>
                                                     </li>
                                                 </ul>
                                             </div>

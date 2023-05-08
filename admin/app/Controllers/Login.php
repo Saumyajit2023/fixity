@@ -55,7 +55,7 @@ class Login extends BaseController
 			$lastlogin = date('Y/m/d H:i:s');
             $data = $this->loginModel->updateLogin($lastlogin);
            // print_r($data);die();
-			return redirect()->to('admin/index.php/dashboard');
+			return redirect()->to('admin/dashboard');
 		}
 		else
 		{

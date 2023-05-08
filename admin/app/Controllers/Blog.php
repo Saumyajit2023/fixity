@@ -105,6 +105,7 @@ class Blog extends BaseController
              $data = [
                      'visible_on'    => $_POST['date1'],
                      'title'         => $_POST['title'],
+                     'description'   => $_POST['description'],
                      'is_active'     => 1,
                      'updated_dt'    => date('Y-m-d H:i:s')
                 ];
@@ -115,6 +116,7 @@ class Blog extends BaseController
                      'banner_img'    => $banner_img,
                      'visible_on'    => $_POST['date1'],
                      'title'         => $_POST['title'],
+                     'description'   => $_POST['description'],
                      'is_active'     => 1,
                      'updated_dt'    => date('Y-m-d H:i:s')
                 ];
@@ -125,6 +127,7 @@ class Blog extends BaseController
                      'thumbnail_img'    => $thumbnail_img,
                      'visible_on'    => $_POST['date1'],
                      'title'         => $_POST['title'],
+                     'description'   => $_POST['description'],
                      'is_active'     => 1,
                      'updated_dt'    => date('Y-m-d H:i:s')
                 ];
@@ -136,6 +139,7 @@ class Blog extends BaseController
                      'thumbnail_img'    => $thumbnail_img,
                      'visible_on'    => $_POST['date1'],
                      'title'         => $_POST['title'],
+                     'description'   => $_POST['description'],
                      'is_active'     => 1,
                      'updated_dt'    => date('Y-m-d H:i:s')
                 ];
@@ -195,6 +199,7 @@ class Blog extends BaseController
                     'thumbnail_img' => $file1->getClientName(),
                     'visible_on'    => $_POST['date1'],
                     'title'         => $_POST['title'],
+                    'description'   => $_POST['description'],
                     'is_active'     => 1,
                     'created_dt'    => date('Y-m-d H:i:s')
                 ];

@@ -7,7 +7,7 @@
         $.ajax({
 
                 method     : 'GET',
-                url        : '<?php echo site_url('admin/index.php/Partner/partner_list');?>',
+                url        : '<?php echo site_url('admin/Partner/partner_list');?>',
                 dataType   : 'json',
                 success    : function(res){
 
@@ -86,7 +86,7 @@ $(document).ready(function () {
                     document.getElementById("partner_logo").reset();
                 } else {
                     $.ajax({
-                        url: "<?php echo site_url('admin/index.php/partner_logo_upload'); ?>",
+                        url: "<?php echo site_url('admin/partner_logo_upload'); ?>",
                         method: "POST",
                         data: new FormData(this),
                         processData: false,
@@ -122,7 +122,7 @@ $(document).ready(function () {
         var status = $(this).attr('status');
           $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Partner/changeLogoStatus');?>',
+                url : '<?php echo site_url('admin/Partner/changeLogoStatus');?>',
                 data : {'ids' : ids ,
                         'status':status},
                 dataType : 'json',
@@ -157,7 +157,7 @@ $(document).on('click','#delete-logo',function(e){   //single delete
             if (result.isConfirmed) {
               $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Partner/deleteLogo');?>',
+                url : '<?php echo site_url('admin/Partner/deleteLogo');?>',
                 data : {'ids' : ids },
                 dataType : 'json',
                 success: function(data)
@@ -226,7 +226,7 @@ function deleteAll(event)
     }).then((result) => {
             if (result.isConfirmed) {
             $.ajax({
-              url: '<?php echo site_url('admin/index.php/Partner/deleteLogo');?>',
+              url: '<?php echo site_url('admin/Partner/deleteLogo');?>',
               type: "POST",
               dataType: "json",
               data: {'ids':ids},

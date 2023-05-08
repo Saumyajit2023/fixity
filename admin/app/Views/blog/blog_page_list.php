@@ -77,6 +77,12 @@
                                         </div>
                                 </div>
                                 <div class="form-group">
+                                        <label class="form-label" for="full-name">Description</label>
+                                        <div class="form-control-wrap">
+                                            <input type="textarea" class="form-control" id="description" name="description" required>
+                                        </div>
+                                </div>
+                                <div class="form-group">
                                         <label class="form-label">Visible Date</label>
                                         <div class="form-control-wrap">
                                             <input type="text" class="form-control date-picker" data-date-format="yyyy/mm/dd" id="date1" name="date1" required>
@@ -102,6 +108,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
 
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-md btn-primary">Save</button>

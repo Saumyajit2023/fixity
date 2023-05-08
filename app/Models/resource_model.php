@@ -13,6 +13,18 @@ class resource_model extends Model
        return  $query->getResultArray();
     }
 
+    public function getAllBlogDetails()
+    {
+       $query = $this->db->query('select * from blog_page where is_active=1');
+       return  $query->getResultArray();
+    }
+
+    public function getBlogDetailsById($id)
+    {
+       $query = $this->db->query('select * from blog_page where is_active=1 and id='.$id);
+       return  $query->getResultArray();
+    }
+
 
 }
 ?>

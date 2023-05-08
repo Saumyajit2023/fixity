@@ -24,7 +24,12 @@ class fixityHome_Model extends Model
        $query = $this->db->query('select * from partner_page where is_active=1');
        return  $query->getResultArray();
     }
-  
+
+    public function getBlogImage()
+    {
+       $query = $this->db->query('SELECT banner_img,title FROM blog_page ORDER BY id DESC LIMIT 1');
+       return  $query->getResultArray();
+    }
 
 }
 ?>

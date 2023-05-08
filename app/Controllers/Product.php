@@ -4,11 +4,12 @@ namespace App\Controllers;
 
 class Product extends BaseController
 {
+    
     public function product()
     {
         $data['page']       = 'fixityHome/product';
         $data['module']     = 'Fixity';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -17,7 +18,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/quilkdeals';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -26,7 +27,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/goodgovernance';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -35,7 +36,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/legacy';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -44,7 +45,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/product_1';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -53,7 +54,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/product_2';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -62,7 +63,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/product_3';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -71,7 +72,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/amts';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }
@@ -80,7 +81,7 @@ class Product extends BaseController
     {
         $data['page']       = 'product_submenu/pass_protector';
         $data['module']     = 'product';
-        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php'));
+        $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
        
         return view('layout/content',$data);
     }

@@ -1,3 +1,4 @@
+
 <div class="footer_bg ">
     <div class="container paddt-10">
         <div class="row ">
@@ -129,12 +130,12 @@
                                 <label>Blogs</label>
                                 <div class="row">
                                     <div class="col-md-4 padd-0">
-                                        <img class="img_res" src="https://picsum.photos/200">
+                                        <img class="img_res" id="image" src="">
                                     </div>
 
                                     <div class="col-md-8">
                                         <strong class="footer_font_right">BLOGS</strong>
-                                        <p class="res_des">Contrary to popular belief, Lorem Ipsum</p>
+                                        <p class="res_des" id="title"></p>
                                     </div>
                                 </div>
                             </li>

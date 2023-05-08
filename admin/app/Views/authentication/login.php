@@ -49,7 +49,7 @@
                                     </div>
                                 </div><!-- .nk-block-head -->
                                
-                                <form class="form-validate is-alter" method="POST" id="loginform" action="<?php echo site_url('admin/index.php/auth');?>">
+                                <form class="form-validate is-alter" method="POST" id="loginform" action="<?php echo site_url('admin/auth');?>">
 
                                     <div class="form-group">
                                         <div class="form-label-group">

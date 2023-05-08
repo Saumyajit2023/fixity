@@ -7,7 +7,7 @@
         $.ajax({
 
                 method     : 'GET',
-                url        : '<?php echo site_url('admin/index.php/Career/getDetails');?>',
+                url        : '<?php echo site_url('admin/Career/getDetails');?>',
                 dataType   : 'json',
                 success    : function(res){
 
@@ -69,7 +69,7 @@
         $.ajax({
 
             type        : 'POST',
-            url         : '<?php echo site_url('admin/index.php/Career/addDetails');?>',
+            url         : '<?php echo site_url('admin/Career/addDetails');?>',
             data        :  $('#career_form').serialize(),
             dataType    : 'json',
             success     : function(res){
@@ -103,7 +103,7 @@
         var status = $(this).attr('status');
           $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Career/changeStatus');?>',
+                url : '<?php echo site_url('admin/Career/changeStatus');?>',
                 data : {'ids' : ids ,
                         'status':status},
                 dataType : 'json',
@@ -138,7 +138,7 @@ $(document).on('click','#delete-logo',function(e){   //single delete
             if (result.isConfirmed) {
               $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Career/deleteDetails');?>',
+                url : '<?php echo site_url('admin/Career/deleteDetails');?>',
                 data : {'ids' : ids },
                 dataType : 'json',
                 success: function(data)
@@ -207,7 +207,7 @@ function deleteAll(event)
     }).then((result) => {
             if (result.isConfirmed) {
             $.ajax({
-              url: '<?php echo site_url('admin/index.php/Career/deleteDetails');?>',
+              url: '<?php echo site_url('admin/Career/deleteDetails');?>',
               type: "POST",
               dataType: "json",
               data: {'ids':ids},
@@ -240,7 +240,7 @@ function deleteAll(event)
         $.ajax({
 
             type        : 'POST',
-            url         : '<?php echo site_url('admin/index.php/Career/editDetails');?>',
+            url         : '<?php echo site_url('admin/Career/editDetails');?>',
             data        : {'ids' : ids },
             dataType    : 'json',
             success     : function(res){

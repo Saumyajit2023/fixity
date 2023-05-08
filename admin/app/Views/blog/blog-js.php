@@ -7,7 +7,7 @@
         $.ajax({
 
                 method     : 'GET',
-                url        : '<?php echo site_url('admin/index.php/Blog/blog_list');?>',
+                url        : '<?php echo site_url('admin/Blog/blog_list');?>',
                 dataType   : 'json',
                 success    : function(res){
 
@@ -101,7 +101,7 @@ $(document).ready(function () {
                     document.getElementById("blog_add").reset();
                 } else {
                     $.ajax({
-                        url: "<?php echo site_url('admin/index.php/Blog/blogAdd'); ?>",
+                        url: "<?php echo site_url('admin/Blog/blogAdd'); ?>",
                         method: "POST",
                         data: new FormData(this),
                         processData: false,
@@ -139,7 +139,7 @@ $(document).ready(function () {
         var status = $(this).attr('status');
           $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Blog/changeStatus');?>',
+                url : '<?php echo site_url('admin/Blog/changeStatus');?>',
                 data : {'ids' : ids ,
                         'status':status},
                 dataType : 'json',
@@ -175,7 +175,7 @@ $(document).on('click','#delete-logo',function(e){   //single delete
             if (result.isConfirmed) {
               $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Blog/deleteBlogDetails');?>',
+                url : '<?php echo site_url('admin/Blog/deleteBlogDetails');?>',
                 data : {'ids' : ids },
                 dataType : 'json',
                 success: function(data)
@@ -244,7 +244,7 @@ function deleteAll(event)
     }).then((result) => {
             if (result.isConfirmed) {
             $.ajax({
-              url: '<?php echo site_url('admin/index.php/Blog/deleteBlogDetails');?>',
+              url: '<?php echo site_url('admin/Blog/deleteBlogDetails');?>',
               type: "POST",
               dataType: "json",
               data: {'ids':ids},
@@ -298,7 +298,7 @@ function deleteAll(event)
      else{
 
             $.ajax({
-              url: '<?php echo site_url('admin/index.php/Blog/updateToPopular');?>',
+              url: '<?php echo site_url('admin/Blog/updateToPopular');?>',
               type: "POST",
               dataType: "json",
               data: {'ids':ids},
@@ -330,7 +330,7 @@ function deleteAll(event)
         var ids = $(this).attr('ids');
        
          $.ajax({
-              url: '<?php echo site_url('admin/index.php/Blog/getDetailsById');?>',
+              url: '<?php echo site_url('admin/Blog/getDetailsById');?>',
               type: "POST",
               dataType: "json",
               data: {'ids':ids},
@@ -339,6 +339,7 @@ function deleteAll(event)
                  // var res = JSON.parse(data);
                   console.log(data)
                   $('#title').val(data[0].title);
+                  $('#description').val(data[0].description);
                   $('#date1').val(data[0].visible_on);
                    $('#id').val(ids);
                   $('#blogAdd').modal('show');
@@ -364,7 +365,7 @@ function deleteAll(event)
             if (result.isConfirmed) {
               $.ajax({
                 method: "POST",  
-                url : '<?php echo site_url('admin/index.php/Blog/removePopular');?>',
+                url : '<?php echo site_url('admin/Blog/removePopular');?>',
                 data : {'ids' : ids },
                 dataType : 'json',
                 success: function(data)

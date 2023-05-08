@@ -35,7 +35,7 @@ $(document).ready(function () {
                     document.getElementById("image_form").reset();
                 } else {
                     $.ajax({
-                        url: "<?php echo site_url('admin/index.php/imageUpload'); ?>",
+                        url: "<?php echo site_url('admin/imageUpload'); ?>",
                         method: "POST",
                         data: new FormData(this),
                         processData: false,
@@ -74,7 +74,7 @@ $(document).on('click','#update-modal',function(e){
         $.ajax({
 
             type        : 'POST',
-            url         : '<?php echo site_url('admin/index.php/Login/updateProfile');?>',
+            url         : '<?php echo site_url('admin/Login/updateProfile');?>',
             data        :  {'ids' : ids },
             dataType    : 'json',
             success     : function(res){
@@ -105,7 +105,7 @@ $('#update_form').on('submit', function(e) {
             var formData = new FormData(this);
 
             $.ajax({
-                url: "<?= site_url('admin/index.php/Login/update_form')?>",
+                url: "<?= site_url('admin/Login/update_form')?>",
                 type: "POST",
                 cache: false,
                 data: formData,

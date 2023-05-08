@@ -22,7 +22,7 @@
 		</div>
 		<div class="row">
 		<?php foreach ($blog as $key => $value) { ?>
-		
+				  <input type="hidden" name="id" id="id" value="<?php echo $value['id'];?>">
 			<div class="col-md-4 pd_b_5" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 				<img class="award_blog_img" src="<?php echo base_url('admin/writable/blog_thumbnail').'/'.$value['thumbnail_img'];?>">
 				<div class="row">
@@ -39,7 +39,7 @@
 					<?php echo $value['title'];?>
 				</label>
 				<div>
-	        		<button class="award_btn"><a href="<?php echo site_url('Blog_Details');?>">KNOW MORE  ></a></button>
+	        		<button class="award_btn" id="blog_button"><a href="<?php echo site_url('Resources/Blog_Detail/');?><?php echo urlencode(base64_encode($value['id']));?>">KNOW MORE  ></a></button>
 	        	</div>
 			</div>
 		

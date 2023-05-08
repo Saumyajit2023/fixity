@@ -58,9 +58,10 @@ $routes->get('/password_protector','Product::password_protector');
 $routes->get('/resource','Resources::resource');
 $routes->get('/awards','Resources::awards');
 $routes->get('/blog','Resources::blogs');
-$routes->get('/Blog_Details','Resources::blog_Detail');
+//$routes->get('/Blog_Details','Resources::blog_Detail');
 $routes->get('/whitepaper','Resources::whitepapers');
 $routes->get('/privacy_policy','fixityHome::privacyPolicy');
+
 
 /*
  * --------------------------------------------------------------------
