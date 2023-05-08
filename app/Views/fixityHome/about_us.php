@@ -125,14 +125,30 @@
                 <div id="testimonial-slider" class="owl-carousel">
                     <div class="testimonial">
                         <p class="description">
-                            I believe people are always the driving force behind any successful business. As a
-							founder and CEO, my vision for the company has always been to help our client&#39;s
-							businesses grow by providing them with the best human resources.<br>
-							Finding the right resources is not all about skills; it’s also about finding a culturally fit candidate. When your team is competent and also aligned with the company&#39;s values and goals, that&#39;s when the real magic happens.<br>
-							At Fixity, we strive to offer tailor-made solutions to each client, while fostering a culture of transparency, diversity, and inclusivity. We also believe in taking special care of our employees and creating opportunities for candidates who have been impacted by the COVID-induced pandemic.<br>
-							I&#39;m proud of our milestones so far and look forward to what the future holds for us as an organization. Moving forward, as we expand our operations to new markets, I look forward to continuing to provide the best talent acquisition and IT solutions to our clients, while staying true to our values.<br>
-							I express my gratitude to all who have supported us this far and look forward to
-							collaborating on more exciting projects in the future.
+                            Dear valued stakeholders,<br>
+							On behalf of Fixity Technologies, I would like to express our appreciation for
+							your continued support and partnership. We are proud to be recognized by the
+							Fortune 500 companies as a leading global organization in IT staffing and
+							solutions, product development, and learning and development.
+							Our commitment to excellence is reflected in everything we do, and we strive
+							to provide unparalleled service that meets all the unique expectations of all
+							our stakeholders. We understand the importance of building strong
+							relationships with our customers, employees, partners, and shareholders and
+							are dedicated to earning and maintaining your trust.
+							At Fixity Technologies, we believe that investing in our people and helping
+							them evolve is the key to our success. We are on the constant lookout to
+							provide ongoing learning and development opportunities to our employees
+							and partners, enabling them to grow and thrive within our organization.
+							We are dedicated to creating a culture of innovation, collaboration, and
+							excellence, where every member of our team can contribute their unique skills
+							and perspectives towards achieving our shared goals. We are committed to
+							working together as a unified team to exceed expectations and deliver
+							outstanding results.
+							As stakeholders of Fixity Technologies, your support is crucial to our success,
+							and we are honoured to have you as part of our team. We will continue to
+							work tirelessly to deliver the highest quality services and solutions, and we
+							look forward to continuing our partnership with you.
+							Thank you for your ongoing support and trust in Fixity Technologies.
                         </p>
                         <div class="">
                                 <div class="title">Vinay Velivela</div>
