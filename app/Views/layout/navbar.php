@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="dropdown_menu ">
-      <li class="desk mg-t-5 padding-5">
+      <li class="desk mg-t-5 padding_new_5t">
         <div class="row">
           <div class="col-md-5 menu_border_right">
             <div>
@@ -72,9 +72,14 @@
                     <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/pts');?>">Performance Tracking System </a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/task_master');?>">Task Master</a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
+                    <li class="float-left">
+                      <a class="menu_text" data-toggle="dropdown2" href="https://www.fixityedx.com/" target="_blank">Fixity EDX</a>
+                    </li>
                   </ul>
                 </li>
+                
               </ul>
+              
             </div>
           </div>
           <div class="col-md-3 menu_border_right">

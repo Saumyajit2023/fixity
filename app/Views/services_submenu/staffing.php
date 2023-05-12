@@ -1,6 +1,6 @@
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/it_staffing/hero/header.png');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/it_staffing/hero/mob_header.png');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/it_staffing/hero/hero_image.png');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/it_staffing/hero/image_mobile.png');?>">
 	</div>
 
 	<section class="career_sec2">

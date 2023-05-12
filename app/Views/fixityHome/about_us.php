@@ -1,8 +1,8 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
 
 	<div class="banner_div">
-		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.png');?>">
-		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.png');?>">
+		<img class="banner_img desk" src="<?php echo base_url('assets/img/about/hero_image.jpg');?>">
+		<img class="banner_img mob" src="<?php echo base_url('assets/img/about/image_mobile.jpg');?>">
 	</div>
 
 	<section class="about-us">
@@ -15,7 +15,7 @@
 							<div class="about_title-head">
 								 Mission
 							</div>
-							<p class="para_vision ">We are in the business of resourcing enterprises with a skilled staff. Our main motto is to work with passion and commitment to guarantee outstanding service to the clients.</p>
+							<p class="para_vision ">We want to create an environment of success for our team, clients and partners by providing excellent IT staffing and solutions. We are committed to building an amazing team, being innovative in our products and services, and providing a secure and competitive environment. Our mission is to create long-term relationships with our clients while maintaining the highest levels of quality. We strive to achieve excellence in all we do and exceed expectations with each project engagement. </p>
 						</div>
 					</div>
 
@@ -26,7 +26,7 @@
 								 Vision
 							</div>
 							<p class="para_vision">
-								We believe in transforming client organizations with our innovative, responsive, and competent delivery resources. We help businesses find success, no matter which side of the process they are on.</p>
+								Our vision as an IT company is to become a leading provider of innovative and high-quality technology solutions that help our clients achieve their goals and improve their business operations. We strive to be recognized as a trustworthy and reliable partner that consistently delivers exceptional value and outstanding service that is personalized to the client's needs. </p>
 						</div>
 					</div>
 				</div>

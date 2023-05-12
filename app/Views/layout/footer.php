@@ -15,10 +15,18 @@
             </p>
 
             <div class="social_icon_footer">
-                <i class="fa fa-facebook-f social_icon"></i>
-                <i class="fa fa-twitter social_icon"></i>
-                <i class="fa fa-instagram social_icon"></i>
-                <i class="fa fa-linkedin social_icon"></i>
+                <a href="https://www.facebook.com/fixitytech">
+                    <i class="fa fa-facebook-f social_icon"></i>
+                </a>
+                <a href="https://twitter.com/FixityTech_">
+                    <i class="fa fa-twitter social_icon"></i>
+                </a>
+                <a href="https://www.instagram.com/fixitytech/">
+                    <i class="fa fa-instagram social_icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/fixity-technologies/">
+                    <i class="fa fa-linkedin social_icon"></i>
+                </a>
             </div>
           </div>
             </div>

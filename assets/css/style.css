@@ -99,7 +99,7 @@ header{
     height: 90px;
 }
 .logo_img{
-    width: 35%;
+    width: 45%;
 }
 .menu_box{
     width: 70%;
@@ -172,6 +172,7 @@ header{
   justify-content:center;
   align-items:center;*/
   list-style: none;
+  line-height: 1.5;
 }
 .dropdown_menu.open{ 
     height: 100vh;
@@ -409,7 +410,7 @@ input[type="radio"]:checked {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding-bottom: 7%;
+      padding-bottom: 2%;
 }
 .pulse_2 {
     width: 300px;
@@ -477,7 +478,7 @@ input[type="radio"]:checked {
   position: absolute;
   background: transparent;
   border: none;
-  top: 75%;
+  top: 84%;
   left: 25%;
   transform: translate(-2%, -50%);
   z-index: 1;
@@ -491,7 +492,7 @@ input[type="radio"]:checked {
   position: absolute;
   background: transparent;
   border: none;
-  top: 75%;
+  top: 84%;
   left: 27%;
   transform: translate(-2%, -50%);
   z-index: 1;
@@ -503,14 +504,14 @@ input[type="radio"]:checked {
 
 .pagingInfo {
   position: absolute;
-  bottom: 20%;
+  bottom: 11%;
   left: 23%;
   transform: translate(-50%, -50%);
 }
 
 .progress {
   position: absolute;
-  bottom: 24%;
+  bottom: 15%;
   left: 15%;
   height: 5px!important;
   transform: translate(-50%, -50%);
@@ -863,7 +864,7 @@ ul.slick-dots li.slick-active {
 }
 .mission_img{
     width: 25%;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 .mg_l_5p{
   margin-left: 5%;
@@ -1181,7 +1182,7 @@ a:hover {
 }
 
 .content {
-    font-size: 16px;
+    font-size: 17   px;
     background-color: #fff;
     overflow: hidden;
     overflow-y: auto;
@@ -2172,4 +2173,7 @@ button:focus {
     margin: 0;
      text-align: center; 
     padding: 2% 5%;
+}
+.padding_new_5t{
+    padding:7% 5% 0 5% !important
 }

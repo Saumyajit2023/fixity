@@ -90,7 +90,7 @@
 							<img class="w-85" src="<?php echo base_url('assets/img/contact_us/section_2/phone_icon.png');?>">
 						</div>
 						<div class="address_text w-90">
-							+52 (442) 980 2081
+							+52 (442) 6441000
 						</div>
 					</div>
 					<div class="flex address_padding">
