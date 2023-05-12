@@ -1,7 +1,7 @@
   <header>
     <div class="navbar">
       <div class="logo">
-        <a href="<?php echo base_url('index.php/home');?>">
+        <a href="<?php echo site_url('home');?>">
             <img class="logo_img" src="<?php echo base_url('assets/img/Footer_logo.png');?>">
         </a>
       </div>
@@ -55,26 +55,28 @@
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="#">Services</a>
                   <ul class="">
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/staffing');?>">IT Staffing</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/IT_Solution');?>">IT Solutions</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/product_development');?>">Product Development </a></li>
-                    <li ><a class="menu_link" href="<?php echo base_url('index.php/htd');?>">HTD</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('staffing');?>">IT Staffing</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('IT_Solution');?>">IT Solutions</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('product_development');?>">Product Development </a></li>
+                    <li ><a class="menu_link" href="<?php echo site_url('htd');?>">HTD</a></li>
                   </ul>
                 </li>
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="#">Product</a>
                   <ul class="">
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/quilkdeals');?>">Qilkdeals</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/goodgovernance');?>">Good Governance </a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/legacy');?>">Legacy</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/AMTS');?>">Asset Management and Tracking System</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/password_protector');?>">Password Protector</a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/pts');?>">Performance Tracking System </a></li>
-                    <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/task_master');?>">Task Master</a></li>
+
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('quilkdeals');?>">Qilkdeals</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('goodgovernance');?>">Good Governance </a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('legacy');?>">Legacy</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('AMTS');?>">Asset Management and Tracking System</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('password_protector');?>">Password Protector</a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('pts');?>">Performance Tracking System </a></li>
+                    <li class="float-left"><a class="menu_link" href="<?php echo site_url('task_master');?>">Task Master</a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
                     <li class="float-left">
                       <a class="menu_text" data-toggle="dropdown2" href="https://www.fixityedx.com/" target="_blank">Fixity EDX</a>
                     </li>
+
                   </ul>
                 </li>
                 
@@ -86,10 +88,10 @@
             <div>
               <ul>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/about_us');?>">About Us </a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('about_us');?>">About Us </a>
                 </li>
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/partner');?>">Partners</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('partner');?>">Partners</a>
                 </li>
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('career');?>">Careers</a>
@@ -107,7 +109,7 @@
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('whitepaper');?>">Whitepaper</a>
                 </li> -->
                 <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo base_url('index.php/contact_us');?>">Contact Us</a>
+                  <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('contact_us');?>">Contact Us</a>
                 </li>
               </ul>
             </div>

@@ -123,8 +123,11 @@
 					<label class="blogs_text">
 							<?php echo $value['title'];?>
 					</label>
+					<p>
+							<?php echo implode('.', array_slice(explode('.', $value['description']), 0, 1));?>
+					</p>
 					<div>
-		        		<button class="award_btn"><a href="<?php echo site_url('Blog_Details');?>">KNOW MORE  ></a></button>
+		        		<button class="award_btn" id="blog_button"><a href="<?php echo site_url('Resources/Blog_Detail/');?><?php echo urlencode(base64_encode($value['id']));?>">KNOW MORE  ></a></button>
 		        	</div>
 				</div>
 

@@ -54,7 +54,7 @@ class Blog extends BaseController
                  $isValid = $this->validate([
                     'banner_img' => [
                         'uploaded[banner_img]',
-                        'mime_in[banner_img, image/jpg,image/jpeg,image/gif,image/png]',
+                        'mime_in[banner_img, image/jpg,image/jpeg,image/gif,image/png,image/webp,image/svg]',
                         'max_size[banner_img, 4098]',
                     ],
                 
@@ -79,7 +79,7 @@ class Blog extends BaseController
                 $isValidBanner = $this->validate([
                     'thumbnail_img' => [
                         'uploaded[thumbnail_img]',
-                        'mime_in[thumbnail_img, image/jpg,image/jpeg,image/gif,image/png]',
+                        'mime_in[thumbnail_img, image/jpg,image/jpeg,image/gif,image/png,image/webp,image/svg]',
                         'max_size[thumbnail_img, 4098]',
                     ],
                 
@@ -171,12 +171,12 @@ class Blog extends BaseController
             $isValid = $this->validate([
               'banner_img' => [
                   'uploaded[banner_img]',
-                  'mime_in[banner_img, image/jpg,image/jpeg,image/gif,image/png]',
+                  'mime_in[banner_img, image/jpg,image/jpeg,image/gif,image/png,image/webp,image/svg]',
                   'max_size[banner_img, 4098]',
                 ],
                 'thumbnail_img' => [
                   'uploaded[thumbnail_img]',
-                  'mime_in[thumbnail_img, image/jpg,image/jpeg,image/gif,image/png]',
+                  'mime_in[thumbnail_img, image/jpg,image/jpeg,image/gif,image/png,image/webp,image/svg]',
                   'max_size[thumbnail_img, 4098]',
                 ],
             ]);

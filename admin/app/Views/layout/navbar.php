@@ -25,13 +25,10 @@
                                 ?>
 
                                     <li class="nk-menu-item <?php echo sizeof($value['childmenus'])? 'has-sub' : '';?>">
-<<<<<<< Updated upstream
-                                        <a href="<?php echo sizeof($value['childmenus'])? '#' : site_url('admin/index.php/'.$value['url']);?>" class="nk-menu-link  <?php echo sizeof($value['childmenus'])? 'nk-menu-toggle' : '';?>">
-                                           
-=======
+
                                         <a href="<?php echo sizeof($value['childmenus'])? '#' : site_url('admin/'.$value['url']);?>" class="nk-menu-link  <?php echo sizeof($value['childmenus'])? 'nk-menu-toggle' : '';?>">
-                                           <!--  <span class="nk-menu-icon"><em class="<?php echo $value['icons'];?>"></em></span> -->
->>>>>>> Stashed changes
+                                           
+
                                             <span class="nk-menu-text"><?php echo $value['name'];?></span>
                                         </a>
                                         <?php 
