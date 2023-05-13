@@ -39,16 +39,16 @@
                             <div class="yellow_line"></div>
                         </div>
                         <ul class="footer_ui">
-                            <a href="<?php echo base_url('index.php/home');?>">
+                            <a href="<?php echo base_url('home');?>">
                                 <li>Home</li>
                             </a>
-                            <a href="<?php echo base_url('index.php/about_us');?>">
+                            <a href="<?php echo base_url('about_us');?>">
                                 <li>About Us</li>
                             </a>
                             <a href="<?php echo site_url('career');?>">
                                 <li>Careers</li>
                             </a>
-                            <a href="<?php echo base_url('index.php/contact_us');?>">
+                            <a href="<?php echo base_url('contact_us');?>">
                                 <li>Contacts Us</li>
                             </a>
                         </ul>
@@ -60,18 +60,18 @@
                             <div class="yellow_line"></div>
                         </div>
                         <ul class=" footer_ui">
-                            <a href="<?php echo base_url('index.php/staffing');?>">
+                            <a href="<?php echo base_url('staffing');?>">
                                 <li>IT-Staffing</li>
                             </a>                            
 
-                            <a href="<?php echo base_url('index.php/IT_Solution');?>">
+                            <a href="<?php echo base_url('IT_Solution');?>">
                                 <li>IT-Solutions</li>
                             </a>
-                            <a href="<?php echo base_url('index.php/product_development');?>">
+                            <a href="<?php echo base_url('product_development');?>">
                                 <li>Product Development</li>
                             </a>
 
-                            <a href="<?php echo base_url('index.php/htd');?>">
+                            <a href="<?php echo base_url('htd');?>">
                                 <li>HTD</li>
                             </a>
                         </ul>
@@ -83,33 +83,33 @@
                         </div>
                         <ul class="footer_ui">
                             <li>
-                              <a href="<?php echo base_url('index.php/quilkdeals');?>">Qilkdeals</a>
+                              <a href="<?php echo base_url('quilkdeals');?>">Qilkdeals</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/goodgovernance');?>">Good Governance</a>
+                                <a href="<?php echo base_url('goodgovernance');?>">Good Governance</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/legacy');?>">
+                                <a href="<?php echo base_url('legacy');?>">
                                 Legacy</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/AMTS');?>">
+                                <a href="<?php echo base_url('AMTS');?>">
                                 AMTS</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/password_protector');?>">
+                                <a href="<?php echo base_url('password_protector');?>">
                                 Password Protector</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/pts');?>">
+                                <a href="<?php echo base_url('pts');?>">
                                 PTS</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/task_master');?>">
+                                <a href="<?php echo base_url('task_master');?>">
                                 Task Master</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url('index.php/vts');?>">
+                                <a href="<?php echo base_url('vts');?>">
                                 Vendor Tracking System</a>
                             </li>
                         </ul>
