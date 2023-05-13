@@ -15,13 +15,28 @@
 	    text-align: left;
 	    font-weight: 500;
 	}
-  </style>
-	<div class="banner_div">
+
+	header {
+    	background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(1,22,79,0.9248074229691877) 22%, rgba(1,22,79,1) 43%);
+	}
+    .dropdown_menu{
+    	z-index: 1!important;
+    }
+    .navbar .toggle_btn{
+    	z-index: 5!important;
+    }
+    .text_des_blog{
+	    color: #fff;
+	    height: 15vh;
+	}
+</style>
+	<!-- <div class="banner_div">
 		<img class="banner_img desk" src="<?php echo base_url('assets/img/resource/hero/resource_hero.jpg');?>">
 		<img class="banner_img mob" src="<?php echo base_url('assets/img/resource/hero/resource_hero.jpg');?>">
-	</div>
+	</div> -->
 	
-	<section class="award_sec_1" id="award">
+	<section class="award_sec_1 section_space" id="award">
 		<img class="blgo_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 			<div class="title-head">We lead ahead with<br> award-winning learning expertise</div>
@@ -123,7 +138,7 @@
 					<label class="blogs_text">
 							<?php echo $value['title'];?>
 					</label>
-					<p>
+					<p class="text_des_blog">
 							<?php echo implode('.', array_slice(explode('.', $value['description']), 0, 1));?>
 					</p>
 					<div>
@@ -132,6 +147,7 @@
 				</div>
 
 			   <?php }?>
+
 
 	<!-- 			<div class="col-md-4" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 					<img class="award_blog_img" src="<?php echo base_url('assets/img/resource/blogs/image_2_Blog sample.jpg');?>">
@@ -174,13 +190,15 @@
 				</div>
 			</div> -->
 
-			<center>
-				<a href="<?php echo site_url('blog');?>">
-                    <button class="blog-more-btn">View More</button>
-                </a>
-			</center>
+			
 
-		</div><br><br><br>
+		</div>
+		<center>
+			<a href="<?php echo site_url('blog');?>">
+                <button class="blog-more-btn">View More</button>
+            </a>
+		</center>
+		<br><br><br>
 		<img class="left_dot_blue_blgo " src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 

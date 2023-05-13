@@ -1,11 +1,8 @@
 <style type="text/css">
     header {
-        position: absolute;
-        padding: 0 2rem;
-        background-color: #4c4848cc!important;
-        width: 100%;
-        height: 100px!important;
-    }
+    	background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(1,22,79,0.9248074229691877) 22%, rgba(1,22,79,1) 43%);
+	}
     .dropdown_menu{
     	z-index: 1!important;
     }
@@ -14,7 +11,7 @@
     }
 </style>
 
-<section class="quickdeal_sec_1 padd-10">
+<section class="quickdeal_sec_1 section_space">
 	<div class="container">
 		<div class="partners_title_head padd-5">Blogs</div>
 		<div class="desc_2 white_color">
@@ -38,7 +35,7 @@
 				<label class="blogs_text_2">
 					<?php echo $value['title'];?>
 				</label>
-				<p>
+				<p class="height-15">
 					<?php echo implode('.', array_slice(explode('.', $value['description']), 0, 1));?>
 				</p>
 				<div>

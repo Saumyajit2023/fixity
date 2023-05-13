@@ -88,7 +88,7 @@ ul ul ul {
 }
 .logo{
     width: 25%;
-    z-index: 1;
+    z-index: 10;
 }
 
 header{
@@ -96,7 +96,7 @@ header{
     padding: 0 2rem;
     background-color: #ffffff00;
     width: 100%;
-    height: 90px;
+    height: 140px;
 }
 .logo_img{
     width: 45%;
@@ -781,6 +781,9 @@ ul.slick-dots li.slick-active {
 .res_des{
     font-size: 11px;
     line-height: 2;
+    white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 }
 .footer_address{
     padding-top: 40%;
@@ -1550,7 +1553,7 @@ button:focus {
     background: #f4ae1b;
     color: #000;
     border: 0;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 .award_overflow{
     height: 81vh;
@@ -1993,7 +1996,7 @@ button:focus {
 }
 .blog_img{
     width: 100%;
-    height: 350px;
+/*    height: 350px;*/
     object-fit: cover;
     border-radius: 24px 24px 24px 24px;
 }
@@ -2176,4 +2179,10 @@ button:focus {
 }
 .padding_new_5t{
     padding:7% 5% 0 5% !important
+}
+.height-15{
+    height: 15vh;
+}
+.testimonial_new{
+    padding: 0% 10%;
 }

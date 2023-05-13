@@ -133,7 +133,7 @@
                                         <p class="res_des">Contrary to popular belief, Lorem Ipsum</p>
                                     </div>
                                 </div>
-                            </li>
+                            </li><br>
                             <li>
                                 <label>Blogs</label>
                                 <div class="row">
@@ -142,12 +142,13 @@
                                     </div>
 
                                     <div class="col-md-8">
+                                        <strong class="footer_font_right">Blogs</strong>
                                         <strong class="footer_font_right"></strong>
                                         <p class="res_des" id="title"></p>
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <label>Whitepapers</label>
                                 <div class="row">
                                     <div class="col-md-4 padd-0">
@@ -159,7 +160,7 @@
                                     <p class="res_des">Contrary to
                                     popular belief, Lorem Ipsum</p>
                                     </div> </div> 
-                            </li> 
+                            </li>  -->
                         </ul> 
                     </div>
                 </div> 
