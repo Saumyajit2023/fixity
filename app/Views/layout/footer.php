@@ -205,9 +205,13 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-    blog();
-    function blog(){
-      alert("here")
+   
+
+  </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js">
+     footer_blog();
+    function footer_blog(){
+    
        $.ajax({
                 method: "GET",  
                 url : '<?php echo site_url('fixityHome/getFooter');?>',
@@ -223,6 +227,5 @@
                 }
               })
     }
-
-  </script>
+</script>
 </html>
