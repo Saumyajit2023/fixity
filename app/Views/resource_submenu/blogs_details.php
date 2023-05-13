@@ -27,10 +27,10 @@
 				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. -->
 			</div>
 			<!-- <div class="padding-top-5">
-				<img class="w-100 blog_img" src="<?php echo base_url('admin/writable/blog_banner').'/'.$blogDetail[0]['banner_img'];?>">
+				<img class="w-100 blog_img" src="">
 			</div> -->
 		<!-- 	<div class="para_about text-justify ">
-				<?php echo $array[1];?>
+				
 				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 			</div> -->
