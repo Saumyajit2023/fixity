@@ -209,7 +209,7 @@
    
 
   </script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
      footer_blog();
     function footer_blog(){
     
