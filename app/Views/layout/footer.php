@@ -214,7 +214,7 @@
     
        $.ajax({
                 method: "GET",  
-                url : '<?php echo site_url('fixityHome/getFooter');?>',
+                url : '<?php echo site_url('getFooter');?>',
                 dataType : 'json',
                 success: function(data)
                 {
