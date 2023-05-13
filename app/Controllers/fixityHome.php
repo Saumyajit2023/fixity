@@ -17,6 +17,7 @@ class fixityHome extends BaseController
     function getFooter()
     {
         $data  = $this->homeModel->getBlogImage();
+        $data[0]['desc'] = implode(' ', array_slice(explode(' ', $data[0]['description']), 0, 6));
         echo json_encode($data);
     }
 

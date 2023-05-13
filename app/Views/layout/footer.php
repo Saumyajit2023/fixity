@@ -142,7 +142,7 @@
                                     </div>
 
                                     <div class="col-md-8">
-                                        <strong class="footer_font_right">BLOGS</strong>
+                                        <strong class="footer_font_right"></strong>
                                         <p class="res_des" id="title"></p>
                                     </div>
                                 </div>
@@ -205,5 +205,24 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    blog();
+    function blog(){
+      alert("here")
+       $.ajax({
+                method: "GET",  
+                url : '<?php echo site_url('fixityHome/getFooter');?>',
+                dataType : 'json',
+                success: function(data)
+                {
+                  console.log(data[0]['title']);
+                $("#image").attr("src","<?php echo base_url('admin/writable/blog_banner');?>"+ '/' +data[0].banner_img);
+                //  $('#title').val(data[0].title);
+                    $('.footer_font_right').append('<span id="add_here">'+data[0].title+'</span>');
+                     $('p').append('<span id="add_here1">'+data[0].desc+'</span>');
+                  //document.getElementsByTagName("p")[0].innerHTML= data[0].title;
+                }
+              })
+    }
+
   </script>
 </html>

@@ -27,7 +27,7 @@ class fixityHome_Model extends Model
 
     public function getBlogImage()
     {
-       $query = $this->db->query('SELECT thumbnail_img,title FROM blog_page ORDER BY id DESC LIMIT 1');
+       $query = $this->db->query('SELECT * FROM blog_page ORDER BY id DESC LIMIT 1');
        return  $query->getResultArray();
     }
 
