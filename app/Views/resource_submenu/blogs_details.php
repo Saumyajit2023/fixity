@@ -1,15 +1,22 @@
 <style type="text/css">
     header {
-        position: absolute;
-        padding: 0 2rem;
-        background-color: #4c4848cc!important;
-        width: 100%;
-        height: 100px!important;
+    	background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(1,22,79,0.9248074229691877) 22%, rgba(1,22,79,1) 43%);
+	}
+    .dropdown_menu{
+    	z-index: 1!important;
     }
+    .navbar .toggle_btn{
+    	z-index: 5!important;
+    }
+    .text_des_blog{
+	    color: #fff;
+	    height: 15vh;
+	}
 </style>
-<div class="container">
+<div class="container section_space">
 	<div class="row padd-5">
-		<div class="col-md-8 z-index_blog padd-bottom-10">
+		<div class="col-md-12z-index_blog padd-bottom-10">
 			<label class="blog_title">
 				<strong><?php echo $blogDetail[0]['title'];?>
 				</strong>
@@ -35,7 +42,7 @@
 				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 			</div> -->
 		</div>
-		<div class="col-md-4 z-index_blog">
+		<!-- <div class="col-md-4 z-index_blog">
 			<div class="blog_comments">
 				Comment (123)
 			</div>
@@ -62,7 +69,7 @@
                 <hr>
 			</div>
 			
-		</div>
+		</div> -->
 	</div>
 </div>	
 

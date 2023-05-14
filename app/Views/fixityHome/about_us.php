@@ -121,9 +121,42 @@
 					<div class="team_text">
 						Meet the people who make <strong>Fixity a global firm!</strong>
 					</div>
+
+					<div class="testimonial_new testimonial">
+						<p class="description">
+                            Dear valued stakeholders,<br>
+							On behalf of Fixity Technologies, I would like to express our appreciation for
+							your continued support and partnership. We are proud to be recognized by the
+							Fortune 500 companies as a leading global organization in IT staffing and
+							solutions, product development, and learning and development.
+							Our commitment to excellence is reflected in everything we do, and we strive
+							to provide unparalleled service that meets all the unique expectations of all
+							our stakeholders. We understand the importance of building strong
+							relationships with our customers, employees, partners, and shareholders and
+							are dedicated to earning and maintaining your trust.
+							At Fixity Technologies, we believe that investing in our people and helping
+							them evolve is the key to our success. We are on the constant lookout to
+							provide ongoing learning and development opportunities to our employees
+							and partners, enabling them to grow and thrive within our organization.
+							We are dedicated to creating a culture of innovation, collaboration, and
+							excellence, where every member of our team can contribute their unique skills
+							and perspectives towards achieving our shared goals. We are committed to
+							working together as a unified team to exceed expectations and deliver
+							outstanding results.
+							As stakeholders of Fixity Technologies, your support is crucial to our success,
+							and we are honoured to have you as part of our team. We will continue to
+							work tirelessly to deliver the highest quality services and solutions, and we
+							look forward to continuing our partnership with you.
+							Thank you for your ongoing support and trust in Fixity Technologies.
+                        </p>
+                        <div class="">
+                                <div class="title">Vinay Velivela</div>
+                                <div class="post">CEO of Fixity Technologies</div>
+						</div>
+					</div>
 					<div class="testimonial-bg">
                 <div id="testimonial-slider" class="owl-carousel">
-                    <div class="testimonial">
+                    <!-- <div class="testimonial">
                         <p class="description">
                             Dear valued stakeholders,<br>
 							On behalf of Fixity Technologies, I would like to express our appreciation for
@@ -154,7 +187,7 @@
                                 <div class="title">Vinay Velivela</div>
                                 <div class="post">CEO of Fixity Technologies</div>
 						</div>
-                    </div>
+                    </div> -->
  
                     <!-- <div class="testimonial">
                         <div class="row">

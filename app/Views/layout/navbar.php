@@ -61,10 +61,12 @@
                     <li ><a class="menu_link" href="<?php echo site_url('htd');?>">HTD</a></li>
                   </ul>
                 </li>
-                <li class="dropdown2">
-                  <a class="menu_text" data-toggle="dropdown2" href="#">Product</a>
+                <li class="float-left w-100">
+                      <a class="menu_text" data-toggle="dropdown2" href="https://www.fixityedx.com/" target="_blank">Fixity EDX</a><br><br>
+                      <a class="menu_text" data-toggle="dropdown2" href="#">Product</a>
+                </li>
+                <li class="dropdown2">                  
                   <ul class="">
-
                     <li class="float-left"><a class="menu_link" href="<?php echo site_url('quilkdeals');?>">Qilkdeals</a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo site_url('goodgovernance');?>">Good Governance </a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo site_url('legacy');?>">Legacy</a></li>
@@ -73,8 +75,6 @@
                     <li class="float-left"><a class="menu_link" href="<?php echo site_url('pts');?>">Performance Tracking System </a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo site_url('task_master');?>">Task Master</a></li>
                     <li class="float-left"><a class="menu_link" href="<?php echo base_url('index.php/vts');?>">Vendor Tracking System</a></li>
-                    <li class="float-left">
-                      <a class="menu_text" data-toggle="dropdown2" href="https://www.fixityedx.com/" target="_blank">Fixity EDX</a>
                     </li>
 
                   </ul>
