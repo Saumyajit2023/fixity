@@ -61,7 +61,7 @@ $routes->get('/blog','Resources::blogs');
 //$routes->get('/Blog_Details','Resources::blog_Detail');
 $routes->get('/whitepaper','Resources::whitepapers');
 $routes->get('/privacy_policy','fixityHome::privacyPolicy');
-
+$routes->get('/getFooter','fixityHome::getFooter');
 
 /*
  * --------------------------------------------------------------------
