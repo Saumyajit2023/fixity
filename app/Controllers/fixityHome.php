@@ -10,17 +10,18 @@ class fixityHome extends BaseController
     {
         $this->homeModel = new fixityHome_Model();
         $this->resource_model = new resource_model();
-        
 
     }
 
-    function getFooter()
+    public function getFooter()
     {
-        $data  = $this->homeModel->getBlogImage();
-        $data[0]['desc'] = implode(' ', array_slice(explode(' ', $data[0]['description']), 0, 6));
-        echo json_encode($data);
+        $blog  = $this->homeModel->getBlogImage();
+        $blog[0]['desc'] = implode(' ', array_slice(explode(' ', $blog[0]['description']), 0, 6));
+        $data['blogImage'] = $blog[0]['banner_img'];
+        $data['descript']  = $blog[0]['desc'];
+        $data['title']     = $blog[0]['title'];
+        return $data;
     }
-
 
     public function index()
     {
@@ -28,11 +29,8 @@ class fixityHome extends BaseController
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
         $data['logo']       = $this->homeModel->getLogoList();
-        // $data['blogImage']   = $this->homeModel->getBlogImage();
-        // $data['blogTitle']   = $this->homeModel->getBlogTitle();
-
-        //print_r($data['logo']);die();
-       
+        $data['blog_footer']= $this->getFooter();
+      //  print_r($data['blog_footer']['title']);die();
         return view('layout/content',$data);
     
     }
@@ -43,7 +41,8 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/careers';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
-        $data['career']       = $this->homeModel->getCareerList();
+        $data['career']     = $this->homeModel->getCareerList();
+        $data['blog_footer']= $this->getFooter();
         return view('layout/content',$data);
     }
 
@@ -52,8 +51,8 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/about_us';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
-       
-         return view('layout/content',$data);
+        $data['blog_footer']= $this->getFooter();
+        return view('layout/content',$data);
     }
 
     public function partners()
@@ -62,6 +61,7 @@ class fixityHome extends BaseController
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('partners-js'=>'fixityHome/js/partners_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
         $data['partnerLogo']= $this->homeModel->getPartnerLogoList();
+        $data['blog_footer']= $this->getFooter();
         return view('layout/content',$data);
     }
 
@@ -71,7 +71,8 @@ class fixityHome extends BaseController
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('resource-js'=>'fixityHome/js/resource_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
         $data['blog']       = $this->resource_model->getBlogDetails();
-         return view('layout/content',$data);
+        $data['blog_footer']= $this->getFooter();
+        return view('layout/content',$data);
     }
 
     public function contact()
@@ -79,7 +80,7 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/contact';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
-       
+        $data['blog_footer']= $this->getFooter();
         return view('layout/content',$data);
     }
 
@@ -88,7 +89,7 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/blog';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
-       
+        $data['blog_footer']= $this->getFooter();
         return view('layout/content',$data);
     }
 
@@ -97,7 +98,7 @@ class fixityHome extends BaseController
         $data['page']       = 'fixityHome/privacy';
         $data['module']     = 'Fixity';
         $data['js']         = array('external'=> array('fixity-js'=>'fixityHome/fixity_js.php','footer-js'=>'fixityHome/js/footer-js.php'));
-       
+        $data['blog_footer']= $this->getFooter();
         return view('layout/content',$data);
     }
 

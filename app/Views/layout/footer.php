@@ -138,13 +138,14 @@
                                 <label>Blogs</label>
                                 <div class="row">
                                     <div class="col-md-4 padd-0">
-                                        <img class="img_res" id="image" src="">
+
+                                        <img class="img_res" id="image" src="<?php echo base_url('admin/writable/blog_banner').'/'.$blog_footer['blogImage'];?>">
                                     </div>
 
                                     <div class="col-md-8">
-                                        <strong class="footer_font_right">Blogs</strong>
-                                        <strong class="footer_font_right"></strong>
-                                        <p class="res_des" id="title"></p>
+                                       
+                                        <strong class="footer_font_right"><?php echo $blog_footer['title'];?></strong>
+                                        <p class="res_des"><?php echo $blog_footer['descript'];?></p>
                                     </div>
                                 </div>
                             </li>
@@ -209,24 +210,5 @@
    
 
   </script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
-     footer_blog();
-    function footer_blog(){
-    
-       $.ajax({
-                method: "GET",  
-                url : '<?php echo site_url('getFooter');?>',
-                dataType : 'json',
-                success: function(data)
-                {
-                  console.log(data[0]['title']);
-                $("#image").attr("src","<?php echo base_url('admin/writable/blog_banner');?>"+ '/' +data[0].banner_img);
-                //  $('#title').val(data[0].title);
-                    $('.footer_font_right').append('<span id="add_here">'+data[0].title+'</span>');
-                     $('p').append('<span id="add_here1">'+data[0].desc+'</span>');
-                  //document.getElementsByTagName("p")[0].innerHTML= data[0].title;
-                }
-              })
-    }
-</script>
+
 </html>
