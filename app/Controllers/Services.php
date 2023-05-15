@@ -3,7 +3,7 @@
 namespace App\Controllers;
 use App\Controllers\fixityHome;
 use App\Models\fixityHome_Model;
-use APP\Controllers\fixityHome;
+
 
 class Services extends BaseController
 {
