@@ -10,9 +10,9 @@
           </div>
           <div>
             <p class="footer_address">
-                info@fixitytech.com<br>
+                info@fixitytech.com<br><br>
                 3333 Warrenville Road, Suite #200 Lisle,<br> Illinois 60532 USA.
-            </p>
+            </p><br>
 
             <div class="social_icon_footer">
                 <a href="https://www.facebook.com/fixitytech">

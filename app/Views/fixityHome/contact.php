@@ -5,7 +5,7 @@
 
 	<section class="address_bg">
 		<div class="container ">
-			<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"data-aos-duration="1000">Address</div>
+			<div class="title-head" data-aos="fade-up" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">Address</div>
 			<div class="row">
 				<div class="col-md-4 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">

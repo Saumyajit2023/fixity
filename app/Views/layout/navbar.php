@@ -86,7 +86,7 @@
           </div>
           <div class="col-md-3 menu_border_right">
             <div>
-              <ul>
+              <ul class="line_box">
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('about_us');?>">About Us </a>
                 </li>
@@ -96,9 +96,9 @@
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('career');?>">Careers</a>
                 </li>
-                <li class="dropdown2">
+                <!-- <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('resource');?>">Resources</a>
-                </li>
+                </li> -->
                 <li class="dropdown2">
                   <a class="menu_text" data-toggle="dropdown2" href="<?php echo site_url('blog');?>">Blog</a>
                 </li>

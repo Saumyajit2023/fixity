@@ -4,7 +4,7 @@
 	</div>
 	<section class="career_sec2">
 		<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
-		<div class=" " data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+		<div class=" " data-aos="zoom-in" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 			<div class="title-head">Overview Section</div>
 			<div class="desc">
 				At Fixity, our team of experienced and certified professionals offers next-generation IT solutions to extend the efficiency of your team and let your business grow. We understand the challenges of managing large-scale systems and that's why we offer competent solutions to help you overcome the skill limitations of your team and maximize the return on your investment. We carefully understand the exact requirements of our clients and address them by providing a range of services that aligns well with the client's strategic goals, culture & existing in-house teams.
@@ -13,11 +13,11 @@
 
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_2/we_support.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title ">We Support And Empower Your Business Growth With The Leading Edge Technology</div><br>
 					<p class="quickdeal_title-head_2">
 						Strategy architecture to its implementation, we cover all aspects to offer comprehensive support and help our clients achieve IT success.
@@ -25,7 +25,7 @@
 				<div class="col-md-12 text_it">
 					Our range of services includes:
 				</div>
-				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
 							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/oracle_e-Business.png');?>">
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 padd-5" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5" data-aos="zoom-in" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
 							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/big_data.png');?>">
@@ -55,7 +55,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
 							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/hyperion_support.png');?>">
@@ -70,7 +70,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-6 padd-5"  data-aos="zoom-in" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-lg-4">
 							<img class="w-100" src="<?php echo base_url('assets/img/it_solutions/section_2/limited_upport.png');?>">
@@ -92,7 +92,7 @@
 	<section class="htd_sec3">
 		<div class="container">
 			<div class="row padd-10">
-				<div class="col-md-7" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-7" data-aos="fade-right" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title ">Start Your Brand's Digital Transformation Here!</div><br>
 					<p class="quickdeal_title-head_2 white_color">
 						Industry Expertise & Technical Prowess for Dynamic Results.</p>
@@ -108,7 +108,7 @@
 						</ul>
 					</p>
 				</div>
-				<div class="col-md-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-md-5" data-aos="fade-left" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_3/start_your.jpg');?>">
 				</div>
 			</div>
@@ -118,18 +118,20 @@
 		<div class="container">
 			<img class="right_dot" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 			<div class="row padd-10">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="img_sec" src="<?php echo base_url('assets/img/it_solutions/section_4/discover_the.jpg');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title ">Discover The True Growth Potential Of Your Business With Our Expert Technical Assistance</div><br>
 					<p class="quickdeal_title-head_2">
 						We aim to enable our clients to achieve their business goals with state-of-the-art technological assistance.</p>
+					<p class="para_about">
+						At Fixity, we also aim to deliver modernized support services to our clients and strive to exceed their expectations.We utilize best practices and industry standards to ensure that your systems are running at optimal performance and are always up to date with the latest security patches and features.</p>
 					
 				</div>
-				<div class="col-12 col-sm-12 col-lg-12 padd-5" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">	   <p class="para_about">
-						At Fixity, we also aim to deliver modernized support services to our clients and strive to exceed their expectations. We utilize best practices and industry standards to ensure that your systems are running at optimal performance and are always up to date with the latest security patches and features. Our capabilities are complemented by our flexible engagement models and customized solutions that meet the specific requirements of the client.
+				<div class="col-12 col-sm-12 col-lg-12">	   
+					  Our capabilities are complemented by our flexible engagement models and customized solutions that meet the specific requirements of the client.
 					</p>			
 					<p class="para_about">
 						Whether you need assistance with a single project or ongoing support, we have the resources and expertise to help you yield positive results and achieve your business objectives.

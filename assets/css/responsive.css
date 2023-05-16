@@ -535,6 +535,9 @@
 	    transform: scaleY(0);
 	  }
 	}
+	.mobile_top{
+		    margin-top: 35%;
+	}
 	.footer_address {
     padding-top: 5%;
     font-size: 13px;

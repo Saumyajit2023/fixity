@@ -731,7 +731,7 @@ ul.slick-dots li.slick-active {
   width: 74%!important;
 }
 .padd-10{
-    padding: 10% 0;
+    padding: 5% 0;
 }
 .pad-10{
     padding-top: 20%;
@@ -786,7 +786,7 @@ ul.slick-dots li.slick-active {
       text-overflow: ellipsis;
 }
 .footer_address{
-    padding-top: 40%;
+    padding-top: 10%;
     font-size: 13px;
     font-weight: 500;
     color: #ddd;
@@ -854,7 +854,7 @@ ul.slick-dots li.slick-active {
     text-align: left;
     font-weight: bold;
     color: #01164f;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 .para_about {
     width: 100%;
@@ -862,25 +862,21 @@ ul.slick-dots li.slick-active {
 }
 .yellow_bg{
   background: #f4af1b;
-  margin: 15% 0;
   padding: 5%;
+  text-align: center;
 }
+
 .mission_img{
     width: 25%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 .mg_l_5p{
   margin-left: 5%;
 }
 .para_vision {
-    width: 75%;
+    width: 100%;
     line-height: 1.5;
-    padding-bottom: 17%;
-}
-.vision{
-    position: relative;
-    left: 65%;
-    bottom: 5%;
+    padding-bottom: 5%;
 }
 .rest{
   background: url(about/section_3/what_makes_us_BG.jpg) no-repeat ; 
@@ -2185,4 +2181,7 @@ button:focus {
 }
 .testimonial_new{
     padding: 0% 10%;
+}
+.line_box > li{
+    line-height: 2.3;
 }

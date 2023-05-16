@@ -11,7 +11,7 @@
     }
 </style>
 
-<section class="quickdeal_sec_1 section_space">
+<section class="quickdeal_sec_1 section_space mobile_top">
 	<div class="container">
 		<div class="partners_title_head padd-5">Blogs</div>
 		<div class="desc_2 white_color">

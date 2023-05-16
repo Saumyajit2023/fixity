@@ -31,10 +31,10 @@
 
 	<section class="partners_sec_1">
 		<div class="row mg-lf">
-			<div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			<div class="col-md-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 				<img class="partners_img" src="<?php echo base_url('assets/img/partners/section_2/why_fixity.png');?>">
 			</div>
-			<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			<div class="col-md-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 				<div class="about_title-head section_space partners_text">Why do partners choose Fixity Tech?</div>
 				<div class="para_about_partners pad-lr-10">
 					At Fixity Tech, we take pride in our partner-centric culture. We are committed to creating strong and loyal alliances with our partners and helping them grow with us. When you partner with us you get access to our services and technologies to get the right talent in your team and scale your business to scale new growth opportunities.
@@ -75,7 +75,7 @@
 		<div class="container ">
 			<div class="title-head">Here is what our partners have to say about their collaboration with Fixity Tech!</div>
 
-			<div class="container-fluid" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+			<div class="container-fluid" data-aos="zoom-in" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 			  <div class="row">
 			    <div class="col-md-12">
 			      <div id="news-slider" class="owl-carousel">

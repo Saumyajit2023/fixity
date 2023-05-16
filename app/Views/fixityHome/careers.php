@@ -7,11 +7,11 @@
 		<img class="car_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/career/section_2/philosophy_image.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="about_title-head section_space">Our Philosophy</div><br>
 					<p class="para_about">
 						At Fixity, we are committed to creating a culture of faith, trust, and growth. Our work culture is driven by the discipline of courage, honesty & transparency. We help our employees feel connected, engaged, and aligned with the company's vision to become a global leader in IT staffing and product outsourcing.</p>
@@ -27,8 +27,7 @@
 		<div class="container ">
 			<div class="title-head" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
 				data-aos-duration="1000">Fixity Life</div>
-			<div class="desc_2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
-				data-aos-duration="1000">
+			<div class="desc_2">
 						Fixity has its presence across three continents currently and we are on a mission to build a global footprint. Join us in this mission and start doing work that matters.
 			</div>
 			<div class="desc_2">

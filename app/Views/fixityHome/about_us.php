@@ -6,10 +6,22 @@
 	</div>
 
 	<section class="about-us">
-		<div class="container ">
+		<div class="container ">			
+			<div class="col-md-12 padding-top-5" data-aos="zoom-in" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="yellow_bg">
+					<div class="about_title-head text-center">Who we are</div>
+					<p class="para_about">Today's ever-evolving business landscape demands a skilled niche workforce that can achieve extraordinary targets for the organization.</p>
+
+					<p class="para_about">We at FixityTech create and offer high-impact staffing solutions that upgrade and transform the workforce infrastructure of organizations accurately & effectively to foster growth & productivity. Our leadership has been a crucial part of the Staffing & Workforce Management industry for the last 18 years and served a diverse mix of clients in the IT sector.</p>
+
+					<p class="para_about">Fixity helps businesses across the globe to achieve their growth targets and objectives. We offer a specialized spectrum of services across various verticals & functions. We hold a remarkable experience of serving several renowned Fortune 500 clients among many other noteworthy names.</p>
+
+					<p class="para_about">Fixity is a scaling firm with its global headquarters in Chicago, IL & domestic headquarters in Hyderabad, Telangana, and also a near-shore office in Querétaro-Mexico.</p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<div class="mission" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+					<div class="mission" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/mission_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
@@ -18,8 +30,9 @@
 							<p class="para_vision ">We want to create an environment of success for our team, clients and partners by providing excellent IT staffing and solutions. We are committed to building an amazing team, being innovative in our products and services, and providing a secure and competitive environment. Our mission is to create long-term relationships with our clients while maintaining the highest levels of quality. We strive to achieve excellence in all we do and exceed expectations with each project engagement. </p>
 						</div>
 					</div>
-
-					<div class="vision" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				</div>
+				<div class="col-md-6">
+					<div class="vision" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 						<img class="mission_img"  src="<?php echo base_url('assets/img/about/section_2/Vision_icon.png');?>">
 						<div class="mg_l_5p">
 							<div class="about_title-head">
@@ -29,20 +42,7 @@
 								Our vision as an IT company is to become a leading provider of innovative and high-quality technology solutions that help our clients achieve their goals and improve their business operations. We strive to be recognized as a trustworthy and reliable partner that consistently delivers exceptional value and outstanding service that is personalized to the client's needs. </p>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
-					<div class="yellow_bg">
-						<div class="about_title-head">Who we are</div>
-						<p class="para_about">Today's ever-evolving business landscape demands a skilled niche workforce that can achieve extraordinary targets for the organization.</p>
-
-						<p class="para_about">We at FixityTech create and offer high-impact staffing solutions that upgrade and transform the workforce infrastructure of organizations accurately & effectively to foster growth & productivity. Our leadership has been a crucial part of the Staffing & Workforce Management industry for the last 18 years and served a diverse mix of clients in the IT sector.</p>
-
-						<p class="para_about">Fixity helps businesses across the globe to achieve their growth targets and objectives. We offer a specialized spectrum of services across various verticals & functions. We hold a remarkable experience of serving several renowned Fortune 500 clients among many other noteworthy names.</p>
-
-						<p class="para_about">Fixity is a scaling firm with its global headquarters in Chicago, IL & domestic headquarters in Hyderabad, Telangana, and also a near-shore office in Querétaro-Mexico.</p>
-					</div>
-				</div>
+				</div>				
 			</div>
 		</div>
 	</section>
@@ -57,7 +57,7 @@
 					</div>
 			<div class="container">
 				<div class="row p-5 padd-bottom-10">
-				  <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				  <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 				    <ul class="nav nav-pills flex-column" id="experienceTab" role="tablist">
 				      <li class="nav-item">
 				        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#snit" role="tab" aria-controls="home" aria-selected="true"><strong>Technical Expertise</strong> <br>you can rely on</a>
@@ -74,7 +74,7 @@
 				    </ul>
 				  </div>
 				  <!-- /.col-md-4 -->
-				  <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				  <div class="col-md-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 				    <div class="tab-content" id="experienceTabContent">
 
 				      <div class="tab-pane fade show active text-left text-light" id="snit" role="tabpanel" aria-labelledby="home-tab">
@@ -114,12 +114,13 @@
 
 	<section class="team">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-4" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-4" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="team_img " src="<?php echo base_url('assets/img/about/section_4/people_images_map.jpg');?>">
 				</div>
-				<div class="col-12 col-sm-12 col-lg-8" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-8" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="team_text">
-						Meet the people who make <strong>Fixity a global firm!</strong>
+						<!-- Meet the people who make <strong>Fixity a global firm!</strong> -->
+						<strong>CEO Message</strong>
 					</div>
 
 					<div class="testimonial_new testimonial">

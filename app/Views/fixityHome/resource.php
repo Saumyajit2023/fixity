@@ -36,7 +36,7 @@
 		<img class="banner_img mob" src="<?php echo base_url('assets/img/resource/hero/resource_hero.jpg');?>">
 	</div> -->
 	
-	<section class="award_sec_1 section_space" id="award">
+	<section class="award_sec_1 section_space mobile_top" id="award">
 		<img class="blgo_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 		<div class="container" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
 			<div class="title-head">We lead ahead with<br> award-winning learning expertise</div>

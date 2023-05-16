@@ -6,11 +6,11 @@
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_2/amts.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Customizing The Asset Management For You</div><br>
 					<p class="quickdeal_title-head_2">
 						To help you track all tickets associated with your assets.
@@ -25,9 +25,9 @@
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container pd_b_5">
+		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Manage Assets And Ensure Compliance</div><br>
 					<p class="quickdeal_title-head_2">
 						Improve asset governance by monitoring software usage (unused, rarely used, and so on).
@@ -36,7 +36,7 @@
 						Asset Management and Tracking Systems can effortlessly track and manage an asset's entire lifecycle. With a single click, you can have detailed information on various aspects of assets including configuration, warranty, bills, services, ownership, etc. For each item/product/asset, you can also generate a unique code with a bar code /QR Code. Create a high level of synergy by building relationships between people, assets, and other Configuration Items with Fixity Asset Management and Tracking System.
 					</p>
 				</div>
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_3/amts.png');?>">
 				</div>
 			</div>
@@ -47,11 +47,11 @@
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_4/amts.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" data-aos-delay="50" data-aos-duration="1000">
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Create Asset Budgets Better!</div><br>
 					<p class="quickdeal_title-head_2">
 						Maintain a complete product catalog of all assets owned by the company with price and warranty details.
