@@ -4,7 +4,6 @@ namespace App\Controllers;
 use App\Controllers\fixityHome;
 use App\Models\resource_model;
 use App\Models\fixityHome_Model;
-use APP\Controllers\fixityHome;
 
 class Resources extends BaseController
 {

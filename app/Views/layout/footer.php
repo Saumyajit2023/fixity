@@ -125,12 +125,12 @@
                                 <label>Awards/Media</label>
                                 <div class="row">
                                     <div class="col-md-4 padd-0">
-                                        <img class="img_res" src="https://picsum.photos/200">
+                                        <img class="img_res" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.jpg');?>">
                                     </div>
 
                                     <div class="col-md-8">
                                         <strong class="footer_font_right">AWARDS/MEDIA</strong>
-                                        <p class="res_des">Contrary to popular belief, Lorem Ipsum</p>
+                                        <!-- <p class="res_des">Contrary to popular belief, Lorem Ipsum</p> -->
                                     </div>
                                 </div>
                             </li><br>
