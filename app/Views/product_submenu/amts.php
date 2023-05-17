@@ -10,7 +10,7 @@
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_2/amts.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Customizing The Asset Management For You</div><br>
 					<p class="quickdeal_title-head_2">
 						To help you track all tickets associated with your assets.
@@ -18,7 +18,7 @@
 					<p class="para_about">
 						An organization's success and growth depend on how well it manages human resources and assets at an optimized level. Fixity Asset Management and Tracking system give you detailed information on each item/asset of any category of electrical, electronic, and stationery. The application also gives you comprehensive asset information like hardware specification, software installed, scan history, asset ownership history, and asset states in a single pane of glass.
 					</p>
-				</div>
+				</div><div class="col-12 col-sm-12 col-lg-1"></div>
 			</div>
 		</div>
 		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
@@ -27,7 +27,7 @@
 	<section class="quickdeal_sec_2">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Manage Assets And Ensure Compliance</div><br>
 					<p class="quickdeal_title-head_2">
 						Improve asset governance by monitoring software usage (unused, rarely used, and so on).
@@ -36,6 +36,7 @@
 						Asset Management and Tracking Systems can effortlessly track and manage an asset's entire lifecycle. With a single click, you can have detailed information on various aspects of assets including configuration, warranty, bills, services, ownership, etc. For each item/product/asset, you can also generate a unique code with a bar code /QR Code. Create a high level of synergy by building relationships between people, assets, and other Configuration Items with Fixity Asset Management and Tracking System.
 					</p>
 				</div>
+				<div class="col-12 col-sm-12 col-lg-1"></div>
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/amts/section_3/amts.png');?>">
 				</div>

@@ -10,7 +10,7 @@
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/pp/section_2/pp.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Reduce User Friction Without Compromising Security</div><br>
 					<p class="quickdeal_title-head_2">
 						Ensure employees practice excellent password hygiene with Password Protector
@@ -19,6 +19,7 @@
 						Good business password hygiene and practices are necessary to avoid data breaches. However, traditional password management practices can be tiring for employees and Admins. Fixity Password Protector empowers your workforce by reducing friction for users and IT teams. It also saves time by simplifying employee password management. It is a centralized credential manager application that securely stores different service credentials and provides user access by following policy rules.
 					</p>
 				</div>
+				<div class="col-12 col-sm-12 col-lg-1"></div>
 			</div>
 		</div>
 		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
@@ -53,14 +54,15 @@
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/pp/section_4/pp.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Manage The Entire Company's Passwords From One Place.</div><br>
 					<p class="quickdeal_title-head_2">
 						Password Protector makes it easy for the organization to manage all passwords centrally.
 					</p>	
 					<p class="para_about">
 						Password Protector protects, and secures the privacy of necessary documents without allowing open access in a shared environment. This application is also integrated with Email, SMS, WhatsApp, and Telegram Systems to deliver OTP. It protects every point of your business by giving your IT team complete control. It maintains security while ensuring safety against breaches with dark web monitoring.
-					</p>			
+					</p>	
+					<div class="col-12 col-sm-12 col-lg-1"></div>		
 				</div>
 			</div>
 		</div>

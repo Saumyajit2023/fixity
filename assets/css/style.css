@@ -784,6 +784,7 @@ ul.slick-dots li.slick-active {
     white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      margin-bottom: 0!important;
 }
 .footer_address{
     padding-top: 10%;
@@ -1668,9 +1669,10 @@ button:focus {
     font-weight: bold;
     color: #f4af1b;
     line-height: 1.2;
+    padding-bottom: 2%;
 }
 .quickdeal_title-head_2 {
-    font-size: 29px;
+    font-size: 22px;
     text-align: left;
     font-weight: 400;
     color: #01164f;

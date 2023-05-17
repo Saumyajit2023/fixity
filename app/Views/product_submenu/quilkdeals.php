@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-6 mgl_5 award_padding_bottom" id="first" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title" id="news-slider">Before You Buy It, Compare Its Price On Qlikdeals</div>
-					<div class="quickdeal_title-head_2">E-commerce is full of exciting offers and deals on all kinds of products. Picking the one that fits your budget and requirements can be get difficult. Meet Qilkdeals.</div>
+					<div class="quickdeal_title-head_2">E-commerce is full of exciting offers and deals on all kinds of products. Picking the one that fits your budget and requirements can be  difficult. Meet Qilkdeals.</div>
 					<p class="para_about">
 						Qlikdeals allow you to compare prices from a variety of retailers and find the best deals on the products you need. Whether you're looking for the latest electronics, fashion, home goods, or anything in between, our platform makes sure you get only the best deals.
 					</p>
@@ -34,7 +34,7 @@
 					</p>
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-5 padd-bottom-10" id="second" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5 " id="second" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/quickdeal/section_2/image_2.png');?>">
 				</div>
 			</div>

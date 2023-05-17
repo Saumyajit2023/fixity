@@ -120,7 +120,7 @@
 				<div class="col-12 col-sm-12 col-lg-8" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="team_text">
 						<!-- Meet the people who make <strong>Fixity a global firm!</strong> -->
-						<strong>CEO Message</strong>
+						<strong>From The CEO's Desk</strong>
 					</div>
 
 					<div class="testimonial_new testimonial">

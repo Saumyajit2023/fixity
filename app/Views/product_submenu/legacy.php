@@ -18,9 +18,6 @@
 					<p class="para_about">
 						At Fixity, we believe family is everything and understand the importance of maintaining connections with your loved ones. But in today's rapidly transforming digital world, staying connected with your loved ones can be a challenge, especially for older generations. The older generations of the family are often not much fluent with technology. For them using digital technology to stay connected with the younger generation of the family can be a difficult task. This inspired us to create Legacy, an easy-to-use application that makes it simple for everyone in the family to stay in touch.
 					</p>
-				</div>
-
-				<div class="col-md-12" >
 					<p class="para_about">
 						With Legacy, people can easily create a family tree, share photos and videos, and keep everyone in the family up-to-date on important events and milestones. Regardless of their tech-savviness, everyone in the family can use this, easy to navigate through, interface.
 					</p>
@@ -34,9 +31,9 @@
 	</section>
 
 	<section class="quickdeal_sec_2">
-		<div class="container pd_b_5">
+		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Keep Your Family Updated With Your Life Events Through Legacy</div><br>
 					<p class="quickdeal_title-head_2">
 						This application is friendly and easy to navigate through.
@@ -47,7 +44,7 @@
 						Our list of exciting features does not end here. The application also offers an amazing feature that allows users to create a family journal. In this journal, all the family members can add their stories, memories, and events which they all can share and cherish together.
 					</p>
 				</div>
-
+				<div class="col-12 col-sm-12 col-lg-1"></div>	
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/legacy/section_3/legacy.png');?>">
 				</div>
@@ -70,12 +67,10 @@
 					</p>	
 					<p class="para_about">
 						We equip family members to share their life updates in real-time, regardless of distance or technology barriers. Legacy is designed to be user-friendly and accessible to people of all ages, even the ones who hold less technical expertise. Whether you're a grandparent trying to stay connected and keep up with your grandkids or a busy parent trying to stay connected with your extended family, Legacy makes it easy to share your family's story and build a lasting legacy together.
-					</p>			
-				</div>
-				<div class="col-md-12 padding_b-5">
+					</p>
 					<p class="para_about">
 						Legacy is more than just an app, it is a revolutionary way for families to stay connected and build a lasting family legacy that can be passed down to future generations. Download the app today and start building a lasting family legacy!
-					</p>
+					</p>			
 				</div>
 			</div>
 		</div>

@@ -72,7 +72,7 @@
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/vts/row_3.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">VTS manages maintenance and streamlines everything</div><br>
 					<p class="quickdeal_title-head_2">
 						Quick maintenance allows end-users to assign maintenance tasks to individual employers
@@ -81,6 +81,7 @@
 						Every Service/tool is associated with different types of data from basic tool/plan information to advance service history, renewals, usages, offers, and interactions with the service provider. Fixity Vendor Tracking System keeps a track of all of this data on a single platform. It offers the users an interactive dashboard where they can plan and manage services/tools effectively.
 					</p>			
 				</div>
+				<div class="col-12 col-sm-12 col-lg-1"></div>
 			</div>
 		</div>
 	</section>

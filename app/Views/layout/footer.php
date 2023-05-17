@@ -49,7 +49,7 @@
                                 <li>Careers</li>
                             </a>
                             <a href="<?php echo base_url('contact_us');?>">
-                                <li>Contacts Us</li>
+                                <li>Contact Us</li>
                             </a>
                         </ul>
                     </div>
@@ -123,31 +123,37 @@
                         <ul class="footer_ui line-height_2">
                             <li>
                                 <label>Awards/Media</label>
+                                <a href="<?php echo site_url('resource#award');?>">
                                 <div class="row">
                                     <div class="col-md-4 padd-0">
                                         <img class="img_res" src="<?php echo base_url('assets/img/resource/awards/award_sample_2.jpg');?>">
                                     </div>
 
-                                    <div class="col-md-8">
-                                        <strong class="footer_font_right">AWARDS/MEDIA</strong>
-                                        <!-- <p class="res_des">Contrary to popular belief, Lorem Ipsum</p> -->
+                                    <div class="col-md-8" >
+                                        <strong class="footer_font_right" style="margin-top: 2%;">SILICON INDIA</strong>
+                                        <p class="res_des">Most Promising </p>
+                                        <p class="res_des">Technology </p>
+                                        <p class="res_des"> Company</p>
                                     </div>
                                 </div>
+                                </a>
                             </li><br>
                             <li>
                                 <label>Blogs</label>
-                                <div class="row">
-                                    <div class="col-md-4 padd-0">
+                                <a href="<?php echo site_url('blog');?>">
+                                    <div class="row">
+                                        <div class="col-md-4 padd-0">
 
-                                        <img class="img_res" id="image" src="<?php echo base_url('admin/writable/blog_banner').'/'.$blog_footer['blogImage'];?>">
-                                    </div>
+                                            <img class="img_res" id="image" src="<?php echo base_url('admin/writable/blog_banner').'/'.$blog_footer['blogImage'];?>">
+                                        </div>
 
-                                    <div class="col-md-8">
-                                       
-                                        <strong class="footer_font_right"><?php echo $blog_footer['title'];?></strong>
-                                        <p class="res_des"><?php echo $blog_footer['descript'];?></p>
+                                        <div class="col-md-8">
+                                           
+                                            <strong class="footer_font_right"><?php echo $blog_footer['title'];?></strong>
+                                            <p class="res_des"><?php echo $blog_footer['descript'];?></p>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </li>
                             <!-- <li>
                                 <label>Whitepapers</label>

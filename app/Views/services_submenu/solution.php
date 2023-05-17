@@ -128,9 +128,7 @@
 						We aim to enable our clients to achieve their business goals with state-of-the-art technological assistance.</p>
 					<p class="para_about">
 						At Fixity, we also aim to deliver modernized support services to our clients and strive to exceed their expectations.We utilize best practices and industry standards to ensure that your systems are running at optimal performance and are always up to date with the latest security patches and features.</p>
-					
-				</div>
-				<div class="col-12 col-sm-12 col-lg-12">	   
+					<p class="para_about">
 					  Our capabilities are complemented by our flexible engagement models and customized solutions that meet the specific requirements of the client.
 					</p>			
 					<p class="para_about">

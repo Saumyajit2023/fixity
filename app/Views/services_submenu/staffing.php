@@ -17,7 +17,7 @@
 
 		<div class="container">
 			<img class="left_dot" src="<?php echo base_url('assets/img/left_pattern.png');?>">
-			<div class="row padding-top-5">
+			<div class="row padding_bottom-5">
 				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="img_sec" src="<?php echo base_url('assets/img/it_staffing/section_2/connecting_you.png');?>">
 				</div>
@@ -74,8 +74,6 @@
 					<p class="para_about">
 						Our dedicated in-house team of recruiters aims to deliver better enterprise performance with the right staffing. We are equipped with Al-driven Application Tracking System for seamless coordination. Ensuring end-to-end ownership with a commitment is always our priority. We bring the best talent matches for the clients with the genuine intention of maintaining a good relationship with them. We deliver performance and ensure employee retention.
 					</p>
-				</div>
-				<div class="col-md-12 padd-3">					
 					<p class="para_about">
 						Fixity transcends the limitation of manpower and deploys the best talent across a diverse range of industries and functions. We ensure seamless collaborations with our clients and offer IT Staffing solutions that suit every industry vertical. We are unconventional and disruptive in our hiring approach and our partnership model focuses on finding organizations the right people with the right skills, competencies, and attitudes.
 					</p>
