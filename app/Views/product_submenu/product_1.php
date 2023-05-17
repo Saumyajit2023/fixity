@@ -6,11 +6,11 @@
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/pts/section_2/pts.png');?>">
 				</div>
-
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-1"></div>
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Customize Your Team's Workflows</div><br>
 					<p class="quickdeal_title-head_2">
 						Move fast, stay aligned, and work together as a team
@@ -19,7 +19,6 @@
 						Fixity Performance Tracking System is a must-have HR and Management tool to track and visualize the performance of resources in a multi-dimensional way. The application is equipped with an intuitive UI that allows the interactive visualization of reports in tables and charts. It presents various KPIs by analyzing data associated with points of interest. It also helps in driving the organization's performance and engaging employees to do their best work.
 					</p>
 				</div>
-				<div class="col-12 col-sm-12 col-lg-1"></div>
 			</div>
 		</div>
 		<img class="left_dot_blue_pro_dev" src="<?php echo base_url('assets/img/left_pattern.png');?>">
@@ -37,9 +36,9 @@
 						This Performace Tracking System integrates various services through REST API and provides API to external applications for specialized reporting dashboards. It also offers the provision to include and customize various attributes associated with different types of resources/services. It is a holistic platform that connects employee performance, feedback, and career growth. Build and elevate the culture of continuous growth and development with this holistic application.
 					</p>
 				</div>
+				<div class="col-12 col-sm-12 col-lg-1"></div>
 
-
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/pts/section_3/pts.png');?>">
 				</div>
 			</div>
@@ -50,11 +49,12 @@
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/pts/section_4/pts.png');?>">
 				</div>
-
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				
+				
+				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">Embrace Continuous Performance Management</div><br>
 					<p class="quickdeal_title-head_2">
 						When your people transform, your business management does too.

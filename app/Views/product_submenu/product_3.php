@@ -6,11 +6,10 @@
 	<section class="career_sec2">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/vts/row_1.png');?>">
 				</div>
-
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-7" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500"><br>
 					<div class="quickdeal_title section_space padding-lr-10">Complete services/products tracking system tailored for you</div><br>
 					<p class="quickdeal_title-head_2 padding-lr-10">
 						Easy implementation | Robust features | Interactive interface</p>	
@@ -18,6 +17,7 @@
 						Fixity Vendor Tracking System is a dynamic platform that assists in maintaining the database of services/tools and associated detailed data and information across departments and countries. It organizes services/tools into two major categories: Prospects and Enrolled. You can also add an optional extended category that can be integrated as Recommended based on Al.
 					</p>			
 				</div>
+
 				<img class="left_dot_blue_vts " src="<?php echo base_url('assets/img/left_pattern.png');?>">
 			</div>
 		</div>
@@ -61,18 +61,18 @@
 					<img class="w-100 section_space padd-5" src="<?php echo base_url('assets/img/vts/row_2.png');?>">
 				</div>
 			</div>
-		</div><br><br><br>
+		</div>
 		<img class="right_dot_blue" src="<?php echo base_url('assets/img/right_pattern.png');?>">
 	</section>
 
 	<section class="career_sec2">
 		<div class="container ">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-lg-6" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-right" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<img class="w-100 section_space" src="<?php echo base_url('assets/img/vts/row_3.png');?>">
 				</div>
 
-				<div class="col-12 col-sm-12 col-lg-5" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
+				<div class="col-12 col-sm-12 col-lg-7" data-aos="fade-left" data-aos-offset="50" data-aos-delay="10" data-aos-duration="500">
 					<div class="quickdeal_title section_space">VTS manages maintenance and streamlines everything</div><br>
 					<p class="quickdeal_title-head_2">
 						Quick maintenance allows end-users to assign maintenance tasks to individual employers
