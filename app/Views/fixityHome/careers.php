@@ -66,7 +66,7 @@
                   <div class="label"><?php echo $i.".  ". $value['title'];?></div>
                   <div class="content">
                   	<p><?php echo $value['description'];?></p>
-                  	<a href="#"><button class="apply_now">Apply Now</button></a>                      
+                  	<a href="<?php echo $value['url'];?>"><button class="apply_now">Apply Now</button></a>                      
                   </div>
               </div>
             <?php $i++; }?>

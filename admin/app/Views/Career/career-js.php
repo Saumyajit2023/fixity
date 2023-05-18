@@ -19,6 +19,7 @@
                                 console.log(res[i]);
                                let  title   = res[i]['title'],
                                     desc        = res[i]['description'],
+                                    url         = res[i]['url'],
                                     created_dt   = new Date(res[i]['created_dt']).toLocaleDateString(),
                                     status       = '',
                                       checkbox     =  `<div class="custom-control custom-control-sm custom-checkbox notext"><input type="checkbox" name="id[]" class="custom-control-input" id="${res[i]['id']}" data-id="${res[i]['id']}" value="${res[i]['id']}"><label class="custom-control-label" for="${res[i]['id']}"></label></div>`,
@@ -48,7 +49,7 @@
 
                                 }
  
-                                table.row.add([checkbox,i+1,title,desc,status,created_dt,action]);
+                                table.row.add([checkbox,i+1,title,desc,url,status,created_dt,action]);
 
                           })
 
@@ -246,12 +247,10 @@ function deleteAll(event)
             success     : function(res){
                 console.log(res);
                 $('#title').val(res.title); 
-                $('#description').val(res.description);
+                 tinyMCE.activeEditor.setContent(res.description);
+              //  $('#description').val(res.description);
                 $('#cid').val(res.id);
-
-              
-
-            
+                $('#url').val(res.url);
                 $('#careerAdd').modal('show');
             }
 

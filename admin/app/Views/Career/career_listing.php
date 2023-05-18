@@ -34,6 +34,7 @@
                                                             <th>Sr.No</th>
                                                             <th>Job Title</th>
                                                             <th>Job Description</th>
+                                                            <th>URL</th>
                                                             <th>Status</th>
                                                             <th>Created Date</th>
                                                             <th>Action</th>
@@ -78,13 +79,26 @@
 
                                         <input type="hidden" name="cid" id="cid">
                                     </div>
-
-                                     <div class="form-group">
-                                        <label class="form-label" for="full-name">Job Description</label>
+                                    <div class="form-group">
+                                       <p required>
+                                                <h6 class="title nk-block-title">Job Description<span class="text-danger"> *</span></h6>
+                                            </div>
+                                        <div class="card card-bordered">
+                                            <div class="card-inner">
+                                                <textarea class="tinymce-basic form-control"  name="description" id="description"></textarea>
+                                                
+                                            </div>
+                                        </p>
+                                    </div>
+                                     
+                                    <div class="form-group">
+                                        <label class="form-label" for="full-name">URL</label>
                                         <div class="form-control-wrap">
-                                            <input type="textarea" class="form-control" id="description" name="description" required>
+                                            <input type="text" class="form-control" id="url" name="url" value="" required>
+                                           
                                         </div>
-                                        <span id="error2" style="color: red;"></span>
+
+                                       
                                     </div>
 
                                 <div class="form-group">

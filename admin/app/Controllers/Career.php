@@ -23,8 +23,8 @@ class Career extends BaseController
     { 
         $data['page']        = 'Career/career_listing';
         $data['page-title']  = 'Career';
-        $data['js']          = array('plugin' => array('assets/js/libs/datatable-btns.js?ver=2.9.0','assets/excel/cdnjs/xlsx.full.min.js?ver=0.15.6'),'external'=> array('career-js' => 'Career/career-js.php')); 
-     
+        $data['js']          = array('plugin' => array('assets/js/libs/datatable-btns.js?ver=2.9.0','assets/excel/cdnjs/xlsx.full.min.js?ver=0.15.6','admin/assets/js/editors.js?ver=2.9.0','admin/assets/js/libs/editors/tinymce.js?ver=2.9.0'),'external'=> array('career-js' => 'Career/career-js.php')); 
+        $data['css']         = array('admin/assets/css/editors/tinymce.css?ver=2.9.0');
         return view('layout/content',$data);
     }
 
@@ -48,6 +48,7 @@ class Career extends BaseController
             $data = array(
                 'title'       => $_POST['title'],
                 'description' => $_POST['description'],
+                'url'         => $_POST['url'],
                 'created_dt'  => date('Y-m-d H:i:s')
             );
 
@@ -68,6 +69,7 @@ class Career extends BaseController
             $data = array(
                 'title'       => $_POST['title'],
                 'description' => $_POST['description'],
+                'url'         => $_POST['url'],
                 'is_active'   => 1,
                 'created_dt'  => date('Y-m-d H:i:s')
             );
