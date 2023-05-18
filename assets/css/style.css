@@ -21,7 +21,15 @@ a {
 a:hover {
     color: #2ecc71;
 }
-
+.apply_now{
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    background: #01164f;
+    color: #fff;
+    float: right;
+}
 
 .parent {
     display: block;

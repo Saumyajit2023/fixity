@@ -64,8 +64,9 @@
 							?>
               <div class="box">
                   <div class="label"><?php echo $i.".  ". $value['title'];?></div>
-                  <div class="content"><?php echo $value['description'];?>
-                      
+                  <div class="content">
+                  	<p><?php echo $value['description'];?></p>
+                  	<a href="#"><button class="apply_now">Apply Now</button></a>                      
                   </div>
               </div>
             <?php $i++; }?>
