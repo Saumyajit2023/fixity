@@ -73,14 +73,20 @@
                                 <div class="form-group">
                                         <label class="form-label" for="full-name">Title</label>
                                         <div class="form-control-wrap">
-                                            <input type="text" class="form-control" id="title" name="title" required>
+                                            <input type="textarea" class="form-control" id="title" name="title" rows="4" cols="50"  required>
                                         </div>
                                 </div>
+
                                 <div class="form-group">
-                                        <label class="form-label" for="full-name">Description</label>
-                                        <div class="form-control-wrap">
-                                            <input type="textarea" class="form-control" id="description" name="description" required>
-                                        </div>
+                                       <p required>
+                                                <h6 class="title nk-block-title">Description<span class="text-danger"> *</span></h6>
+                                            </div>
+                                        <div class="card card-bordered">
+                                            <div class="card-inner">
+                                                <textarea class="tinymce-basic form-control"  name="description" id="description"></textarea>
+                                                
+                                            </div>
+                                        </p>
                                 </div>
                                 <div class="form-group">
                                         <label class="form-label">Visible Date</label>
@@ -119,5 +125,4 @@
                     </div>
                 </div>
 
-               
                   

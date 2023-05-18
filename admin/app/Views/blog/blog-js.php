@@ -339,7 +339,8 @@ function deleteAll(event)
                  // var res = JSON.parse(data);
                   console.log(data)
                   $('#title').val(data[0].title);
-                  $('#description').val(data[0].description);
+                  //$('#description').val(data[0].description);
+                  tinyMCE.activeEditor.setContent(data[0].description);
                   $('#date1').val(data[0].visible_on);
                    $('#id').val(ids);
                   $('#blogAdd').modal('show');

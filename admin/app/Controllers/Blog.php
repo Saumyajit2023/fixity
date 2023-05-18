@@ -23,8 +23,8 @@ class Blog extends BaseController
     { 
         $data['page']        = 'blog/blog_page_list';
         $data['page-title']  = 'Blog';
-        $data['js']          = array('plugin' => array('admin/assets/js/libs/datatable-btns.js?ver=2.9.0'),'external'=> array('blog-js' => 'blog/blog-js.php')); 
-     
+        $data['js']          = array('plugin' => array('admin/assets/js/libs/datatable-btns.js?ver=2.9.0','admin/assets/js/editors.js?ver=2.9.0','admin/assets/js/libs/editors/tinymce.js?ver=2.9.0'),'external'=> array('blog-js' => 'blog/blog-js.php')); 
+        $data['css']         = array('admin/assets/css/editors/tinymce.css?ver=2.9.0');
         return view('layout/content',$data);
     }
 
