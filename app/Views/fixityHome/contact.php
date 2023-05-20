@@ -109,30 +109,31 @@
 	<section class="contact_bg">
 		<div class="container ">
 			<div class="title-head">Contact Us</div>
-				<form class="contact_form pd_b_5" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
+				<form method="POST" class="contact_form pd_b_5" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<div class="row">
 						<div class="col-md-6 col-12">
 					 		<label>First Name <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="" placeholder="Enter First Name">
+					 		<input type="text" class="form-control" name="first_name" placeholder="Enter First Name" id="first_name">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Last Name <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="" placeholder="Enter Last Name">
+					 		<input type="text" class="form-control" name="last_name" placeholder="Enter Last Name" id="last_name">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Email <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="" placeholder="Enter Email">
+					 		<input type="text" class="form-control" name="email" placeholder="Enter Email" id="email">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Phone No.<span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="" placeholder="Enter Phone No. ">
+					 		<input type="text" class="form-control" name="phone_no" placeholder="Enter Phone No." id="phone_no">
 					 	</div>
 					 	<div class="col-md-12 col-12">
 					 		<label>Message <span class="red">*</span></label>
-					 		<textarea type="text" class="form-control" style="height:150px !important;" name="" placeholder="Enter Message"></textarea>
+					 		<textarea type="text" class="form-control" style="height:150px !important;" name="message" placeholder="Enter Message" id="message"></textarea>
 					 	</div>
-					 	<button class="form_btn">Submit &nbsp ></button>
+
+					 	<button class="form_btn" id="submit">Submit &nbsp ></button>
 					</div>
 				</form>
 			</div>
@@ -207,3 +208,72 @@
           })
       }
  	</script>
+
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+if(isset($_POST['submit']))
+{
+
+require 'vendor/autoload.php';
+  
+$mail = new PHPMailer(true);
+  
+try {
+    $mail->SMTPDebug = 2;                                       
+    $mail->isSMTP();                                            
+    $mail->Host       = 'smtp.gmail.com';                    
+    $mail->SMTPAuth   = true;                             
+    $mail->Username   = '';                 
+    $mail->Password   = '';                        
+    $mail->SMTPSecure = 'tls';                              
+    $mail->Port       = 587; 
+
+   // print_r($mail);die(); 
+  
+    $mail->setFrom('', '');           
+   
+    $mail->addAddress('');
+       
+    $mail->isHTML(true);                                  
+    $mail->Subject = 'Subject';
+
+    $message  = "<b>First Name</b>       = ".$_POST['first_name'];
+    $message .= "<br><b>Last Name</b>      = ".$_POST['last_name'];
+    $message .= "<br><b>Email</b>  = ".$_POST['email'];
+    $message .= "<br><b>Mobile No</b>    = ".$_POST['phone_no'];
+    $message .= "<br><b>Message</b>    = ".$_POST['message'];
+
+    $mail->Body    = $message;
+  
+    $mail->send();
+     echo '
+<script type="text/javascript">
+  swal({
+    position: "top-end",
+    type: "success",
+    title: "Thank you for contact us",
+    showConfirmButton: false,
+    timer: 3500
+  })
+</script>
+';
+   
+} catch (Exception $e) {
+    echo '
+<script type="text/javascript">
+  swal({
+    position: "top-end",
+    type: "warning",
+    title: "Something went wrong",
+    showConfirmButton: false,
+    timer: 1500
+  })
+</script>
+';
+    
+}
+
+}
+?>
