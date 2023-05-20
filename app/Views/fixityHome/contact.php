@@ -223,7 +223,7 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = 2;                                       
     $mail->isSMTP();                                            
-    $mail->Host       = 'smtp.gmail.com';                    
+    $mail->Host       = 'smtp.office365.com.';                    
     $mail->SMTPAuth   = true;                             
     $mail->Username   = '';                 
     $mail->Password   = '';                        
