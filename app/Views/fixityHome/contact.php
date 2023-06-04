@@ -1,3 +1,85 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+if(isset($_POST['email']))
+{
+	  require_once APPPATH.'ThirdParty\phpmailer\phpmailer\src\Exception.php';
+      require_once APPPATH.'ThirdParty\phpmailer\phpmailer\src\PHPMailer.php';
+      require_once APPPATH.'ThirdParty\phpmailer\phpmailer\src\SMTP.php';
+	 require 'vendor/autoload.php';
+  
+        $mail = new PHPMailer(true);
+  
+        try {
+        $mail->SMTPDebug = 0;                                       
+        $mail->isSMTP();                                            
+        $mail->Host       = 'smtp.gmail.com.';                    
+        $mail->SMTPAuth   = true;                             
+        $mail->Username   = 'fixitytech2320@gmail.com';                 
+        $mail->Password   = 'pkwushaafqhabmav';                        
+        $mail->SMTPSecure = 'ssl';                              
+        $mail->Port       = 465; 
+        $mail->setFrom('fixitytech2320@gmail.com');           
+   		
+   		$mailArray = array('sawlechetan27@gmail.com','chetan.sawle@straltoglobal.com');
+   		foreach ($mailArray as  $value) {
+   			 $mail->addAddress($value);
+   		}
+       
+       
+        $mail->isHTML(true);                                  
+        $mail->Subject = 'Subject';
+
+        $message  = "<b>First Name</b>       = ".$_POST['first_name'];
+        $message .= "<br><b>Last Name</b>      = ".$_POST['last_name'];
+        $message .= "<br><b>Email</b>  = ".$_POST['email'];
+        $message .= "<br><b>Mobile No</b>    = ".$_POST['phone_no'];
+        $message .= "<br><b>Message</b>    = ".$_POST['message'];
+
+        $mail->Body    = $message;
+  /**/
+        if($mail->send()){
+        	echo '
+			<script type="text/javascript">
+
+			$(document).ready(function(){
+
+  			swal({
+    		position: "top-end",
+    		type: "success",
+    		title: "Thank you for contacting us",
+    		showConfirmButton: false,
+    		timer: 1500
+  			})
+			});
+			</script>';
+      	}
+   
+        } catch (Exception $e) {
+
+    			echo '
+				<script type="text/javascript">
+
+				$(document).ready(function(){
+
+  				swal({
+   	 				position: "top-end",
+    				type: "warning",
+    				title: "Thank you for contacting us",
+    				showConfirmButton: false,
+    				timer: 1500
+  				})
+			});
+
+			</script>';
+        }
+
+}
+?>
+
+
+
 <div class="banner_div">
 		<img class="banner_img desk" src="<?php echo base_url('assets/img/contact_us/hero/hero_web_banner.jpg');?>">
 		<img class="banner_img mob" src="<?php echo base_url('assets/img/contact_us/hero/hero_mobile.jpg');?>">
@@ -109,80 +191,36 @@
 	<section class="contact_bg">
 		<div class="container ">
 			<div class="title-head">Contact Us</div>
-				<form method="POST" class="contact_form pd_b_5" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
+				<form method="POST" action="<?php echo site_url('fixityHome/contact');?>" class="contact_form pd_b_5" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50"
     				data-aos-duration="1000">
 					<div class="row">
 						<div class="col-md-6 col-12">
 					 		<label>First Name <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="first_name" placeholder="Enter First Name" id="first_name">
+					 		<input type="text" class="form-control" name="first_name" placeholder="Enter First Name" id="first_name" required="required">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Last Name <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="last_name" placeholder="Enter Last Name" id="last_name">
+					 		<input type="text" class="form-control" name="last_name" placeholder="Enter Last Name" id="last_name" required="required">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Email <span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="email" placeholder="Enter Email" id="email">
+					 		<input type="text" class="form-control" name="email" placeholder="Enter Email" id="email" required="required">
 					 	</div>
 					 	<div class="col-md-6 col-12">
 					 		<label>Phone No.<span class="red">*</span></label>
-					 		<input type="text" class="form-control" name="phone_no" placeholder="Enter Phone No." id="phone_no">
+					 		<input type="text" class="form-control" name="phone_no" placeholder="Enter Phone No." id="phone_no" required="required">
 					 	</div>
 					 	<div class="col-md-12 col-12">
 					 		<label>Message <span class="red">*</span></label>
 					 		<textarea type="text" class="form-control" style="height:150px !important;" name="message" placeholder="Enter Message" id="message"></textarea>
 					 	</div>
 
-					 	<button class="form_btn" id="submit">Submit &nbsp ></button>
+					 	<button type='submit' class="form_btn" id="userdata">Submit &nbsp ></button>
 					</div>
 				</form>
 			</div>
 		</div><br><br><br>
 	</section>
-<!-- 	<section class="career_sec4">
-		<div class="container ">
-			<div class="row">
-				<div class="col-md-6">
-					<img class="mission_img"  src="<?php echo base_url('assets/img/contact_us/section_4/FAQ_Icon.png');?>">
-					<div class="join_us">
-						FAQ
-					</div>
-					<p class="para_about join_us_text">
-						Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.
-					</p>
-				</div>
-
-				<div class="col-md-6">
-					<div class="accordion">
-              <div class="box">
-                  <div class="label">Lorem ipsum dolor sit</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-              <div class="box">
-                  <div class="label">Lorem ipsum dolor sit</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-              <div class="box">
-                  <div class="label">Lorem ipsum dolor sit</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-              <div class="box">
-                  <div class="label">Lorem ipsum dolor sit</div>
-                  <div class="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. enas consectetur luctus tellus, a aliquam tellus mattis ut.
-                  </div>
-              </div>
-          </div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 	<div class="contact_box">
 		<div class="about_contact">
 			<label class="about_label">SAY HELLO</label> &nbsp To 
@@ -208,72 +246,7 @@
           })
       }
  	</script>
+ <script src="<?php echo base_url('app/ThirdParty/sweetalert/jquery.min.js');?>"></script>
+<script src="<?php echo base_url('app/ThirdParty/sweetalert/sweetalert.min.js');?>"></script>
 
-<?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
-if(isset($_POST['submit']))
-{
-
-require 'vendor/autoload.php';
-  
-$mail = new PHPMailer(true);
-  
-try {
-    $mail->SMTPDebug = 2;                                       
-    $mail->isSMTP();                                            
-    $mail->Host       = 'smtp.office365.com.';                    
-    $mail->SMTPAuth   = true;                             
-    $mail->Username   = '';                 
-    $mail->Password   = '';                        
-    $mail->SMTPSecure = 'tls';                              
-    $mail->Port       = 587; 
-
-   // print_r($mail);die(); 
-  
-    $mail->setFrom('', '');           
-   
-    $mail->addAddress('');
-       
-    $mail->isHTML(true);                                  
-    $mail->Subject = 'Subject';
-
-    $message  = "<b>First Name</b>       = ".$_POST['first_name'];
-    $message .= "<br><b>Last Name</b>      = ".$_POST['last_name'];
-    $message .= "<br><b>Email</b>  = ".$_POST['email'];
-    $message .= "<br><b>Mobile No</b>    = ".$_POST['phone_no'];
-    $message .= "<br><b>Message</b>    = ".$_POST['message'];
-
-    $mail->Body    = $message;
-  
-    $mail->send();
-     echo '
-<script type="text/javascript">
-  swal({
-    position: "top-end",
-    type: "success",
-    title: "Thank you for contact us",
-    showConfirmButton: false,
-    timer: 3500
-  })
-</script>
-';
-   
-} catch (Exception $e) {
-    echo '
-<script type="text/javascript">
-  swal({
-    position: "top-end",
-    type: "warning",
-    title: "Something went wrong",
-    showConfirmButton: false,
-    timer: 1500
-  })
-</script>
-';
-    
-}
-
-}
-?>
